@@ -3,14 +3,16 @@ import Image from "next/image"
 
 import World from "./3dEffects/World"
 
-// import styles from './page.module.css'
+import styles from "./page.module.css"
 
 const inter = Inter({ subsets: ["latin"] })
 
 export default function Home() {
   return (
     <main>
-      <World></World>
+      <div className={styles.content}>
+        <World></World>
+      </div>
     </main>
   )
 }
