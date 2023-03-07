@@ -8,8 +8,6 @@ export default function Example(props: any) {
   // Hold state for hovered and clicked events
   const [hovered, hover] = useState(false)
   const [clicked, click] = useState(false)
-  // Subscribe this component to the render-loop, rotate the mesh every frame
-  // useFrame((state, delta) => (ref.current.rotation.x += delta))
 
   return (
     <mesh

@@ -66,7 +66,7 @@ export function Model(props: JSX.IntrinsicElements["group"]) {
       if (activeAnim != "Idle") {
         minAnimationDuration = setTimeout(
           () => setActiveAnim("Idle"),
-          activeAnim === "Pull" ? 250 : 500
+          activeAnim === "Pull" ? 100 : 450
         )
       }
     }

@@ -8,7 +8,7 @@ import {
   PerspectiveCamera,
 } from "@react-three/drei"
 import { Canvas } from "@react-three/fiber"
-import { Model as Character } from "./assets/Character"
+import { Model as Character } from "./Character"
 import Projects from "./Projects"
 import HorizontalCamRig from "./HorizontalCamRig"
 
@@ -27,6 +27,7 @@ export default function World() {
         camera={{
           position: [-10.259, 13.583, 19.382],
           fov: 75,
+          far: 90,
         }}
         shadows
       >
@@ -38,7 +39,6 @@ export default function World() {
           position={[1, 10, 10]}
           castShadow
         />
-
         <HorizontalCamRig>
           <PerspectiveCamera>
             <OffsetWrapper>
@@ -61,8 +61,6 @@ export default function World() {
               fadeStrength={2}
               fadeDistance={105}
             />
-
-            <Environment preset="city" />
           </PerspectiveCamera>
         </HorizontalCamRig>
       </Canvas>
