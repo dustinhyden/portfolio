@@ -2,13 +2,17 @@
 import {
   ContactShadows,
   Environment,
-  OrbitControls,
-  PerspectiveCamera,
+  Grid,
   Stage,
+  Center,
+  PerspectiveCamera,
 } from "@react-three/drei"
 import { Canvas } from "@react-three/fiber"
-import Box from "./Box"
 import { Model as Character } from "./assets/Character"
+import Projects from "./Projects"
+import HorizontalCamRig from "./HorizontalCamRig"
+
+import OffsetWrapper from "./OffsetWrapper"
 
 export default function World() {
   return (
@@ -24,27 +28,43 @@ export default function World() {
           position: [-10.259, 13.583, 19.382],
           fov: 75,
         }}
+        shadows
       >
         <ambientLight intensity={0.7} />
         <spotLight
           intensity={0.5}
           angle={0.1}
           penumbra={1}
-          position={[10, 15, 10]}
+          position={[1, 10, 10]}
           castShadow
         />
-        <Stage adjustCamera={false} preset="rembrandt" environment="city">
-          <Character position={[0, -1, 0]} scale={[1, 1, 1]} />
-          <ContactShadows
-            position={[0, -0.8, 0]}
-            opacity={0.15}
-            scale={10}
-            blur={1.5}
-            far={0.8}
-          />
-        </Stage>
 
-        <Environment preset="city" />
+        <HorizontalCamRig>
+          <PerspectiveCamera>
+            <OffsetWrapper>
+              <Stage adjustCamera={false} preset="rembrandt" environment="city">
+                <Character />
+                {/* <Character position={[-5, -5, 0]} /> */}
+              </Stage>
+            </OffsetWrapper>
+
+            <Projects position={[0, -4, 0]} scale={[1, 1, 1]} />
+            <Grid
+              position={[0, -5, 0]}
+              args={[100.5, 100.5]}
+              cellSize={0}
+              cellColor={"#eaeaea"}
+              sectionSize={3}
+              sectionThickness={1}
+              sectionColor={"#F2F2F2"}
+              infiniteGrid={true}
+              fadeStrength={2}
+              fadeDistance={105}
+            />
+
+            <Environment preset="city" />
+          </PerspectiveCamera>
+        </HorizontalCamRig>
       </Canvas>
     </div>
   )
