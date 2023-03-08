@@ -1,11 +1,8 @@
-import { Inter } from "next/font/google"
 import Image from "next/image"
 
-import World from "./3dEffects/World"
+import World from "./3d/World"
 import config from "./config"
 import styles from "./page.module.css"
-
-const inter = Inter({ subsets: ["latin"] })
 
 export default function Home() {
   return (

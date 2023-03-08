@@ -1,3 +1,12 @@
+import Navbar from "./components/Navbar"
+import { Poppins } from "next/font/google"
+
+const poppins = Poppins({
+  weight: ["100", "400", "700", "900"],
+  subsets: ["latin"],
+  variable: "--font-primary",
+})
+
 import "./globals.css"
 
 export const metadata = {
@@ -12,7 +21,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className={poppins.variable}>
+        <Navbar />
+        {children}
+      </body>
     </html>
   )
 }
