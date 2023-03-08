@@ -30,13 +30,19 @@ export default function Projects(props: JSX.IntrinsicElements["group"]) {
     group.current.position.set(
       config.offsetFromPlayer + (width >= 768 ? 6 : 0),
       config.floorPos,
-      config.screenOffset - scrollPosition * config.scrollSpeed
+      scrollPosition * config.scrollSpeed
     )
   )
 
   return (
     <group name="Projects" ref={group} {...props} dispose={null}>
-      <Example position={[0, 0, 0]} />
+      {
+        projects.map((project, i) => {
+          const offset = (i + 1) * 30
+          return project.displayFile(offset)
+        })
+      }
+      <Example position={[0, 0, offset]} />
       <Example position={[0, 0, 30]} />
       <Example position={[0, 0, 60]} />
       <Example position={[0, 0, 90]} />

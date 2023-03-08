@@ -13,7 +13,7 @@ export default function Home() {
     (total, current) => total + current.size,
     0
   )
-  const totalSpaceBetween = projects.length * 133
+  const totalSpaceBetween = projects.length
   const projectSizePixels = totalProjectSize * 133
 
   console.log(" here", totalProjectSize, totalSpaceBetween)
