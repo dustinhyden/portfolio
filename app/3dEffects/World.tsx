@@ -1,17 +1,9 @@
 "use client"
-import {
-  ContactShadows,
-  Environment,
-  Grid,
-  Stage,
-  Center,
-  PerspectiveCamera,
-} from "@react-three/drei"
+import { Grid, Stage, PerspectiveCamera } from "@react-three/drei"
 import { Canvas } from "@react-three/fiber"
 import { Model as Character } from "./Character"
-import Projects from "./Projects"
+import ScrollWorld from "./ScrollWorld"
 import HorizontalCamRig from "./HorizontalCamRig"
-
 import OffsetWrapper from "./OffsetWrapper"
 
 export default function World() {
@@ -44,11 +36,9 @@ export default function World() {
             <OffsetWrapper>
               <Stage adjustCamera={false} preset="rembrandt" environment="city">
                 <Character />
-                {/* <Character position={[-5, -5, 0]} /> */}
               </Stage>
             </OffsetWrapper>
-
-            <Projects position={[0, -4, 0]} scale={[1, 1, 1]} />
+            <ScrollWorld position={[0, -4, 0]} scale={[1, 1, 1]} />
             <Grid
               position={[0, -5, 0]}
               args={[100.5, 100.5]}
