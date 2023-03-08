@@ -9,14 +9,14 @@
 .logo > a {
   display: flex;
   margin-top: 3px;
-  padding: 33px 5vw;
+  padding: 33px var(--left-padding);
 }
 .nav-container {
   cursor: pointer;
   display: flex;
 }
 .menu-icon {
-  padding: 40px 5vw;
+  padding: 40px var(--left-padding);
   padding-left: 20px;
 }
 .menu-icon .menu-icon__bar {
