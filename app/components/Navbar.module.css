@@ -23,7 +23,7 @@
 .menu-icon .menu-icon__bar {
   width: 30px;
   border-bottom: 2px solid var(--text-primary);
-  transition: transform 0.5s cubic-bezier(0.7, 0, 0, 1);
+  transition: transform 0.5s var(--smoothing);
 }
 .menu-icon .menu-icon__bar:nth-of-type(1) {
   transform-origin: top left;
@@ -68,7 +68,7 @@
     cursor: pointer;
   }
   .menu-link {
-    transition: 0.6s cubic-bezier(0.7, 0, 0, 1);
+    transition: 0.6s var(--smoothing);
     opacity: 0;
   }
   .nav-container.expanded .menu-items {
@@ -126,8 +126,8 @@
     align-items: center;
     clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%);
     /* close speed */
-    transition: clip-path 0.35s cubic-bezier(0.7, 0, 0, 1),
-      -webkit-clip-path 0.35s cubic-bezier(0.7, 0, 0, 1);
+    transition: clip-path 0.35s var(--smoothing),
+      -webkit-clip-path 0.35s var(--smoothing);
   }
 
   /* add hover effect */
@@ -143,8 +143,8 @@
   .nav-container:hover .menu-items {
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
     /* open speed */
-    transition: clip-path 0.6s cubic-bezier(0.7, 0, 0, 1),
-      -webkit-clip-path 0.6s cubic-bezier(0.7, 0, 0, 1);
+    transition: clip-path 0.6s var(--smoothing),
+      -webkit-clip-path 0.6s var(--smoothing);
   }
 }
 @keyframes FadeIn {

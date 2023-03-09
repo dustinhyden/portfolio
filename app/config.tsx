@@ -6,7 +6,7 @@ export const config = {
   floorPos: -4.5, // how much do we need to adjust the height to shrink the objects
   scrollSpeed: 0.025, // how quickly to scroll the projects
   totalScrollHeight: () =>
-    (config.spacing * projectData.length) / config.scrollSpeed,
+    (config.spacing * (projectData.length - 1)) / config.scrollSpeed,
   pixelsPerProject: () => config.spacing / config.scrollSpeed,
 }
 

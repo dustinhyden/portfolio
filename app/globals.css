@@ -4,6 +4,7 @@
   --text-primary: #4a4a4a;
   --primary: #ed1f24;
   --left-padding: 5vw;
+  --smoothing: cubic-bezier(0.7, 0, 0, 1);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -17,7 +18,10 @@
   padding: 0;
   margin: 0;
 }
-
+html,
+body {
+  scroll-behavior: smooth;
+}
 html,
 body {
   max-width: 100vw;
@@ -32,11 +36,21 @@ body {
     /* color-scheme: dark; */
   }
 }
-
+a {
+  text-decoration: none;
+  color: var(--text-primary);
+}
 .world-container {
   min-height: 100vh;
 }
 
+.icon-btn {
+  display: inline-flex;
+  align-items: center;
+}
+.icon-btn.icon--right img {
+  margin-left: 4px;
+}
 /* typography */
 h1,
 .h1 {

@@ -3,98 +3,89 @@ import HomepageSidebar from "./components/HomepageSidebar"
 
 export type ProjectType = {
   title: string
-  size: number
   displayFile: (offset: number) => React.ReactNode
-  hideDetailsOnMobile?: boolean
-  sidebarWidget: () => React.ReactNode
+  subtitle: string
+  hideSubtitleOnMobile?: boolean
+  sidebarWidget?: () => React.ReactNode
 }
 const projectData: ProjectType[] = [
   {
     title: "Your front end engineer & web designer.",
-    size: 10,
-    hideDetailsOnMobile: true,
     displayFile: () => null,
+    subtitle:
+      "I specialize in all things front-end from WordPress based CMS sites to React/Next headless projects.",
+    hideSubtitleOnMobile: true,
     sidebarWidget: () => <HomepageSidebar />,
   },
   {
     title: "Example Project",
-    size: 10,
+    subtitle: "Helping Bee's users navigate hundreds of projects.",
     displayFile: (offset) => {
       return <Example key={offset} position={[0, 0, offset]} />
     },
-    sidebarWidget: () => null,
   },
   {
     title: "Example Project 2",
-    size: 10,
+    subtitle: "Another example here.",
     displayFile: (offset) => {
       return <Example key={offset} position={[0, 0, offset]} />
     },
-    sidebarWidget: () => null,
   },
   {
     title: "Example Project 3",
-    size: 10,
+    subtitle: "Another example here.",
     displayFile: (offset) => {
       return <Example key={offset} position={[0, 0, offset]} />
     },
-    sidebarWidget: () => null,
   },
   {
-    title: "Example Project 3",
-    size: 10,
+    title: "Example Project 4",
+    subtitle: "Another example here.",
     displayFile: (offset) => {
       return <Example key={offset} position={[0, 0, offset]} />
     },
-    sidebarWidget: () => null,
   },
   {
-    title: "Example Project 3",
-    size: 10,
+    title: "qwedqwed",
+    subtitle: "Another example here.",
     displayFile: (offset) => {
       return <Example key={offset} position={[0, 0, offset]} />
     },
-    sidebarWidget: () => null,
   },
   {
-    title: "Example Project 3",
-    size: 10,
+    title: "Effweqf",
+    subtitle: "Another example here.",
     displayFile: (offset) => {
       return <Example key={offset} position={[0, 0, offset]} />
     },
-    sidebarWidget: () => null,
   },
   {
-    title: "Example Project 3",
-    size: 10,
+    title: "Example wqef",
+    subtitle: "Another example here.",
     displayFile: (offset) => {
       return <Example key={offset} position={[0, 0, offset]} />
     },
-    sidebarWidget: () => null,
   },
   {
-    title: "Example Project 3",
-    size: 10,
+    title: "Examweqfqwef",
+    subtitle: "Another example here.",
     displayFile: (offset) => {
       return <Example key={offset} position={[0, 0, offset]} />
     },
-    sidebarWidget: () => null,
   },
   {
-    title: "Example Project 3",
-    size: 10,
+    title: "Hello World",
+    subtitle: "Another example here.",
     displayFile: (offset) => {
       return <Example key={offset} position={[0, 0, offset]} />
     },
-    sidebarWidget: () => null,
   },
   {
-    title: "Example Project 3",
-    size: 10,
+    title: "Contact me",
+    subtitle: "Another example here.",
     displayFile: (offset) => {
       return <Example key={offset} position={[0, 0, offset]} />
     },
-    sidebarWidget: () => null,
   },
 ]
 export default projectData

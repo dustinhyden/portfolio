@@ -1,0 +1,30 @@
+.sidebar {
+  display: grid;
+  justify-content: space-between;
+  padding-top: 20px;
+  flex-wrap: wrap;
+  grid-template-columns: 1fr 1fr 2fr;
+  gap: 10px;
+}
+.scroll-btn {
+  grid-column: span 3;
+  padding-top: 20px;
+  pointer-events: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .sidebar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-top: 0;
+    gap: 0;
+  }
+  .sidebar > * {
+    padding-left: 3vw;
+  }
+  .scroll-btn {
+    padding-top: 0px;
+    order: -1;
+  }
+}

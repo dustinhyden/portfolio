@@ -3,27 +3,14 @@ import { useFrame } from "@react-three/fiber"
 import React, { useEffect, useRef, useState } from "react"
 
 import config from "../config"
+import useScrollPosition from "../hooks/useScrollPosition"
 import useWindowDimensions from "../hooks/useWindowDimensions"
 import projectData from "../projectData"
 
 export default function ScrollWorld(props: JSX.IntrinsicElements["group"]) {
   const { width } = useWindowDimensions()
   const group = useRef<THREE.Group>(null)
-  const [scrollPosition, setScrollPosition] = useState(0)
-
-  const handleScroll = () => {
-    const position = window.pageYOffset
-    setScrollPosition(position)
-  }
-
-  // set the initial scroll position of the projects + watch for scroll
-  useEffect(() => {
-    handleScroll()
-    window.addEventListener("scroll", handleScroll, { passive: true })
-    return () => {
-      window.removeEventListener("scroll", handleScroll)
-    }
-  }, [])
+  const scrollPosition = useScrollPosition()
 
   useFrame((state, delta) => {
     if (group.current) {
