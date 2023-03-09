@@ -1,10 +1,11 @@
 .navbar {
   position: fixed;
-  z-index: 2;
+  z-index: 3;
   display: flex;
   justify-content: space-between;
   width: 100%;
   align-items: center;
+  top: 0;
 }
 .logo > a {
   display: flex;

@@ -7,6 +7,10 @@ import { useState } from "react"
 export default function Navbar() {
   const [expanded, setExpanded] = useState(false)
 
+  const handleClick = () => {
+    setExpanded(!expanded)
+  }
+
   return (
     <section className={styles.navbar}>
       <div className={styles.logo}>
@@ -21,9 +25,9 @@ export default function Navbar() {
       </div>
       <div
         className={`${styles["nav-container"]} ${
-          expanded ? styles.expanded : ""
+          expanded ? styles.expanded : null
         }`}
-        onClick={(e) => setExpanded(!expanded)}
+        onClick={handleClick}
       >
         <nav className={`${styles["menu-items"]}`}>
           <Link className={styles["menu-link"]} href="/">
@@ -39,13 +43,16 @@ export default function Navbar() {
             Contact
           </Link>
         </nav>
-        <div
-          className={styles["menu-icon"]}
-          onClick={(e) => setExpanded(!expanded)}
-        >
-          <div className={`${styles["menu-icon__bar"]} bar--top`}></div>
-          <div className={`${styles["menu-icon__bar"]} bar--middle`}></div>
-          <div className={`${styles["menu-icon__bar"]} bar--bottom`}></div>
+        <div className={styles["menu-icon"]} onClick={handleClick}>
+          <div
+            className={`${styles["menu-icon__bar"]} ${styles["bar--top"]}`}
+          ></div>
+          <div
+            className={`${styles["menu-icon__bar"]} ${styles["bar--middle"]}`}
+          ></div>
+          <div
+            className={`${styles["menu-icon__bar"]} ${styles["bar--bottom"]}`}
+          ></div>
         </div>
       </div>
     </section>

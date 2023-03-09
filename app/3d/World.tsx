@@ -1,7 +1,7 @@
 "use client"
 import { Grid, Stage } from "@react-three/drei"
 import { Canvas } from "@react-three/fiber"
-import { Model as Character } from "./Character"
+import { Model as Character } from "./assets/Character"
 import ScrollWorld from "./ScrollWorld"
 import HorizontalCamRig from "./HorizontalCamRig"
 import OffsetWrapper from "./OffsetWrapper"
@@ -23,10 +23,6 @@ export default function World() {
         }}
         shadows
       >
-        {/* <PerspectiveCamera
-          makeDefault={true}
-          position={[-10.259, 13.583, 58.382]}
-        /> */}
         <HorizontalCamRig>
           <ambientLight intensity={0.7} />
           <spotLight

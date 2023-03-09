@@ -1,7 +1,7 @@
+"use client"
 import { useAnimations, useGLTF } from "@react-three/drei"
 import React, { useEffect, useRef, useState } from "react"
 import { useScrollDirection } from "react-use-scroll-direction"
-
 import * as THREE from "three"
 import { GLTF } from "three-stdlib"
 
@@ -14,18 +14,21 @@ type GLTFResult = GLTF & {
   materials: {
     Dustin_Mat: THREE.MeshStandardMaterial
   }
+  animations: GLTFActions[]
 }
 
 type ActionName = "Clicked" | "Idle" | "Pull" | "Run"
-type GLTFActions = Record<ActionName, THREE.AnimationAction>
 
+interface GLTFActions extends THREE.AnimationClip {
+  name: ActionName
+}
 export function Model(props: JSX.IntrinsicElements["group"]) {
-  const [activeAnim, setActiveAnim] = useState("Idle")
-  const group = useRef<THREE.Group>()
+  const [activeAnim, setActiveAnim] = useState<ActionName>("Idle")
+  const group = useRef<THREE.Group>(null)
   const { nodes, materials, animations } = useGLTF(
     "/character-transformed.glb"
   ) as GLTFResult
-  const { actions } = useAnimations<GLTFActions>(animations, group)
+  const { actions } = useAnimations(animations, group)
 
   const { isScrollingUp, isScrollingDown, scrollDirection } =
     useScrollDirection()
@@ -33,10 +36,10 @@ export function Model(props: JSX.IntrinsicElements["group"]) {
   // Fade between animations
   useEffect(() => {
     if (!actions[activeAnim]) return
-    actions[activeAnim].reset().fadeIn(0.15).play()
+    actions[activeAnim]?.reset().fadeIn(0.15).play()
     return () => {
       if (actions[activeAnim]) {
-        actions[activeAnim].fadeOut(0.15)
+        actions[activeAnim]?.fadeOut(0.15)
       }
     }
   }, [activeAnim])
@@ -75,9 +78,9 @@ export function Model(props: JSX.IntrinsicElements["group"]) {
     }
   }, [scrollDirection])
 
-  const handleClick = (e) => {
+  const handleClick = () => {
     setActiveAnim("Clicked")
-    actions.Clicked.setLoop(THREE.LoopOnce)
+    actions.Clicked?.setLoop(THREE.LoopOnce, 1)
   }
 
   return (
