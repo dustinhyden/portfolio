@@ -1,7 +1,7 @@
 "use client"
 import styles from "./WorldOverlay.module.css"
 import config from "../config"
-import projectData from "../projectData"
+import data from "../data"
 import { useEffect, useState } from "react"
 import useScrollPosition from "../hooks/useScrollPosition"
 
@@ -12,14 +12,14 @@ export default function WorldOverlay() {
   const [isHidden, setIsHidden] = useState(true)
 
   const pixelsPerProject = config.pixelsPerProject()
-  const data = projectData[lastShown]
+  const item = data[lastShown]
   const showAt = pixelsPerProject * currentProject + pixelsPerProject * -0.3
   const hideAt = pixelsPerProject * currentProject + pixelsPerProject * 0.3
 
   useEffect(() => {
     if (scrollPosition >= hideAt) {
       if (!isHidden) setIsHidden(true)
-      if (currentProject + 1 < projectData.length)
+      if (currentProject + 1 < data.length)
         setCurrentProject(currentProject + 1)
     }
     if (scrollPosition >= showAt && scrollPosition < hideAt) {
@@ -40,21 +40,21 @@ export default function WorldOverlay() {
         }`}
       >
         {currentProject === 0 ? (
-          <h1>{data.title}</h1>
+          <h1>{item.title}</h1>
         ) : (
-          <h2 className="h1">{data.title}</h2>
+          <h2 className="h1">{item.title}</h2>
         )}
         <section className={styles["lower-panels"]}>
           <div
             className={`${styles.topics} ${
-              data.hideSubtitleOnMobile ? styles["hide-on-mobile"] : ""
+              item.hideSubtitleOnMobile ? styles["hide-on-mobile"] : ""
             } `}
           >
-            <p>{data.subtitle}</p>
+            <p>{item.subtitle}</p>
           </div>
 
           <div className={styles["sidebar-container"]}>
-            {data.sidebarWidget && data.sidebarWidget()}
+            {item.sidebarWidget && item.sidebarWidget()}
           </div>
         </section>
       </div>

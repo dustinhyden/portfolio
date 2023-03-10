@@ -8,13 +8,7 @@ export default function JumboButton({
   href: string
 }) {
   return (
-    <Link
-      className={styles.button}
-      href={href}
-      style={{
-        backgroundColor: "var(--col-primary)",
-      }}
-    >
+    <Link className={styles.button} href={href}>
       {text}
     </Link>
   )

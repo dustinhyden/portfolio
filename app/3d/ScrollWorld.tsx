@@ -5,7 +5,7 @@ import React, { useEffect, useRef, useState } from "react"
 import config from "../config"
 import useScrollPosition from "../hooks/useScrollPosition"
 import useWindowDimensions from "../hooks/useWindowDimensions"
-import projectData from "../projectData"
+import data from "../data"
 
 export default function ScrollWorld(props: JSX.IntrinsicElements["group"]) {
   const { width } = useWindowDimensions()
@@ -24,7 +24,7 @@ export default function ScrollWorld(props: JSX.IntrinsicElements["group"]) {
 
   return (
     <group name="ScrollWorld" ref={group} {...props} dispose={null}>
-      {projectData.map((project, i) => {
+      {data.map((project, i) => {
         const offset = i * config.spacing
         return project.displayFile(offset)
       })}

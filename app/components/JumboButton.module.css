@@ -4,4 +4,9 @@
   color: white;
   margin-top: 20px;
   margin-bottom: 20px;
+  border-radius: 6px;
+  background-color: var(--col-primary);
+}
+.button:hover {
+  background-color: #563024;
 }

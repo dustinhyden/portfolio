@@ -72,6 +72,13 @@ p {
   padding-top: 20px;
   padding-bottom: 20px;
 }
+.center {
+  text-align: center;
+}
+.center > * {
+  margin-left: auto;
+  margin-right: auto;
+}
 @media only screen and (min-width: 1920px) {
   h1,
   .h1 {

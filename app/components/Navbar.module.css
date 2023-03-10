@@ -6,6 +6,8 @@
   width: 100%;
   align-items: center;
   top: 0;
+  background-color: rgba(255, 255, 255);
+  backdrop-filter: blur(3px);
 }
 
 .logo > a {
@@ -49,7 +51,7 @@
 .menu-link:hover {
   color: var(--col-primary);
 }
-.blur {
+/* .blur {
   position: fixed;
   z-index: 2;
   top: 0;
@@ -59,7 +61,7 @@
   pointer-events: none;
   -webkit-mask-image: linear-gradient(to bottom, black 25%, transparent 80%);
   mask-image: linear-gradient(to bottom, black 25%, transparent 80%);
-}
+} */
 /* mobile layout of buttons */
 @media only screen and (max-width: 767px) {
   .nav-container {
