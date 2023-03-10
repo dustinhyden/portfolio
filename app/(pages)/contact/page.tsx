@@ -1,8 +1,8 @@
 import Link from "next/link"
-import Content from "../components/Content"
+import Content from "../../components/Content"
 import styles from "./page.module.css"
-import Line from "../components/Line"
-import Orb from "../components/Orb"
+import Line from "../../components/Line"
+import Orb from "../../components/Orb"
 
 export const metadata = {
   title: "Contact Dustin Hyden | Front End Engineer & Barrie Web Designer",

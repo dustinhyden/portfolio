@@ -3,6 +3,7 @@ import HomepageSidebar from "./components/HomepageSidebar"
 
 export type ProjectType = {
   title: string
+  description: string
   displayFile: (offset: number) => React.ReactNode
   subtitle: string
   hideSubtitleOnMobile?: boolean
@@ -20,6 +21,7 @@ export type ProjectType = {
 const data: ProjectType[] = [
   {
     title: "Your front end engineer & web designer.",
+    description: "Meta description here.",
     displayFile: () => null,
     subtitle:
       "I specialize in all things front-end from WordPress based CMS sites to React/Next headless projects.",
@@ -33,6 +35,7 @@ const data: ProjectType[] = [
   },
   {
     title: "Example Project",
+    description: "Meta description here example.",
     subtitle: "Helping Bee's users navigate hundreds of projects.",
     displayFile: (offset) => {
       return <Example key={offset} position={[0, 0, offset]} />
@@ -49,6 +52,7 @@ const data: ProjectType[] = [
   },
   {
     title: "Example Project 2",
+    description: "Meta description here other.",
     subtitle: "Another example here.",
     displayFile: (offset) => {
       return <Example key={offset} position={[0, 0, offset]} />
@@ -65,6 +69,7 @@ const data: ProjectType[] = [
   },
   {
     title: "Example Project 3",
+    description: "Meta description here.",
     subtitle: "Another example here.",
     displayFile: (offset) => {
       return <Example key={offset} position={[0, 0, offset]} />
@@ -81,6 +86,7 @@ const data: ProjectType[] = [
   },
   {
     title: "Example Project 4",
+    description: "Meta description here.",
     subtitle: "Another example here.",
     displayFile: (offset) => {
       return <Example key={offset} position={[0, 0, offset]} />
@@ -97,6 +103,7 @@ const data: ProjectType[] = [
   },
   {
     title: "qwedqwed",
+    description: "Meta description here.",
     subtitle: "Another example here.",
     displayFile: (offset) => {
       return <Example key={offset} position={[0, 0, offset]} />
@@ -113,6 +120,7 @@ const data: ProjectType[] = [
   },
   {
     title: "Effweqf",
+    description: "Meta description here.",
     subtitle: "Another example here.",
     displayFile: (offset) => {
       return <Example key={offset} position={[0, 0, offset]} />
@@ -129,6 +137,7 @@ const data: ProjectType[] = [
   },
   {
     title: "Example wqef",
+    description: "Meta description here.",
     subtitle: "Another example here.",
     displayFile: (offset) => {
       return <Example key={offset} position={[0, 0, offset]} />
@@ -145,6 +154,7 @@ const data: ProjectType[] = [
   },
   {
     title: "Examweqfqwef",
+    description: "Meta description here.",
     subtitle: "Another example here.",
     displayFile: (offset) => {
       return <Example key={offset} position={[0, 0, offset]} />
@@ -161,6 +171,7 @@ const data: ProjectType[] = [
   },
   {
     title: "Hello World",
+    description: "Meta description here.",
     subtitle: "Another example here.",
     displayFile: (offset) => {
       return <Example key={offset} position={[0, 0, offset]} />
@@ -177,6 +188,7 @@ const data: ProjectType[] = [
   },
   {
     title: "Contact me",
+    description: "Meta description here.",
     subtitle: "Another example here.",
     displayFile: (offset) => {
       return <Example key={offset} position={[0, 0, offset]} />

@@ -1,8 +1,8 @@
 import styles from "./page.module.css"
 import ErrorWorld from "./World"
-import Content from "../components/Content"
 import Link from "next/link"
-import Line from "../components/Line"
+import Content from "@/app/components/Content"
+import Line from "@/app/components/Line"
 
 export default function NotFound() {
   return (

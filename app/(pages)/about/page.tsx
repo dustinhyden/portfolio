@@ -1,10 +1,10 @@
 import AboutWorld from "./World"
-import Content from "../components/Content"
-import Navbar from "../components/Navbar"
-import Orb from "../components/Orb"
-import Space from "../components/Space"
-import ImageGrid from "../components/ImageGrid"
-import JumboButton from "../components/JumboButton"
+import Content from "../../components/Content"
+import Navbar from "../../components/Navbar"
+import Orb from "../../components/Orb"
+import Space from "../../components/Space"
+import ImageGrid from "../../components/ImageGrid"
+import JumboButton from "../../components/JumboButton"
 
 export const metadata = {
   title: "About Dustin Hyden | Front End Engineer & Barrie Web Designer",

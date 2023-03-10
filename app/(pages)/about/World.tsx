@@ -1,8 +1,8 @@
 "use client"
 import { PerspectiveCamera, Stage } from "@react-three/drei"
 import { Canvas } from "@react-three/fiber"
-import { Model as Character } from "../3d/assets/Character"
-import Swivel from "../3d/Swivel"
+import { Model as Character } from "../../3d/assets/Character"
+import Swivel from "../../3d/Swivel"
 import styles from "./World.module.css"
 
 export default function AboutWorld() {

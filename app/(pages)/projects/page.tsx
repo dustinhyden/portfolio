@@ -1,6 +1,6 @@
-import Content from "../components/Content"
-import JumboButton from "../components/JumboButton"
-import ProjectGrid from "../components/ProjectGrid"
+import Content from "../../components/Content"
+import JumboButton from "../../components/JumboButton"
+import ProjectGrid from "../../components/ProjectGrid"
 
 export const metadata = {
   title: "Project's by Dustin Hyden | Front End Engineer & Barrie Web Designer",
@@ -8,7 +8,7 @@ export const metadata = {
     "View all of Dustin's posted projects online here. From React based webapps, to fully custom coded WordPress websites and more.",
 }
 
-export default function About() {
+export default function Projects() {
   return (
     <Content>
       <h1>Projects</h1>
