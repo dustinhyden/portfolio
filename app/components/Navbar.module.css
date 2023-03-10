@@ -7,6 +7,7 @@
   align-items: center;
   top: 0;
 }
+
 .logo > a {
   display: flex;
   margin-top: 3px;
@@ -46,9 +47,19 @@
   color: black;
 }
 .menu-link:hover {
-  color: var(--primary);
+  color: var(--col-primary);
 }
-
+.blur {
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  height: 300px;
+  background-color: white;
+  width: 100%;
+  pointer-events: none;
+  -webkit-mask-image: linear-gradient(to bottom, black 25%, transparent 80%);
+  mask-image: linear-gradient(to bottom, black 25%, transparent 80%);
+}
 /* mobile layout of buttons */
 @media only screen and (max-width: 767px) {
   .nav-container {

@@ -19,7 +19,7 @@ export default function Example(props: any) {
       onPointerOut={(event) => hover(false)}
     >
       <boxGeometry args={[10, 1, 10]} />
-      <meshStandardMaterial color={hovered ? "hotpink" : "orange"} />
+      <meshStandardMaterial color={hovered ? "#ed1f24" : "lightgray"} />
     </mesh>
   )
 }

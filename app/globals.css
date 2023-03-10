@@ -2,7 +2,8 @@
   /* declare regular variables */
   --black: black;
   --text-primary: #4a4a4a;
-  --primary: #ed1f24;
+  --col-primary: #ed1f24;
+  --light-gray: #e2e0e0;
   --left-padding: 5vw;
   --smoothing: cubic-bezier(0.7, 0, 0, 1);
 }
@@ -43,7 +44,6 @@ a {
 .world-container {
   min-height: 100vh;
 }
-
 .icon-btn {
   display: inline-flex;
   align-items: center;
@@ -60,9 +60,29 @@ h1,
   line-height: 1em;
   color: var(--black);
 }
+h3 {
+  margin-top: 30px;
+}
+p {
+  margin-top: 10px;
+}
+.block {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 @media only screen and (min-width: 1920px) {
   h1,
   .h1 {
     font-size: 84px;
   }
+}
+.center {
+  text-align: center;
+}
+.mega-link {
+  font-weight: 700;
+  text-decoration: underline;
+  font-size: 25px;
+  color: var(--black);
+  padding: 20px;
 }

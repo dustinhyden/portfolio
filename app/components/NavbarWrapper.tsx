@@ -7,7 +7,7 @@ export default function NavbarWrapper({
   children: React.ReactNode
 }) {
   return (
-    <main>
+    <main className="main-layout">
       <Navbar />
       {children}
     </main>

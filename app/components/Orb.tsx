@@ -1,5 +1,5 @@
 import styles from "./Orb.module.css"
-export default function Orb({ text }: { text: string }) {
+export default function Orb({ text = "Barrie, Ontario" }: { text: string }) {
   return (
     <div className={styles.orb}>
       <span className={styles.sphere}></span>

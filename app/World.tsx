@@ -1,12 +1,12 @@
 "use client"
 import { Grid, Stage } from "@react-three/drei"
 import { Canvas } from "@react-three/fiber"
-import { Model as Character } from "./assets/Character"
-import ScrollWorld from "./ScrollWorld"
-import HorizontalCamRig from "./HorizontalCamRig"
-import OffsetWrapper from "./OffsetWrapper"
+import { Model as Character } from "./3d/assets/Character"
+import ScrollWorld from "./3d/ScrollWorld"
+import HorizontalCamRig from "./3d/HorizontalCamRig"
+import OffsetWrapper from "./3d/OffsetWrapper"
 
-export default function World() {
+export default function HomeWorld() {
   return (
     <div
       style={{

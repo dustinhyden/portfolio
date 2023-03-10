@@ -1,12 +1,11 @@
 .orb {
   display: flex;
-  justify-content: center;
   align-items: center;
 }
 .sphere {
   --size: 10px;
   position: relative;
-  margin: 0px 6px;
+  margin: 0px 10px;
   display: inline-block;
   width: var(--size);
   height: var(--size);

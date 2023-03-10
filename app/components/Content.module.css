@@ -1,0 +1,17 @@
+.content {
+  margin-left: var(--left-padding);
+  margin-right: var(--left-padding);
+  min-height: calc(100vh - 150px);
+  margin-top: 150px;
+  pointer-events: none;
+}
+.content > * {
+  pointer-events: all;
+}
+@media only screen and (max-width: 1279px) {
+  .content.alternate {
+    margin-top: 0px;
+    padding-top: 25px;
+    border-top: 1px solid black;
+  }
+}

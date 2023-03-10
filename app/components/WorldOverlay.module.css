@@ -46,7 +46,7 @@
   .overlay-container h1,
   .overlay-container h2 {
     max-width: 600px;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
   }
   .lower-panels {
     flex-direction: row;

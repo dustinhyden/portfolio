@@ -1,0 +1,23 @@
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 40px;
+}
+.image-container {
+  --size: 100px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  width: var(--size);
+  height: var(--size);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+  background-color: #f1f1f1;
+  box-shadow: 0px 3px 5px 2px rgba(0, 0, 0, 0.16);
+}
+@media only screen and (min-width: 768px) {
+  .image-container {
+    --size: 120px;
+  }
+}

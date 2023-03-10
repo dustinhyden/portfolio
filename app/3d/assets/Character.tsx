@@ -22,7 +22,10 @@ type ActionName = "Clicked" | "Idle" | "Pull" | "Run"
 interface GLTFActions extends THREE.AnimationClip {
   name: ActionName
 }
-export function Model(props: JSX.IntrinsicElements["group"]) {
+interface CharacterProps {
+  dontAnimateOnScroll?: boolean
+}
+export function Model(props: JSX.IntrinsicElements["group"] & CharacterProps) {
   const [activeAnim, setActiveAnim] = useState<ActionName>("Idle")
   const group = useRef<THREE.Group>(null)
   const { nodes, materials, animations } = useGLTF(
@@ -30,8 +33,7 @@ export function Model(props: JSX.IntrinsicElements["group"]) {
   ) as GLTFResult
   const { actions } = useAnimations(animations, group)
 
-  const { isScrollingUp, isScrollingDown, scrollDirection } =
-    useScrollDirection()
+  const { scrollDirection } = useScrollDirection()
 
   // Fade between animations
   useEffect(() => {
@@ -58,6 +60,7 @@ export function Model(props: JSX.IntrinsicElements["group"]) {
   // Switch animations based on scroll
   useEffect(() => {
     if (!actions[activeAnim]) return
+    if (props.dontAnimateOnScroll) return
     let minAnimationDuration = setTimeout(() => {}, 1000)
     if (scrollDirection == "UP") {
       if (activeAnim != "Pull") setActiveAnim("Pull")

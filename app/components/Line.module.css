@@ -1,0 +1,7 @@
+.line {
+  max-width: 1400px;
+  margin: 20px;
+  width: 80vw;
+  height: 1px;
+  border-top: 1px solid var(--light-gray);
+}

@@ -1,0 +1,15 @@
+.centered {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding-bottom: 40px;
+  /* height: 100%; */
+  min-height: calc(100vh - 150px);
+}
+.centered p {
+  margin-top: 20px;
+}
+.centered h1 {
+  padding-top: 20px;
+}
