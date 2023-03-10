@@ -1,11 +1,13 @@
 :root {
   /* declare regular variables */
-  --black: black;
-  --text-primary: #4a4a4a;
+  --col-black: black;
+  --col-white: white;
   --col-primary: #ed1f24;
-  --light-gray: #e2e0e0;
-  --left-padding: 5vw;
+  --col-gray: #e2e0e0;
+  --col-text: #4a4a4a;
+  --x-spacing: 5vw;
   --smoothing: cubic-bezier(0.7, 0, 0, 1);
+  --max-width: 700px;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -28,7 +30,7 @@ body {
   max-width: 100vw;
   overflow-x: hidden;
   font-family: var(--font-primary);
-  color: var(--text-primary);
+  color: var(--col-text);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -39,7 +41,7 @@ body {
 }
 a {
   text-decoration: none;
-  color: var(--text-primary);
+  color: var(--col-text);
 }
 .world-container {
   min-height: 100vh;
@@ -58,7 +60,7 @@ h1,
   text-transform: uppercase;
   font-weight: 900;
   line-height: 1em;
-  color: var(--black);
+  color: var(--col-black);
 }
 h3 {
   margin-top: 30px;
@@ -83,6 +85,6 @@ p {
   font-weight: 700;
   text-decoration: underline;
   font-size: 25px;
-  color: var(--black);
+  color: var(--col-black);
   padding: 20px;
 }

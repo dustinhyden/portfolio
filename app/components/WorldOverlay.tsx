@@ -17,9 +17,7 @@ export default function WorldOverlay() {
   const hideAt = pixelsPerProject * currentProject + pixelsPerProject * 0.3
 
   useEffect(() => {
-    // attempt to hide
     if (scrollPosition >= hideAt) {
-      console.log("HIDE")
       if (!isHidden) setIsHidden(true)
       if (currentProject + 1 < projectData.length)
         setCurrentProject(currentProject + 1)
@@ -32,10 +30,6 @@ export default function WorldOverlay() {
       if (!isHidden) setIsHidden(true)
       if (currentProject - 1 >= 0) setCurrentProject(currentProject - 1)
     }
-    return () => {
-      // something else
-    }
-    // check the current bounds
   }, [scrollPosition])
 
   return (

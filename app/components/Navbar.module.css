@@ -11,19 +11,19 @@
 .logo > a {
   display: flex;
   margin-top: 3px;
-  padding: 33px var(--left-padding);
+  padding: 33px var(--x-spacing);
 }
 .nav-container {
   cursor: pointer;
   display: flex;
 }
 .menu-icon {
-  padding: 40px var(--left-padding);
+  padding: 40px var(--x-spacing);
   padding-left: 20px;
 }
 .menu-icon .menu-icon__bar {
   width: 30px;
-  border-bottom: 2px solid var(--text-primary);
+  border-bottom: 2px solid var(--col-text);
   transition: transform 0.5s var(--smoothing);
 }
 .menu-icon .menu-icon__bar:nth-of-type(1) {
@@ -39,7 +39,7 @@
 .menu-link {
   padding: 20px;
   text-transform: uppercase;
-  color: var(--text-primary);
+  color: var(--col-text);
   text-decoration: none;
   font-weight: 700;
 }

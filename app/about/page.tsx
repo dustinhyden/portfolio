@@ -16,7 +16,7 @@ export default function About() {
   return (
     <>
       <AboutWorld />
-      <Content maxWidth="700px" alt={true}>
+      <Content alt={true}>
         <h1>Dustin Hyden</h1>
         <Orb text="Barrie, Ontario" />
         <Space />

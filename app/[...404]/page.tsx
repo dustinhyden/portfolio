@@ -1,4 +1,4 @@
-import styles from "./errorPage.module.css"
+import styles from "./page.module.css"
 import ErrorWorld from "./World"
 import Content from "../components/Content"
 import Link from "next/link"

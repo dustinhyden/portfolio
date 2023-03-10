@@ -1,6 +1,6 @@
 .content {
-  margin-left: var(--left-padding);
-  margin-right: var(--left-padding);
+  margin-left: var(--x-spacing);
+  margin-right: var(--x-spacing);
   min-height: calc(100vh - 150px);
   margin-top: 150px;
   pointer-events: none;
@@ -8,10 +8,21 @@
 .content > * {
   pointer-events: all;
 }
+.content p {
+  max-width: var(--max-width);
+}
+.content:not(.alternate) > h1 {
+  padding-top: 50px;
+}
 @media only screen and (max-width: 1279px) {
   .content.alternate {
     margin-top: 0px;
     padding-top: 25px;
     border-top: 1px solid black;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .content > h1 {
+    padding-top: 50px;
   }
 }

@@ -1,0 +1,15 @@
+.footer {
+  background-color: var(--col-black);
+  color: var(--col-white);
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px var(--x-spacing);
+}
+.footer a {
+  color: var(--col-white);
+}
+.footer p {
+  margin-top: 0;
+}
