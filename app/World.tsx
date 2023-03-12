@@ -19,7 +19,7 @@ export default function HomeWorld() {
         camera={{
           position: [-10.259, 13.583, 19.382],
           fov: 75,
-          far: 90,
+          far: 1000,
         }}
         shadows
       >

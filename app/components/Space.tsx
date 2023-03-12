@@ -1,3 +1,3 @@
 export default function Space() {
-  return <section style={{ height: "10vw", maxHeight: "150px" }}></section>
+  return <section style={{ height: "5vw", maxHeight: "150px" }}></section>
 }

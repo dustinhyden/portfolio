@@ -3,7 +3,7 @@ import HomepageSidebar from "./components/HomepageSidebar"
 
 export type ProjectType = {
   title: string
-  description: string
+  description?: string
   displayFile: (offset: number) => React.ReactNode
   subtitle: string
   hideSubtitleOnMobile?: boolean
@@ -20,11 +20,10 @@ export type ProjectType = {
 }
 const data: ProjectType[] = [
   {
-    title: "Your front end engineer & web designer.",
-    description: "Meta description here.",
+    title: "Your next Front end developer",
     displayFile: () => null,
     subtitle:
-      "I specialize in all things front-end from WordPress based CMS sites to React/Next headless projects.",
+      "Specializing in React and NextJS, with extensive experience using WordPress",
     hideSubtitleOnMobile: true,
     sidebarWidget: () => <HomepageSidebar />,
     href: "/",

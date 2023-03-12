@@ -9,9 +9,8 @@ export default function ImageGrid({
     <section className={styles.images}>
       {images.length > 0 &&
         images.map((image, i) => (
-          <div className={styles["image-container"]}>
+          <div key={i} className={styles["image-container"]}>
             <Image
-              key={i}
               alt={image.alt}
               src={image.src}
               width="64"

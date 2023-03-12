@@ -64,6 +64,8 @@ h1,
 }
 h3 {
   margin-top: 30px;
+  font-size: calc(2.2vw + 20px);
+  color: var(--col-black);
 }
 p {
   margin-top: 10px;
@@ -79,10 +81,15 @@ p {
   margin-left: auto;
   margin-right: auto;
 }
-@media only screen and (min-width: 1920px) {
+@media only screen and (min-width: 1080px) {
   h1,
   .h1 {
-    font-size: 84px;
+    font-size: 64px;
+  }
+  h3 {
+	font-size: 24px;
+	max-width: 700px;
+	line-height: 1.2;
   }
 }
 .center {

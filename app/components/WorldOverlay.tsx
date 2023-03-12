@@ -13,8 +13,8 @@ export default function WorldOverlay() {
 
   const pixelsPerProject = config.pixelsPerProject()
   const item = data[lastShown]
-  const showAt = pixelsPerProject * currentProject + pixelsPerProject * -0.3
-  const hideAt = pixelsPerProject * currentProject + pixelsPerProject * 0.3
+  const showAt = pixelsPerProject * currentProject + pixelsPerProject * -config.showHideDepth
+  const hideAt = pixelsPerProject * currentProject + pixelsPerProject * config.showHideDepth
 
   useEffect(() => {
     if (scrollPosition >= hideAt) {

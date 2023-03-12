@@ -9,7 +9,7 @@ import JumboButton from "../../components/JumboButton"
 export const metadata = {
   title: "About Dustin Hyden | Front End Engineer & Barrie Web Designer",
   description:
-    "I'm Dustin Hyden, I make website's and web apps. My specialties are in React/NextJs all the way to WordPress. I've consulted over 100 businesses, developed dozens of websites, and I've been a speaker for Central Ontario's Premiere Business Event Xcelerate Learning Series",
+    "About Dustin Hyden",
 }
 
 export default function About() {
@@ -21,26 +21,17 @@ export default function About() {
         <Orb text="Barrie, Ontario" />
         <Space />
         <div className="block">
-          <h3>About</h3>
-          <p>
-            Hey! I'm Dustin, a web designer and front end engineer based in
-            Barrie, Ontario with 5+ years of experience (I've been programming
-            for 15, but 5 professionally).
-          </p>
-          <p>
-            I have a keen eye for design and I love coding. I've worked in all
-            stages of the development process, from the initial discovery
-            sessions all the way to launch. My most recent obsession is NextJs
-            13 and all of it's peculiarities.{" "}
-          </p>
+ 
+          <h3>
+            Hey! I'm Dustin, a front end developer based in
+            Barrie, Ontario with 5+ years of experience.
+          </h3>
+		  <p>With a keen eye for design and details, I am very passionate about bringing to life designs and UI. An avid learner, I enjoy learning about all things development, and how new technologies can be used to improve both the development and user experience.</p>
         </div>
         <div className="block">
           <h3>Clients & Projects</h3>
           <p>
-            I've had the pleasure of co-hosting Central Ontario's premiere
-            business event Xcelerate Summit's Learning Series, I've consulted
-            over 100 local businesses, and I've developed dozens of websites
-            (WordPress, Shopify, React/NextJs). Here's a few clients I've worked
+            Over the past several year, I've had the pleasure of working with many businesses to improve SEO, site performace overall UX/UI. Here's a few clients I've worked
             with:
           </p>
           <ImageGrid
@@ -60,7 +51,7 @@ export default function About() {
         </div>
         <div className="block">
           <h3>Contact</h3>
-          <p>Got a project you'd like help on?</p>
+          <p>Let's talk about how my skillset can work for you.</p>
           <JumboButton text="Get in touch" href="/contact" />
         </div>
       </Content>

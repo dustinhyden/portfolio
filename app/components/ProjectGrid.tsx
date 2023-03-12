@@ -12,12 +12,12 @@ export default function ProjectGrid() {
       {projects.length > 0 &&
         projects.map((project, i) => (
           <Link
+            key={i}
             className={styles["project-container"]}
             href={`./projects/${project.href}`}
           >
             <Image
               className={styles.image}
-              key={i}
               alt={project.image.alt}
               src={`${project.image.src}`}
               width="400"

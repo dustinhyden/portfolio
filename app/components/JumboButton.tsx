@@ -9,7 +9,7 @@ export default function JumboButton({
 }) {
   return (
     <Link className={styles.button} href={href}>
-      {text}
+      <span>{text}</span>
     </Link>
   )
 }
