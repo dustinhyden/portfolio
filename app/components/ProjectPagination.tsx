@@ -13,11 +13,6 @@ export default function ProjectPagination({
     return null
   }
 
-  // must be greater than 1 (first item is home)
-  const showPrevious = index > 1
-  // last item is contact, first item is home
-  const showNext = index < data.length - 2
-
   const projects: LinkType[] = []
   if (index > 1) projects.push(data[index - 1] as LinkType) // attempt to get the previous project
   if (index < data.length - 2) projects.push(data[index + 1] as LinkType) // attempt to get the next project

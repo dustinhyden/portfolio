@@ -1,5 +1,4 @@
 "use client"
-
 import Footer from "./Footer"
 import Mouse from "./Mouse"
 import Navbar from "./Navbar"
@@ -13,8 +12,8 @@ export default function ClientWrapper({
     <main className="main-layout">
       <Navbar />
       <Mouse />
-      <Footer />
       {children}
+      <Footer />
     </main>
   )
 }

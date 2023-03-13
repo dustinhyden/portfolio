@@ -4,6 +4,9 @@
   min-height: calc(100vh - 150px);
   margin-top: 150px;
   pointer-events: none;
+  opacity: 0;
+  animation: FadeIn 0.625s var(--smoothing) forwards;
+  transform-origin: center 50vh;
 }
 .content > * {
   pointer-events: all;
@@ -24,5 +27,15 @@
 @media only screen and (min-width: 1280px) {
   .content > h1 {
     padding-top: 50px;
+  }
+}
+@keyframes FadeIn {
+  0% {
+    opacity: 0;
+    /* transform: scale(1.02); */
+  }
+  100% {
+    opacity: 1;
+    /* transform: scale(1); */
   }
 }

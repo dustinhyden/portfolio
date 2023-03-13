@@ -50,6 +50,15 @@ export default function Project({ params }: ProjectParams) {
             />
             View all projects
           </Link>
+          <Link className={`${styles["back-btn"]} icon-btn secondary`} href="/">
+            <Image
+              src="/back-icon.svg"
+              alt="Go home button"
+              height="24"
+              width="24"
+            />
+            Go home
+          </Link>
           <ProjectWorld>{project.displayFile()}</ProjectWorld>
           <h1>{project.title}</h1>
           <section className={styles.details}>
@@ -64,7 +73,11 @@ export default function Project({ params }: ProjectParams) {
             <p>
               <span>Work:</span> <span>{project.work.join(" • ")}</span>
             </p>
-            <Link className="icon-btn" href={project.externalLink}>
+            <Link
+              className="icon-btn"
+              href={project.externalLink}
+              target="_blank"
+            >
               <Image
                 src="/external-link.svg"
                 alt="External link button"

@@ -23,7 +23,7 @@
 }
 html,
 body {
-  scroll-behavior: smooth;
+  /* scroll-behavior: smooth; */
   cursor: crosshair;
 }
 html,
@@ -57,6 +57,12 @@ a {
 .icon-btn.icon--right img {
   margin-left: 0;
   margin-left: 4px;
+}
+.icon-btn.secondary {
+  padding-top: 5px;
+}
+.icon-btn.secondary img {
+  /* filter: brightness(0); */
 }
 /* typography */
 h1,

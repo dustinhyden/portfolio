@@ -76,8 +76,29 @@
 /* animation effects */
 .overlay-container {
   transition: 0.5s var(--smoothing);
+  will-change: transform, opacity;
+  opacity: 0;
+  animation: FadeIn 0.7s var(--smoothing) forwards;
 }
 .hidden {
-  opacity: 0;
-  transform: translateY(10px);
+  animation: FadeOut 0.7s var(--smoothing) forwards;
+}
+@keyframes FadeOut {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.95);
+    opacity: 0;
+  }
+}
+@keyframes FadeIn {
+  0% {
+    transform: scale(0.95);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
 }
