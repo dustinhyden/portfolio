@@ -18,13 +18,18 @@
   overflow: hidden;
 }
 .image {
-  width: 40vw;
-  height: 40vw;
+  --size: 40vw;
+  --half: calc(var(--size) / 1.5);
+  width: var(--size);
+  height: var(--size);
   object-fit: cover;
   object-position: center;
   transition-duration: 0.725s;
   transition-property: transform;
   transition-timing-function: var(--smoothing);
+}
+.thin .image {
+  height: var(--half);
 }
 .overlay {
   display: flex;
@@ -60,8 +65,7 @@
 }
 @media only screen and (min-width: 768px) {
   .image {
-    width: 25vw;
-    height: 25vw;
+    --size: 25vw;
   }
 }
 @media only screen and (min-width: 1000px) {
@@ -71,8 +75,7 @@
 }
 @media only screen and (min-width: 1280px) {
   .image {
-    width: calc(22.5vw - 15px);
-    height: calc(22.5vw - 15px);
+    --size: calc(22.5vw - 15px);
   }
 }
 .project-container:hover .image {

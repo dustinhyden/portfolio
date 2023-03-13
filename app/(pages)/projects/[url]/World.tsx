@@ -24,7 +24,7 @@ export default function ProjectWorld({ children }) {
           preset="rembrandt"
           environment="city"
         ></Stage>
-        <Swivel position={[0, -3.5, 1.5]}>{children}</Swivel>
+        <Swivel position={[0, -8.5, -15]}>{children}</Swivel>
       </Canvas>
     </div>
   )

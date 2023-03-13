@@ -1,7 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="19.869" height="19.869" viewBox="0 0 19.869 19.869">
-  <g id="Icon_feather-external-link" data-name="Icon feather-external-link" transform="translate(-3.5 -3.086)">
-    <path id="Path_5" data-name="Path 5" d="M19.046,15.788v5.818a1.939,1.939,0,0,1-1.939,1.939H6.439A1.939,1.939,0,0,1,4.5,21.606V10.939A1.939,1.939,0,0,1,6.439,9h5.818" transform="translate(0 -1.591)" fill="none" stroke="#4a4a4a" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <path id="Path_6" data-name="Path 6" d="M22.5,4.5h5.818v5.818" transform="translate(-6.363)" fill="none" stroke="#4a4a4a" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <path id="Path_7" data-name="Path 7" d="M15,15.167,25.667,4.5" transform="translate(-3.712)" fill="none" stroke="#4a4a4a" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Group_12" data-name="Group 12" transform="translate(-11865 -1935)">
+    <rect id="Rectangle_15" data-name="Rectangle 15" width="24" height="24" transform="translate(11865 1935)" fill="none"/>
+    <g id="Icon_feather-external-link" data-name="Icon feather-external-link" transform="translate(11864.5 1933.272)">
+      <path id="Path_5" data-name="Path 5" d="M19.046,15.788v5.818a1.939,1.939,0,0,1-1.939,1.939H6.439A1.939,1.939,0,0,1,4.5,21.606V10.939A1.939,1.939,0,0,1,6.439,9h5.818" transform="translate(0 -1.591)" fill="none" stroke="#4a4a4a" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_6" data-name="Path 6" d="M22.5,4.5h5.818v5.818" transform="translate(-6.363)" fill="none" stroke="#4a4a4a" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_7" data-name="Path 7" d="M15,15.167,25.667,4.5" transform="translate(-3.712)" fill="none" stroke="#4a4a4a" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </g>
   </g>
 </svg>

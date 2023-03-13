@@ -27,7 +27,7 @@ const data: ProjectType[] = [
       "Specializing in React and NextJS, with extensive experience using WordPress",
     hideSubtitleOnMobile: true,
     sidebarWidget: () => <HomepageSidebar />,
-    href: "/",
+    href: "/projects//",
     image: {
       src: "/images/bohemia-barrie.jpg",
       alt: "Man making coffee",
@@ -41,7 +41,7 @@ const data: ProjectType[] = [
     displayFile: (offset = 0) => {
       return <Example key={offset} position={[0, 0, offset]} />
     },
-    href: "weqfqwef",
+    href: "/projects/weqfqwef",
     image: {
       src: "/images/bohemia-barrie.jpg",
       alt: "Man making coffee",
@@ -60,6 +60,41 @@ const data: ProjectType[] = [
             After renovating countless homes, they realized that their website
             was in dire need of a refresh.
           </p>
+          <h3>Background</h3>
+          <p>
+            Straightline Construction was founded in 2003, and since then has
+            grown to a crew of nearly a dozen talented and skilled tradesmen.
+            After renovating countless homes, they realized that their website
+            was in dire need of a refresh.
+          </p>
+          <h3>Background</h3>
+          <p>
+            Straightline Construction was founded in 2003, and since then has
+            grown to a crew of nearly a dozen talented and skilled tradesmen.
+            After renovating countless homes, they realized that their website
+            was in dire need of a refresh.
+          </p>
+          <h3>Background</h3>
+          <p>
+            Straightline Construction was founded in 2003, and since then has
+            grown to a crew of nearly a dozen talented and skilled tradesmen.
+            After renovating countless homes, they realized that their website
+            was in dire need of a refresh.
+          </p>
+          <h3>Background</h3>
+          <p>
+            Straightline Construction was founded in 2003, and since then has
+            grown to a crew of nearly a dozen talented and skilled tradesmen.
+            After renovating countless homes, they realized that their website
+            was in dire need of a refresh.
+          </p>
+          <h3>Background</h3>
+          <p>
+            Straightline Construction was founded in 2003, and since then has
+            grown to a crew of nearly a dozen talented and skilled tradesmen.
+            After renovating countless homes, they realized that their website
+            was in dire need of a refresh.
+          </p>
         </div>
       )
     },
@@ -71,7 +106,7 @@ const data: ProjectType[] = [
     displayFile: (offset = 0) => {
       return <Example key={offset} position={[0, 0, offset]} />
     },
-    href: "qwefwqef",
+    href: "/projects/qwefwqef",
     image: {
       src: "/images/on-the-mend-barrie.jpg",
       alt: "Man making coffee",
@@ -101,7 +136,7 @@ const data: ProjectType[] = [
     displayFile: (offset = 0) => {
       return <Example key={offset} position={[0, 0, offset]} />
     },
-    href: "examwqefwle",
+    href: "/projects/examwqefwle",
     image: {
       src: "/images/bohemia-barrie.jpg",
       alt: "Man making coffee",
@@ -131,7 +166,7 @@ const data: ProjectType[] = [
     displayFile: (offset = 0) => {
       return <Example key={offset} position={[0, 0, offset]} />
     },
-    href: "wqefwqef",
+    href: "/projects/wqefwqef",
     image: {
       src: "/images/bohemia-barrie.jpg",
       alt: "Man making coffee",
@@ -161,7 +196,7 @@ const data: ProjectType[] = [
     displayFile: (offset = 0) => {
       return <Example key={offset} position={[0, 0, offset]} />
     },
-    href: "wqefwqef",
+    href: "/projects/qewf",
     image: {
       src: "/images/bohemia-barrie.jpg",
       alt: "Man making coffee",
@@ -191,7 +226,7 @@ const data: ProjectType[] = [
     displayFile: (offset = 0) => {
       return <Example key={offset} position={[0, 0, offset]} />
     },
-    href: "wqefewqf",
+    href: "/projects/qewwqwqwqwq",
     image: {
       src: "/images/bohemia-barrie.jpg",
       alt: "Man making coffee",
@@ -221,7 +256,7 @@ const data: ProjectType[] = [
     displayFile: (offset = 0) => {
       return <Example key={offset} position={[0, 0, offset]} />
     },
-    href: "fewqfqwe",
+    href: "/projects/fewq11fqwe",
     image: {
       src: "/images/bohemia-barrie.jpg",
       alt: "Man making coffee",
@@ -251,7 +286,7 @@ const data: ProjectType[] = [
     displayFile: (offset = 0) => {
       return <Example key={offset} position={[0, 0, offset]} />
     },
-    href: "example1313",
+    href: "/projects/example1313",
     image: {
       src: "/images/bohemia-barrie.jpg",
       alt: "Man making coffee",
@@ -281,7 +316,7 @@ const data: ProjectType[] = [
     displayFile: (offset = 0) => {
       return <Example key={offset} position={[0, 0, offset]} />
     },
-    href: "example12",
+    href: "/projects/example12",
     image: {
       src: "/images/bohemia-barrie.jpg",
       alt: "Man making coffee",
@@ -311,7 +346,7 @@ const data: ProjectType[] = [
     displayFile: (offset = 0) => {
       return <Example key={offset} position={[0, 0, offset]} />
     },
-    href: "example1313",
+    href: "/projects/examp1le1313",
     image: {
       src: "/images/bohemia-barrie.jpg",
       alt: "Man making coffee",

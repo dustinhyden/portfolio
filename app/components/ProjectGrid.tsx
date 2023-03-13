@@ -1,19 +1,37 @@
 import Image from "next/image"
 import Link from "next/link"
-import data from "../data"
+import data, { ProjectType } from "../data"
 import styles from "./ProjectGrid.module.css"
 
-export default function ProjectGrid() {
-  const projects = data.slice(1, data.length - 1)
+export type LinkType = {
+  href: string
+  title: string
+  image: {
+    alt: string
+    src: string
+  }
+  work: string[]
+}
+
+export default function ProjectGrid({
+  links,
+  thin = false,
+}: {
+  links: ProjectType[] | LinkType[]
+  thin?: boolean
+}) {
+  const projects = links
+
+  // const projects = data.slice(1, data.length - 1)
 
   return (
-    <section className={styles.projects}>
+    <section className={`${styles.projects} ${thin ? styles.thin : ""}`}>
       {projects.length > 0 &&
         projects.map((project, i) => (
           <Link
             key={i}
             className={styles["project-container"]}
-            href={`./projects/${project.href}`}
+            href={project.href}
           >
             <Image
               className={styles.image}
