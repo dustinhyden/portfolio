@@ -6,7 +6,6 @@ import styles from "./page.module.css"
 import Content from "@/app/components/Content"
 import data from "@/app/data"
 import ProjectWorld from "./World"
-import JumboButton from "@/app/components/JumboButton"
 import ProjectPagination from "@/app/components/ProjectPagination"
 
 type ProjectParams = {
@@ -37,7 +36,7 @@ export default function Project({ params }: ProjectParams) {
   if (!project) {
     redirect("/projects")
   }
-  // console.log(project)
+
   return (
     <Content>
       <div className={styles.columns}>

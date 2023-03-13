@@ -26,7 +26,9 @@ interface GLTFActions extends THREE.AnimationClip {
 interface CharacterProps {
   dontAnimateOnScroll?: boolean
 }
-export function Model(props: JSX.IntrinsicElements["group"] & CharacterProps) {
+export default function Character(
+  props: JSX.IntrinsicElements["group"] & CharacterProps
+) {
   const [activeAnim, setActiveAnim] = useState<ActionName>("Idle")
   const group = useRef<THREE.Group>(null)
   const { nodes, materials, animations } = useGLTF(

@@ -25,8 +25,8 @@ export default function ScrollWorld(props: JSX.IntrinsicElements["group"]) {
   return (
     <group name="ScrollWorld" ref={group} {...props} dispose={null}>
       {data.map((project, i) => {
-        const offset = i * config.spacing
-        return project.displayFile(offset)
+        // const offset = i * config.spacing
+        return project.displayFile(i)
       })}
     </group>
   )

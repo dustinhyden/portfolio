@@ -98,6 +98,12 @@ p {
     line-height: 1.2;
   }
 }
+@media only screen and (min-width: 1280px) {
+  h1,
+  .h1 {
+    font-size: 84px;
+  }
+}
 .center {
   text-align: center;
 }

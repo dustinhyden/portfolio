@@ -9,7 +9,7 @@ export default function HomepageSidebar() {
       <a href="mailto:dustin@hyden.ca">Email</a>
       <a href="tel:7055000140">Call</a>
 
-      <Orb text="Barrie, Ontario" />
+      <Orb />
 
       <a href="#" className={`${styles["scroll-btn"]} icon-btn icon--right`}>
         Scroll to explore

@@ -8,12 +8,6 @@
   border-bottom: 1px solid var(--col-black);
   margin-bottom: 25px;
 }
-.back-btn {
-  align-self: flex-start;
-  z-index: 2;
-  text-transform: uppercase;
-  font-weight: 700;
-}
 .details-container > h1 {
   text-align: center;
   font-size: 24px;

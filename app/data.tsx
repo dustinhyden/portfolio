@@ -4,7 +4,7 @@ import HomepageSidebar from "./components/HomepageSidebar"
 export type ProjectType = {
   title: string
   description?: string
-  displayFile: (offset?: number) => React.ReactNode
+  displayFile: (index?: number) => React.ReactNode
   subtitle: string
   hideSubtitleOnMobile?: boolean
   sidebarWidget?: () => React.ReactNode
@@ -38,8 +38,8 @@ const data: ProjectType[] = [
     title: "Example Project",
     description: "Meta description here example.",
     subtitle: "Helping bee do",
-    displayFile: (offset = 0) => {
-      return <Example key={offset} position={[0, 0, offset]} />
+    displayFile: (index = 0) => {
+      return <Example index={index} key={index} />
     },
     href: "/projects/weqfqwef",
     image: {
@@ -103,8 +103,8 @@ const data: ProjectType[] = [
     title: "Example Project 2",
     description: "Meta description here other.",
     subtitle: "Another example here.",
-    displayFile: (offset = 0) => {
-      return <Example key={offset} position={[0, 0, offset]} />
+    displayFile: (index = 0) => {
+      return <Example index={index} key={index} />
     },
     href: "/projects/qwefwqef",
     image: {
@@ -133,8 +133,8 @@ const data: ProjectType[] = [
     title: "Example Project 3",
     description: "Meta description here.",
     subtitle: "Another example here.",
-    displayFile: (offset = 0) => {
-      return <Example key={offset} position={[0, 0, offset]} />
+    displayFile: (index = 0) => {
+      return <Example index={index} key={index} />
     },
     href: "/projects/examwqefwle",
     image: {
@@ -163,8 +163,8 @@ const data: ProjectType[] = [
     title: "Example Project 4",
     description: "Meta description here.",
     subtitle: "Another example here.",
-    displayFile: (offset = 0) => {
-      return <Example key={offset} position={[0, 0, offset]} />
+    displayFile: (index = 0) => {
+      return <Example index={index} key={index} />
     },
     href: "/projects/wqefwqef",
     image: {
@@ -193,8 +193,8 @@ const data: ProjectType[] = [
     title: "qwedqwed",
     description: "Meta description here.",
     subtitle: "Another example here.",
-    displayFile: (offset = 0) => {
-      return <Example key={offset} position={[0, 0, offset]} />
+    displayFile: (index = 0) => {
+      return <Example index={index} key={index} />
     },
     href: "/projects/qewf",
     image: {
@@ -223,8 +223,8 @@ const data: ProjectType[] = [
     title: "Effweqf",
     description: "Meta description here.",
     subtitle: "Another example here.",
-    displayFile: (offset = 0) => {
-      return <Example key={offset} position={[0, 0, offset]} />
+    displayFile: (index = 0) => {
+      return <Example index={index} key={index} />
     },
     href: "/projects/qewwqwqwqwq",
     image: {
@@ -253,8 +253,8 @@ const data: ProjectType[] = [
     title: "Example wqef",
     description: "Meta description here.",
     subtitle: "Another example here.",
-    displayFile: (offset = 0) => {
-      return <Example key={offset} position={[0, 0, offset]} />
+    displayFile: (index = 0) => {
+      return <Example index={index} key={index} />
     },
     href: "/projects/fewq11fqwe",
     image: {
@@ -283,8 +283,8 @@ const data: ProjectType[] = [
     title: "Examweqfqwef",
     description: "Meta description here.",
     subtitle: "Another example here.",
-    displayFile: (offset = 0) => {
-      return <Example key={offset} position={[0, 0, offset]} />
+    displayFile: (index = 0) => {
+      return <Example index={index} key={index} />
     },
     href: "/projects/example1313",
     image: {
@@ -313,8 +313,8 @@ const data: ProjectType[] = [
     title: "Hello World",
     description: "Meta description here.",
     subtitle: "Another example here.",
-    displayFile: (offset = 0) => {
-      return <Example key={offset} position={[0, 0, offset]} />
+    displayFile: (index = 0) => {
+      return <Example index={index} key={index} />
     },
     href: "/projects/example12",
     image: {
@@ -343,8 +343,8 @@ const data: ProjectType[] = [
     title: "Contact me",
     description: "Meta description here.",
     subtitle: "Another example here.",
-    displayFile: (offset = 0) => {
-      return <Example key={offset} position={[0, 0, offset]} />
+    displayFile: (index = 0) => {
+      return <Example index={index} key={index} />
     },
     href: "/projects/examp1le1313",
     image: {

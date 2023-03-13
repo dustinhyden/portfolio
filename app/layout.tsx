@@ -1,5 +1,6 @@
 import { Poppins } from "next/font/google"
 import ClientWrapper from "./components/ClientWrapper"
+import { MouseProvider } from "./contexts/MouseContext"
 
 import "./globals.css"
 
@@ -17,7 +18,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={poppins.variable}>
-        <ClientWrapper>{children}</ClientWrapper>
+        <MouseProvider>
+          <ClientWrapper>{children}</ClientWrapper>
+        </MouseProvider>
       </body>
     </html>
   )

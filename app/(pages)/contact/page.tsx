@@ -10,7 +10,7 @@ export const metadata = {
     "Looking to get in touch with Dustin? You can email him at dustin@hyden.ca or by phone at 705-500-0140.",
 }
 
-export default function About() {
+export default function Contact() {
   return (
     <Content>
       <div className={styles.centered}>

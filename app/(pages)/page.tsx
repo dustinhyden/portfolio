@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <div
       style={{
-        height: `calc(100vh + ${config.totalScrollHeight()}px`,
+        height: `calc(100vh + ${config.totalScrollHeight()}px)`,
       }}
     >
       <HomeWorld />

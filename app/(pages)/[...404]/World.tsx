@@ -1,7 +1,7 @@
 "use client"
 import { Grid, Stage } from "@react-three/drei"
 import { Canvas } from "@react-three/fiber"
-import { Model as Character } from "@/app/3d/assets/Character"
+import Character from "@/app/3d/assets/Character"
 import HorizontalCamRig from "@/app/3d/HorizontalCamRig"
 import OffsetWrapper from "@/app/3d/OffsetWrapper"
 
