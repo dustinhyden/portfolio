@@ -6,7 +6,6 @@ import styles from "./ProjectGrid.module.css"
 export default function ProjectGrid() {
   const projects = data.slice(1, data.length - 1)
 
-  console.log(projects.length)
   return (
     <section className={styles.projects}>
       {projects.length > 0 &&

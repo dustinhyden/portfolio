@@ -1,5 +1,5 @@
-import { HTMLAttributes } from "react"
 import styles from "./Content.module.css"
+
 export default function Content({
   children,
   alt,

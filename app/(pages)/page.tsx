@@ -1,5 +1,5 @@
 import WorldOverlay from "../components/WorldOverlay"
-import config from "../config"
+import config from "../scrollConfig"
 import HomeWorld from "../World"
 import styles from "./page.module.css"
 export const metadata = {

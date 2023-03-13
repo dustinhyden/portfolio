@@ -2,7 +2,7 @@
 import { useFrame } from "@react-three/fiber"
 import React, { useEffect, useRef, useState } from "react"
 
-import config from "../config"
+import config from "../scrollConfig"
 import useScrollPosition from "../hooks/useScrollPosition"
 import useWindowDimensions from "../hooks/useWindowDimensions"
 import data from "../data"

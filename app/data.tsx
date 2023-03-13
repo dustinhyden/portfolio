@@ -4,7 +4,7 @@ import HomepageSidebar from "./components/HomepageSidebar"
 export type ProjectType = {
   title: string
   description?: string
-  displayFile: (offset: number) => React.ReactNode
+  displayFile: (offset?: number) => React.ReactNode
   subtitle: string
   hideSubtitleOnMobile?: boolean
   sidebarWidget?: () => React.ReactNode
@@ -17,6 +17,7 @@ export type ProjectType = {
   toolsUsed?: string[]
   work?: string[]
   externalLink?: string
+  content: () => React.ReactNode
 }
 const data: ProjectType[] = [
   {
@@ -31,12 +32,13 @@ const data: ProjectType[] = [
       src: "/images/bohemia-barrie.jpg",
       alt: "Man making coffee",
     },
+    content: null,
   },
   {
     title: "Example Project",
     description: "Meta description here example.",
     subtitle: "Helping bee do",
-    displayFile: (offset) => {
+    displayFile: (offset = 0) => {
       return <Example key={offset} position={[0, 0, offset]} />
     },
     href: "weqfqwef",
@@ -48,12 +50,25 @@ const data: ProjectType[] = [
     toolsUsed: ["WordPress"],
     work: ["Web Design", "Branding"],
     externalLink: "https://www.bohemiabarrie.com/",
+    content: () => {
+      return (
+        <div>
+          <h3>Background</h3>
+          <p>
+            Straightline Construction was founded in 2003, and since then has
+            grown to a crew of nearly a dozen talented and skilled tradesmen.
+            After renovating countless homes, they realized that their website
+            was in dire need of a refresh.
+          </p>
+        </div>
+      )
+    },
   },
   {
     title: "Example Project 2",
     description: "Meta description here other.",
     subtitle: "Another example here.",
-    displayFile: (offset) => {
+    displayFile: (offset = 0) => {
       return <Example key={offset} position={[0, 0, offset]} />
     },
     href: "qwefwqef",
@@ -65,12 +80,25 @@ const data: ProjectType[] = [
     toolsUsed: ["WordPress"],
     work: ["Web Design"],
     externalLink: "https://www.bohemiabarrie.com/",
+    content: () => {
+      return (
+        <div>
+          <h3>Background</h3>
+          <p>
+            Straightline Construction was founded in 2003, and since then has
+            grown to a crew of nearly a dozen talented and skilled tradesmen.
+            After renovating countless homes, they realized that their website
+            was in dire need of a refresh.
+          </p>
+        </div>
+      )
+    },
   },
   {
     title: "Example Project 3",
     description: "Meta description here.",
     subtitle: "Another example here.",
-    displayFile: (offset) => {
+    displayFile: (offset = 0) => {
       return <Example key={offset} position={[0, 0, offset]} />
     },
     href: "examwqefwle",
@@ -82,12 +110,25 @@ const data: ProjectType[] = [
     toolsUsed: ["WordPress"],
     work: ["Web Design"],
     externalLink: "https://www.bohemiabarrie.com/",
+    content: () => {
+      return (
+        <div>
+          <h3>Background</h3>
+          <p>
+            Straightline Construction was founded in 2003, and since then has
+            grown to a crew of nearly a dozen talented and skilled tradesmen.
+            After renovating countless homes, they realized that their website
+            was in dire need of a refresh.
+          </p>
+        </div>
+      )
+    },
   },
   {
     title: "Example Project 4",
     description: "Meta description here.",
     subtitle: "Another example here.",
-    displayFile: (offset) => {
+    displayFile: (offset = 0) => {
       return <Example key={offset} position={[0, 0, offset]} />
     },
     href: "wqefwqef",
@@ -99,12 +140,25 @@ const data: ProjectType[] = [
     toolsUsed: ["WordPress"],
     work: ["Web Design"],
     externalLink: "https://www.bohemiabarrie.com/",
+    content: () => {
+      return (
+        <div>
+          <h3>Background</h3>
+          <p>
+            Straightline Construction was founded in 2003, and since then has
+            grown to a crew of nearly a dozen talented and skilled tradesmen.
+            After renovating countless homes, they realized that their website
+            was in dire need of a refresh.
+          </p>
+        </div>
+      )
+    },
   },
   {
     title: "qwedqwed",
     description: "Meta description here.",
     subtitle: "Another example here.",
-    displayFile: (offset) => {
+    displayFile: (offset = 0) => {
       return <Example key={offset} position={[0, 0, offset]} />
     },
     href: "wqefwqef",
@@ -116,12 +170,25 @@ const data: ProjectType[] = [
     toolsUsed: ["WordPress"],
     work: ["Web Design"],
     externalLink: "https://www.bohemiabarrie.com/",
+    content: () => {
+      return (
+        <div>
+          <h3>Background</h3>
+          <p>
+            Straightline Construction was founded in 2003, and since then has
+            grown to a crew of nearly a dozen talented and skilled tradesmen.
+            After renovating countless homes, they realized that their website
+            was in dire need of a refresh.
+          </p>
+        </div>
+      )
+    },
   },
   {
     title: "Effweqf",
     description: "Meta description here.",
     subtitle: "Another example here.",
-    displayFile: (offset) => {
+    displayFile: (offset = 0) => {
       return <Example key={offset} position={[0, 0, offset]} />
     },
     href: "wqefewqf",
@@ -133,12 +200,25 @@ const data: ProjectType[] = [
     toolsUsed: ["WordPress"],
     work: ["Web Design"],
     externalLink: "https://www.bohemiabarrie.com/",
+    content: () => {
+      return (
+        <div>
+          <h3>Background</h3>
+          <p>
+            Straightline Construction was founded in 2003, and since then has
+            grown to a crew of nearly a dozen talented and skilled tradesmen.
+            After renovating countless homes, they realized that their website
+            was in dire need of a refresh.
+          </p>
+        </div>
+      )
+    },
   },
   {
     title: "Example wqef",
     description: "Meta description here.",
     subtitle: "Another example here.",
-    displayFile: (offset) => {
+    displayFile: (offset = 0) => {
       return <Example key={offset} position={[0, 0, offset]} />
     },
     href: "fewqfqwe",
@@ -150,12 +230,25 @@ const data: ProjectType[] = [
     toolsUsed: ["WordPress"],
     work: ["Web Design"],
     externalLink: "https://www.bohemiabarrie.com/",
+    content: () => {
+      return (
+        <div>
+          <h3>Background</h3>
+          <p>
+            Straightline Construction was founded in 2003, and since then has
+            grown to a crew of nearly a dozen talented and skilled tradesmen.
+            After renovating countless homes, they realized that their website
+            was in dire need of a refresh.
+          </p>
+        </div>
+      )
+    },
   },
   {
     title: "Examweqfqwef",
     description: "Meta description here.",
     subtitle: "Another example here.",
-    displayFile: (offset) => {
+    displayFile: (offset = 0) => {
       return <Example key={offset} position={[0, 0, offset]} />
     },
     href: "example1313",
@@ -167,12 +260,25 @@ const data: ProjectType[] = [
     toolsUsed: ["WordPress"],
     work: ["Web Design"],
     externalLink: "https://www.bohemiabarrie.com/",
+    content: () => {
+      return (
+        <div>
+          <h3>Background</h3>
+          <p>
+            Straightline Construction was founded in 2003, and since then has
+            grown to a crew of nearly a dozen talented and skilled tradesmen.
+            After renovating countless homes, they realized that their website
+            was in dire need of a refresh.
+          </p>
+        </div>
+      )
+    },
   },
   {
     title: "Hello World",
     description: "Meta description here.",
     subtitle: "Another example here.",
-    displayFile: (offset) => {
+    displayFile: (offset = 0) => {
       return <Example key={offset} position={[0, 0, offset]} />
     },
     href: "example12",
@@ -184,18 +290,44 @@ const data: ProjectType[] = [
     toolsUsed: ["WordPress"],
     work: ["Web Design"],
     externalLink: "https://www.bohemiabarrie.com/",
+    content: () => {
+      return (
+        <div>
+          <h3>Background</h3>
+          <p>
+            Straightline Construction was founded in 2003, and since then has
+            grown to a crew of nearly a dozen talented and skilled tradesmen.
+            After renovating countless homes, they realized that their website
+            was in dire need of a refresh.
+          </p>
+        </div>
+      )
+    },
   },
   {
     title: "Contact me",
     description: "Meta description here.",
     subtitle: "Another example here.",
-    displayFile: (offset) => {
+    displayFile: (offset = 0) => {
       return <Example key={offset} position={[0, 0, offset]} />
     },
     href: "example1313",
     image: {
       src: "/images/bohemia-barrie.jpg",
       alt: "Man making coffee",
+    },
+    content: () => {
+      return (
+        <div>
+          <h3>Background</h3>
+          <p>
+            Straightline Construction was founded in 2003, and since then has
+            grown to a crew of nearly a dozen talented and skilled tradesmen.
+            After renovating countless homes, they realized that their website
+            was in dire need of a refresh.
+          </p>
+        </div>
+      )
     },
   },
 ]

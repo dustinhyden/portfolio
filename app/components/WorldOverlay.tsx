@@ -1,6 +1,6 @@
 "use client"
 import styles from "./WorldOverlay.module.css"
-import config from "../config"
+import config from "../scrollConfig"
 import data from "../data"
 import { useEffect, useState } from "react"
 import useScrollPosition from "../hooks/useScrollPosition"
@@ -13,8 +13,10 @@ export default function WorldOverlay() {
 
   const pixelsPerProject = config.pixelsPerProject()
   const item = data[lastShown]
-  const showAt = pixelsPerProject * currentProject + pixelsPerProject * -config.showHideDepth
-  const hideAt = pixelsPerProject * currentProject + pixelsPerProject * config.showHideDepth
+  const showAt =
+    pixelsPerProject * currentProject + pixelsPerProject * -config.showHideDepth
+  const hideAt =
+    pixelsPerProject * currentProject + pixelsPerProject * config.showHideDepth
 
   useEffect(() => {
     if (scrollPosition >= hideAt) {

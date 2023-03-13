@@ -1,5 +1,6 @@
 "use client"
 import { MouseProvider } from "../contexts/MouseContext"
+import Footer from "./Footer"
 import Mouse from "./Mouse"
 import Navbar from "./Navbar"
 
@@ -12,9 +13,9 @@ export default function ClientWrapper({
     <main className="main-layout">
       <MouseProvider>
         <Navbar />
-
         <Mouse />
         {children}
+        <Footer />
       </MouseProvider>
     </main>
   )

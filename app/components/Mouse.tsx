@@ -12,6 +12,6 @@ export default function Mouse() {
     <span
       className={`${styles.mouse} ${doEffect ? styles.hovering : ""}`}
       style={{ transform: `translate(${x}px, ${y}px)` }}
-    ></span>
+    />
   )
 }
