@@ -35,7 +35,7 @@ const data: ProjectType[] = [
   {
     title: "Example Project",
     description: "Meta description here example.",
-    subtitle: "Helping Bee's users navigate hundreds of projects.",
+    subtitle: "Helping bee do",
     displayFile: (offset) => {
       return <Example key={offset} position={[0, 0, offset]} />
     },

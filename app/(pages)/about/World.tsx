@@ -9,7 +9,7 @@ export default function AboutWorld() {
   return (
     <div className={styles.wrapper}>
       <Canvas>
-        <PerspectiveCamera position={[0, 0, 0]} />
+        <PerspectiveCamera position={[0, 0, 0]} far={50} fov={75} />
         <ambientLight intensity={0.7} />
         <spotLight
           intensity={0.5}

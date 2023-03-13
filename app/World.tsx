@@ -19,10 +19,11 @@ export default function HomeWorld() {
         camera={{
           position: [-10.259, 13.583, 19.382],
           fov: 75,
-          far: 1000,
+          far: 100,
         }}
         shadows
       >
+        <fog attach="fog" color="white" near={10} far={80} />
         <HorizontalCamRig>
           <ambientLight intensity={0.7} />
           <spotLight
@@ -48,8 +49,8 @@ export default function HomeWorld() {
             sectionThickness={1}
             sectionColor={"#F2F2F2"}
             infiniteGrid={true}
-            fadeStrength={2}
-            fadeDistance={105}
+            fadeStrength={1}
+            fadeDistance={80}
           />
         </HorizontalCamRig>
       </Canvas>

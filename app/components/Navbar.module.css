@@ -7,7 +7,7 @@
   align-items: center;
   top: 0;
   background-color: rgba(255, 255, 255);
-  backdrop-filter: blur(3px);
+  /* backdrop-filter: blur(3px); */
 }
 
 .logo > a {
@@ -49,23 +49,24 @@
   color: black;
 }
 .menu-link:hover {
-  color: var(--col-primary);
+  /* color: var(--col-primary); */
 }
 .blur {
   position: fixed;
   z-index: 2;
   top: 0;
-  height: 300px;
+  margin-top: 100px;
+  height: 100px;
   background-color: white;
   width: 100%;
   pointer-events: none;
-  -webkit-mask-image: linear-gradient(to bottom, black 15%, transparent 80%);
-  mask-image: linear-gradient(to bottom, black 15%, transparent 80%);
+  -webkit-mask-image: linear-gradient(to bottom, black 15%, transparent 100%);
+  mask-image: linear-gradient(to bottom, black 15%, transparent 100%);
 }
 /* mobile layout of buttons */
 @media only screen and (max-width: 767px) {
   .nav-container {
-    transition: 0.5s;
+    /* transition-duration: 0s top, 0s left, 0s right, 0s bottom, 0s height; */
   }
   .nav-container .menu-items {
     display: flex;

@@ -1,0 +1,24 @@
+.mouse {
+  --size: 10px;
+  display: flex;
+  position: fixed;
+  pointer-events: none;
+  z-index: 10;
+  height: var(--size);
+  width: var(--size);
+  backdrop-filter: drop-shadow(4px 4px 10px blue);
+  background-color: black;
+  margin-left: calc(var(--size) / -2);
+  margin-top: calc(var(--size) / -2);
+  border-radius: 100%;
+  left: 0;
+  top: 0;
+  transition: 0.625s, 0s left, 0s top, 0s transform;
+  color: var(--col-white);
+  font-weight: 700;
+  transition-timing-function: var(--smoothing);
+}
+.mouse.hovering {
+  --size: 90px;
+  background-color: rgba(0, 0, 0, 0.1);
+}

@@ -2,7 +2,7 @@
 import Link from "next/link"
 import styles from "./Navbar.module.css"
 import Image from "next/image"
-import { useState } from "react"
+import { useEffect, useState } from "react"
 
 export default function Navbar() {
   const [expanded, setExpanded] = useState(false)
@@ -10,6 +10,15 @@ export default function Navbar() {
   const handleClick = () => {
     setExpanded(!expanded)
   }
+
+  useEffect(() => {
+    function handleResize() {
+      setExpanded(false)
+    }
+
+    window.addEventListener("resize", handleResize)
+    return () => window.removeEventListener("resize", handleResize)
+  }, [])
 
   return (
     <>

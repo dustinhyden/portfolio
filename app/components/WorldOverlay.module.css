@@ -8,6 +8,11 @@
   display: flex;
   align-items: flex-end;
   pointer-events: none;
+  /* Disable text selection  */
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 }
 .overlay-container {
   display: flex;

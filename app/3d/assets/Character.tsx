@@ -4,6 +4,7 @@ import React, { useEffect, useRef, useState } from "react"
 import { useScrollDirection } from "react-use-scroll-direction"
 import * as THREE from "three"
 import { GLTF } from "three-stdlib"
+import Hover from "../Hover"
 
 type GLTFResult = GLTF & {
   nodes: {
@@ -87,7 +88,7 @@ export function Model(props: JSX.IntrinsicElements["group"] & CharacterProps) {
   }
 
   return (
-    <>
+    <Hover>
       <group ref={group} {...props} dispose={null}>
         <group name="Scene">
           <group name="Dustin_Rig">
@@ -109,7 +110,7 @@ export function Model(props: JSX.IntrinsicElements["group"] & CharacterProps) {
           </group>
         </group>
       </group>
-    </>
+    </Hover>
   )
 }
 

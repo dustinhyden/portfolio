@@ -1,7 +1,7 @@
-import HomeWorld from "../World"
 import WorldOverlay from "../components/WorldOverlay"
 import config from "../config"
-
+import HomeWorld from "../World"
+import styles from "./page.module.css"
 export const metadata = {
   title: "Dustin Hyden | Front End Engineer & Barrie Web Designer | Home",
   description:

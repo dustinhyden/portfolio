@@ -24,6 +24,7 @@
 html,
 body {
   scroll-behavior: smooth;
+  cursor: crosshair;
 }
 html,
 body {
@@ -87,9 +88,9 @@ p {
     font-size: 64px;
   }
   h3 {
-	font-size: 24px;
-	max-width: 700px;
-	line-height: 1.2;
+    font-size: 24px;
+    max-width: 700px;
+    line-height: 1.2;
   }
 }
 .center {
