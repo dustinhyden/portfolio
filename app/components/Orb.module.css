@@ -24,6 +24,9 @@
   position: absolute;
   width: 100%;
 }
+.orb > p {
+  margin-top: 0;
+}
 @keyframes Explode {
   0% {
     opacity: 0;

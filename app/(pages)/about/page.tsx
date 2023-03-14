@@ -5,6 +5,8 @@ import Orb from "../../components/Orb"
 import Space from "../../components/Space"
 import AboutWorld from "./World"
 
+import styles from "./page.module.css"
+
 export const metadata = {
   title: "About Dustin Hyden | Front End Engineer & Barrie Web Designer",
   description: "About Dustin Hyden",
@@ -12,7 +14,7 @@ export const metadata = {
 
 export default function About() {
   return (
-    <>
+    <div className={styles.wrapper}>
       <AboutWorld />
       <Content alt={true}>
         <h1>Dustin Hyden</h1>
@@ -20,8 +22,8 @@ export default function About() {
         <Space />
         <div className="block">
           <h3>
-            Hey! I&apos;m Dustin, a front end developer based in Barrie, Ontario with
-            5+ years of experience.
+            Hey! I&apos;m Dustin, a front end developer based in Barrie, Ontario
+            with 5+ years of experience.
           </h3>
           <p>
             With a keen eye for design and details, I am very passionate about
@@ -33,8 +35,8 @@ export default function About() {
         <div className="block">
           <h3>Clients & Projects</h3>
           <p>
-            Over the past several year, I&apos;ve had the pleasure of working with
-            many businesses to improve SEO, site performance overall UX/UI.
+            Over the past several year, I&apos;ve had the pleasure of working
+            with many businesses to improve SEO, site performance overall UX/UI.
             Here&apos;s a few clients I&apos;ve worked with:
           </p>
           <ImageGrid
@@ -58,6 +60,6 @@ export default function About() {
           <JumboButton text="Get in touch" href="/contact" />
         </div>
       </Content>
-    </>
+    </div>
   )
 }

@@ -1,0 +1,10 @@
+.wrapper {
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+}
+@media only screen and (min-width: 1280px) {
+  .wrapper {
+    flex-direction: row;
+  }
+}

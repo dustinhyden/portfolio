@@ -24,8 +24,10 @@ export default function WorldOverlay() {
 
     if (scrollPosition >= hideAt) {
       if (!isHidden) setIsHidden(true)
-      if (currentProject + 1 < data.length)
-        setCurrentProject(currentProject + 1)
+      // if (currentProject + 1 < data.length)
+      setCurrentProject((current) =>
+        current + 1 < data.length ? current + 1 : current
+      )
     }
     if (scrollPosition >= showAt && scrollPosition < hideAt) {
       setLastShown(currentProject)
@@ -33,9 +35,10 @@ export default function WorldOverlay() {
     }
     if (scrollPosition < showAt) {
       if (!isHidden) setIsHidden(true)
-      if (currentProject - 1 >= 0) setCurrentProject(currentProject - 1)
+      // if (currentProject - 1 >= 0) setCurrentProject(currentProject - 1)
+      setCurrentProject((current) => (current - 1 >= 0 ? current - 1 : current))
     }
-  }, [scrollPosition, currentProject, isHidden])
+  }, [scrollPosition, isHidden])
 
   return (
     <section className={styles.overlay}>
