@@ -2,8 +2,7 @@
   display: inline-block;
   padding: 10px 40px;
   color: white;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  height: 49px;
   border-radius: 6px;
   background-color: var(--col-primary);
   border: 2px solid var(--col-primary);
@@ -11,8 +10,12 @@
   transition-timing-function: var(--smoothing);
   position: relative;
 }
+.button.margins {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
 .button::after {
-	z-index: -1;
+  z-index: -1;
   content: "";
   position: absolute;
   top: 0;

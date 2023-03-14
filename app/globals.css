@@ -113,3 +113,6 @@ p {
   color: var(--col-black);
   padding: 20px;
 }
+.mega-link.no-padding {
+  padding: 0;
+}

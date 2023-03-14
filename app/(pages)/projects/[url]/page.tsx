@@ -50,6 +50,7 @@ export default function Project({ params }: ProjectParams) {
             />
             View all projects
           </Link>
+
           <Link className={`${styles["back-btn"]} icon-btn secondary`} href="/">
             <Image
               src="/back-icon.svg"
@@ -57,7 +58,7 @@ export default function Project({ params }: ProjectParams) {
               height="24"
               width="24"
             />
-            Go home
+            Or Go home
           </Link>
           <ProjectWorld>{project.displayFile()}</ProjectWorld>
           <h1>{project.title}</h1>

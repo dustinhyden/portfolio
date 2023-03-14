@@ -4,6 +4,8 @@ import config from "../scrollConfig"
 import data from "../data"
 import { useEffect, useState } from "react"
 import useScrollPosition from "../hooks/useScrollPosition"
+import Link from "next/link"
+import JumboButton from "./JumboButton"
 
 export default function WorldOverlay() {
   const [currentProject, setCurrentProject] = useState(0)
@@ -63,6 +65,18 @@ export default function WorldOverlay() {
 
           <div className={styles["sidebar-container"]}>
             {item.sidebarWidget && item.sidebarWidget()}
+            {item.content && (
+              <Link href={item.href} className="mega-link no-padding">
+                Explore the project
+              </Link>
+            )}
+            {/* {item.content && (
+              <JumboButton
+                text="Explore the project"
+                href={item.href}
+                margins={false}
+              />
+            )} */}
           </div>
         </section>
       </div>

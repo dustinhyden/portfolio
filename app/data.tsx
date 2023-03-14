@@ -37,7 +37,8 @@ const data: ProjectType[] = [
   {
     title: "Example Project",
     description: "Meta description here example.",
-    subtitle: "Helping bee do",
+    subtitle:
+      "Straightline Construction was founded in 2003, and since then has grown to a crew of nearly a dozen talented and skilled tradesmen. After renovating countless homes, they realized that their website was in dire need of a refresh.",
     displayFile: (index = 0) => {
       return <Example index={index} key={index} />
     },
@@ -351,19 +352,7 @@ const data: ProjectType[] = [
       src: "/images/bohemia-barrie.jpg",
       alt: "Man making coffee",
     },
-    content: () => {
-      return (
-        <div>
-          <h3>Background</h3>
-          <p>
-            Straightline Construction was founded in 2003, and since then has
-            grown to a crew of nearly a dozen talented and skilled tradesmen.
-            After renovating countless homes, they realized that their website
-            was in dire need of a refresh.
-          </p>
-        </div>
-      )
-    },
+    content: null,
   },
 ]
 export default data
