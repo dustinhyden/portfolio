@@ -23,11 +23,7 @@
 }
 html,
 body {
-  /* scroll-behavior: smooth; */
   cursor: crosshair;
-}
-html,
-body {
   max-width: 100vw;
   overflow-x: hidden;
   font-family: var(--font-primary);
@@ -60,9 +56,6 @@ a {
 }
 .icon-btn.secondary {
   padding-top: 5px;
-}
-.icon-btn.secondary img {
-  /* filter: brightness(0); */
 }
 /* typography */
 h1,

@@ -47,7 +47,7 @@ export default function Character(
         actions[activeAnim]?.fadeOut(0.15)
       }
     }
-  }, [activeAnim])
+  }, [actions, activeAnim])
 
   // When click animation ends, go back to idle
   useEffect(() => {
@@ -58,7 +58,7 @@ export default function Character(
         clearTimeout(switchOnFinish)
       }
     }
-  }, [activeAnim])
+  }, [actions, activeAnim])
 
   // Switch animations based on scroll
   useEffect(() => {
@@ -82,7 +82,7 @@ export default function Character(
     return () => {
       clearTimeout(minAnimationDuration)
     }
-  }, [scrollDirection])
+  }, [scrollDirection, actions, activeAnim, props.dontAnimateOnScroll])
 
   const handleClick = () => {
     setActiveAnim("Clicked")

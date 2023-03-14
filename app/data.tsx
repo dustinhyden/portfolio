@@ -346,7 +346,7 @@ const data: ProjectType[] = [
     displayFile: (index = 0) => {
       return <Example index={index} key={index} />
     },
-    href: "/projects/examp1le1313",
+    href: "/contact",
     image: {
       src: "/images/bohemia-barrie.jpg",
       alt: "Man making coffee",

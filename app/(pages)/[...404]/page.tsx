@@ -1,8 +1,9 @@
-import styles from "./page.module.css"
-import ErrorWorld from "./World"
-import Link from "next/link"
 import Content from "@/app/components/Content"
 import Line from "@/app/components/Line"
+import Link from "next/link"
+
+import styles from "./page.module.css"
+import ErrorWorld from "./World"
 
 export default function NotFound() {
   return (
@@ -13,7 +14,7 @@ export default function NotFound() {
           <Line />
           <h1>404</h1>
           <p className="center">
-            The page you're looking for has been moved or doesn't exist.
+            The page you&apos;re looking for has been moved or doesn&apos;t exist.
           </p>
           <Link href="/" className="mega-link">
             Go Home

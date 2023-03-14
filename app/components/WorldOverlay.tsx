@@ -11,14 +11,17 @@ export default function WorldOverlay() {
   const scrollPosition = useScrollPosition()
   const [isHidden, setIsHidden] = useState(true)
 
-  const pixelsPerProject = config.pixelsPerProject()
   const item = data[lastShown]
-  const showAt =
-    pixelsPerProject * currentProject + pixelsPerProject * -config.showHideDepth
-  const hideAt =
-    pixelsPerProject * currentProject + pixelsPerProject * config.showHideDepth
 
   useEffect(() => {
+    const pixelsPerProject = config.pixelsPerProject()
+    const showAt =
+      pixelsPerProject * currentProject +
+      pixelsPerProject * -config.showHideDepth
+    const hideAt =
+      pixelsPerProject * currentProject +
+      pixelsPerProject * config.showHideDepth
+
     if (scrollPosition >= hideAt) {
       if (!isHidden) setIsHidden(true)
       if (currentProject + 1 < data.length)
@@ -32,7 +35,7 @@ export default function WorldOverlay() {
       if (!isHidden) setIsHidden(true)
       if (currentProject - 1 >= 0) setCurrentProject(currentProject - 1)
     }
-  }, [scrollPosition])
+  }, [scrollPosition, currentProject, isHidden])
 
   return (
     <section className={styles.overlay}>
@@ -63,7 +66,3 @@ export default function WorldOverlay() {
     </section>
   )
 }
-
-// get all the projects data
-// determine scroll position to decide what project to show
-// useeffect to dynamically add or remove a class whenever our project changes
