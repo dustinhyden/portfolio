@@ -55,6 +55,7 @@
     border-bottom: none;
     justify-content: flex-start;
     align-items: flex-start;
+    margin: 0 auto;
   }
   .columns > div {
     border-top: 1px solid var(--col-black);
