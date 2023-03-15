@@ -88,7 +88,7 @@ export default function Navbar() {
           </div>
         </div>
       </section>
-      <div className={styles.blur}></div>
+      {/* <div className={styles.blur}></div> */}
     </>
   )
 }

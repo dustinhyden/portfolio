@@ -22,6 +22,7 @@ export default function Hover({ children, ...props }) {
       onPointerOut={(event) =>
         threeMouse != false ? setThreeMouse(false) : null
       }
+      onClick={() => (threeMouse != false ? setThreeMouse(false) : null)}
     >
       {children}
     </mesh>

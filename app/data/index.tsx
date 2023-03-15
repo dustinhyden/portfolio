@@ -1,10 +1,10 @@
 import home from "./home"
 import contact from "./contact"
 import exampleProject from "./exampleProject"
+import dmsData from "./projects/dms"
 
 export type ProjectType = {
   title: string
-  description?: string
   displayFile: (index?: number) => React.ReactNode
   subtitle: string
   hideSubtitleOnMobile?: boolean
@@ -20,5 +20,5 @@ export type ProjectType = {
   externalLink?: string
   content: () => React.ReactNode
 }
-const data: ProjectType[] = [home, exampleProject, contact]
+const data: ProjectType[] = [home, exampleProject, dmsData, contact]
 export default data

@@ -25,7 +25,7 @@ export async function generateMetadata({ params }: ProjectParams) {
   }
   return {
     title: project.title + " | Dustin Hyden",
-    description: project.description,
+    description: project.subtitle,
   }
 }
 
@@ -74,19 +74,21 @@ export default function Project({ params }: ProjectParams) {
             <p>
               <span>Work:</span> <span>{project.work.join(" • ")}</span>
             </p>
-            <Link
-              className="icon-btn"
-              href={project.externalLink}
-              target="_blank"
-            >
-              <Image
-                src="/external-link.svg"
-                alt="External link button"
-                height="16"
-                width="16"
-              />
-              View Site
-            </Link>
+            {project.externalLink && (
+              <Link
+                className="icon-btn"
+                href={project.externalLink}
+                target="_blank"
+              >
+                <Image
+                  src="/external-link.svg"
+                  alt="External link button"
+                  height="16"
+                  width="16"
+                />
+                View Site
+              </Link>
+            )}
           </section>
         </aside>
         <section className={styles.content}>
