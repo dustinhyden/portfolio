@@ -44,13 +44,17 @@
   color: var(--col-text);
   text-decoration: none;
   font-weight: 700;
+  transition: 0.65s;
 }
 .menu-link {
   color: black;
 }
-.menu-link:hover {
-  /* color: var(--col-primary); */
+
+.active {
+  text-decoration: underline dotted var(--col-primary);
+  text-decoration-thickness: 3px;
 }
+
 .blur {
   position: fixed;
   z-index: 2;

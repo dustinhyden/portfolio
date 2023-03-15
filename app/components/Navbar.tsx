@@ -3,10 +3,12 @@ import Link from "next/link"
 import styles from "./Navbar.module.css"
 import Image from "next/image"
 import { useEffect, useState } from "react"
+import { usePathname } from "next/navigation"
 
 export default function Navbar() {
   const [expanded, setExpanded] = useState(false)
-
+  const pathname = usePathname()
+  console.log(pathname)
   const handleClick = () => {
     setExpanded(!expanded)
   }
@@ -40,16 +42,36 @@ export default function Navbar() {
           onClick={handleClick}
         >
           <nav className={`${styles["menu-items"]}`}>
-            <Link className={styles["menu-link"]} href="/">
+            <Link
+              className={`${styles["menu-link"]} ${
+                pathname === "/" ? styles.active : ""
+              }`}
+              href="/"
+            >
               Home
             </Link>
-            <Link className={styles["menu-link"]} href="/about">
+            <Link
+              className={`${styles["menu-link"]} ${
+                pathname === "/about" ? styles.active : ""
+              }`}
+              href="/about"
+            >
               About
             </Link>
-            <Link className={styles["menu-link"]} href="/projects">
+            <Link
+              className={`${styles["menu-link"]} ${
+                pathname === "/projects" ? styles.active : ""
+              }`}
+              href="/projects"
+            >
               Projects
             </Link>
-            <Link className={styles["menu-link"]} href="/contact">
+            <Link
+              className={`${styles["menu-link"]} ${
+                pathname === "/contact" ? styles.active : ""
+              }`}
+              href="/contact"
+            >
               Contact
             </Link>
           </nav>

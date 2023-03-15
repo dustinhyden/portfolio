@@ -54,6 +54,7 @@ const data: ProjectType[] = [
     content: () => {
       return (
         <div>
+          <h2 className="h1">Shortest line from start to finish</h2>
           <h3>Background</h3>
           <p>
             Straightline Construction was founded in 2003, and since then has

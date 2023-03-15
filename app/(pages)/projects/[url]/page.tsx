@@ -96,7 +96,6 @@ export default function Project({ params }: ProjectParams) {
             width="300"
             height="300"
           />
-          <h2 className="h1">{project.subtitle}</h2>
           {project?.content()}
         </section>
       </div>

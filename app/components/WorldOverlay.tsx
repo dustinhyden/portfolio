@@ -25,7 +25,8 @@ export default function WorldOverlay() {
       pixelsPerProject * config.showHideDepth
 
     if (scrollPosition >= hideAt) {
-      if (!isHidden) setIsHidden(true)
+      // if (!isHidden) setIsHidden(true)
+      setIsHidden((current) => (current ? false : current))
       // if (currentProject + 1 < data.length)
       setCurrentProject((current) =>
         current + 1 < data.length ? current + 1 : current
@@ -33,14 +34,15 @@ export default function WorldOverlay() {
     }
     if (scrollPosition >= showAt && scrollPosition < hideAt) {
       setLastShown(currentProject)
-      if (isHidden) setIsHidden(false)
+      // if (isHidden) setIsHidden(false)
+      setIsHidden((current) => (current ? false : current))
     }
     if (scrollPosition < showAt) {
       if (!isHidden) setIsHidden(true)
       // if (currentProject - 1 >= 0) setCurrentProject(currentProject - 1)
       setCurrentProject((current) => (current - 1 >= 0 ? current - 1 : current))
     }
-  }, [scrollPosition, isHidden])
+  }, [scrollPosition])
 
   return (
     <section className={styles.overlay}>
