@@ -1,5 +1,5 @@
 .mouse {
-  --size: 10px;
+  --size: 11px;
   display: none;
   position: fixed;
   pointer-events: none;
@@ -19,7 +19,7 @@
   transition-timing-function: var(--smoothing);
 }
 .mouse.hovering {
-  --size: 90px;
+  --size: 91px;
   background-color: rgba(0, 0, 0, 0.1);
 }
 @media only screen and (min-width: 768px) {
