@@ -35,22 +35,24 @@ export default function About() {
         <div className="block">
           <h3>Clients & Projects</h3>
           <p>
-            Over the past several year, I&apos;ve had the pleasure of working
-            with many businesses to improve SEO, site performance overall UX/UI.
-            Here&apos;s a few clients I&apos;ve worked with:
+            Over the past several year, I&apos;ve had the pleasure of developing
+            custom solutions with numerous businesses to improve SEO, site
+            performance, and overall UX/UI. Here&apos;s a few clients I&apos;ve
+            worked with:
           </p>
           <ImageGrid
             images={[
-              { src: "/hyden-logo.svg", alt: "Logo" },
-              { src: "/hyden-logo.svg", alt: "Logo" },
-              { src: "/hyden-logo.svg", alt: "Logo" },
-              { src: "/hyden-logo.svg", alt: "Logo" },
-              { src: "/hyden-logo.svg", alt: "Logo" },
-              { src: "/hyden-logo.svg", alt: "Logo" },
-              { src: "/hyden-logo.svg", alt: "Logo" },
-              { src: "/hyden-logo.svg", alt: "Logo" },
-              { src: "/hyden-logo.svg", alt: "Logo" },
-              { src: "/hyden-logo.svg", alt: "Logo" },
+              { src: "/images/logo-livebarrie@2x.png", alt: "LiveBarrie logo" },
+              {
+                src: "/images/logo-bee@2x.png",
+                alt: "Bee by the sea logo",
+              },
+              {
+                src: "/images/logo-mft@2x.png",
+                alt: "Midland Food Tours logo",
+              },
+              { src: "/images/logo-swirleez@2x.png", alt: "Swirleez logo" },
+              { src: "/images/logo-manor12@2x.png", alt: "Manor12 logo" },
             ]}
           />
         </div>

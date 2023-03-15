@@ -10,12 +10,7 @@ export default function ImageGrid({
       {images.length > 0 &&
         images.map((image, i) => (
           <div key={i} className={styles["image-container"]}>
-            <Image
-              alt={image.alt}
-              src={image.src}
-              width="64"
-              height="64"
-            />
+            <Image alt={image.alt} src={image.src} width="300" height="300" />
           </div>
         ))}
     </section>

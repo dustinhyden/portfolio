@@ -51,8 +51,8 @@
 }
 
 .active {
-  text-decoration: underline dotted var(--col-primary);
-  text-decoration-thickness: 3px;
+  text-decoration: underline solid var(--col-primary);
+  text-decoration-thickness: 1px;
 }
 
 .blur {
