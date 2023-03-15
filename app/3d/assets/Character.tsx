@@ -18,13 +18,14 @@ type GLTFResult = GLTF & {
   animations: GLTFActions[]
 }
 
-type ActionName = "Clicked" | "Idle" | "Pull" | "Run"
+type ActionName = "Clicked" | "Idle" | "Pull" | "KnockedOut" | "Run"
 
 interface GLTFActions extends THREE.AnimationClip {
   name: ActionName
 }
 interface CharacterProps {
   dontAnimateOnScroll?: boolean
+  forcedState?: ActionName
 }
 export default function Character(
   props: JSX.IntrinsicElements["group"] & CharacterProps
@@ -51,6 +52,7 @@ export default function Character(
 
   // When click animation ends, go back to idle
   useEffect(() => {
+    if (props.forcedState) return
     if (!actions[activeAnim]) return
     if (activeAnim == "Clicked") {
       let switchOnFinish = setTimeout(() => setActiveAnim("Idle"), 450)
@@ -62,6 +64,7 @@ export default function Character(
 
   // Switch animations based on scroll
   useEffect(() => {
+    console.log("we here")
     if (!actions[activeAnim]) return
     if (props.dontAnimateOnScroll) return
     let minAnimationDuration = setTimeout(() => {}, 1000)
@@ -83,6 +86,11 @@ export default function Character(
       clearTimeout(minAnimationDuration)
     }
   }, [scrollDirection, actions, activeAnim, props.dontAnimateOnScroll])
+
+  // attempt to force an animation
+  useEffect(() => {
+    if (props.forcedState) setActiveAnim(props.forcedState)
+  }, [])
 
   const handleClick = () => {
     setActiveAnim("Clicked")

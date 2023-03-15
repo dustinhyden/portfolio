@@ -117,3 +117,21 @@ p {
 .mega-link.no-padding {
   padding: 0;
 }
+
+/* canvas */
+canvas {
+  opacity: 0;
+  animation: FadeInCanvas 2.2s forwards;
+  animation-timing-function: var(--smoothing);
+}
+@keyframes FadeInCanvas {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

@@ -36,7 +36,7 @@ export default function ErrorWorld() {
           />
 
           <Stage adjustCamera={false} preset="rembrandt" environment="city">
-            <Character />
+            <Character forcedState="KnockedOut" dontAnimateOnScroll={true} />
           </Stage>
 
           <Grid
