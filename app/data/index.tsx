@@ -1,8 +1,9 @@
 import contact from "./contact"
-import exampleProject from "./exampleProject"
 import home from "./home"
 import bohemiaData from "./projects/bohemia"
 import dmsData from "./projects/dms"
+import manorData from "./projects/manor12"
+import swirleezData from "./projects/swirleez"
 
 export type ProjectType = {
   title: string
@@ -21,5 +22,12 @@ export type ProjectType = {
   externalLink?: string
   content: () => React.ReactNode
 }
-const data: ProjectType[] = [home, exampleProject, bohemiaData, dmsData, contact]
+const data: ProjectType[] = [
+  home,
+  manorData,
+  swirleezData,
+  bohemiaData,
+  dmsData,
+  contact,
+]
 export default data

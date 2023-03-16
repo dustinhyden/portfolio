@@ -27,21 +27,27 @@ const bohemiaData: ProjectType = {
         <h2 className="h1">Beautiful setting, amazing coffee, great food ☕</h2>
         <h3>Background</h3>
         <p>
-          <a href="https://www.bohemiabarrie.com/">Bohemia Barrie</a> is a very
-          well known coffee shop situated at the heart of Barrie’s downtown.
-          Their interior is as unique as it gets, and without a doubt one of the
-          nicest gems in the city. From the gorgeous tree branch railing, to the
-          black and white checkerboard tiles, Bohemia has created a very unique
-          aesthetic that just makes you want to stay longer and longer.
+          <a href="https://www.bohemiabarrie.com/" target="_blank">
+            Bohemia Barrie
+          </a>{" "}
+          is a very well known coffee shop situated at the heart of Barrie’s
+          downtown. Their interior is as unique as it gets, and without a doubt
+          one of the nicest gems in the city. From the gorgeous tree branch
+          railing, to the black and white checkerboard tiles, Bohemia has
+          created a very unique aesthetic that just makes you want to stay
+          longer and longer.
         </p>
         <h3>Project</h3>
         <p>
           When the{" "}
           <Link href="/projects/digital-main-street">Digital Main Street</Link>{" "}
           program began, one of our initial clients that we worked with was{" "}
-          <a href="https://www.bohemiabarrie.com/">Bohemia Barrie</a>. Bohemia
-          was plagued with a website with several broken links, pages that did
-          not load, and a platform to edit content that was not user-friendly.
+          <a href="https://www.bohemiabarrie.com/" target="_blank">
+            Bohemia Barrie
+          </a>
+          . Bohemia was plagued with a website with several broken links, pages
+          that did not load, and a platform to edit content that was not
+          user-friendly.
         </p>
         <p>
           Bohemia was also looking for an option to sell their product offering
@@ -66,8 +72,10 @@ const bohemiaData: ProjectType = {
         </p>
         <p>
           Ultimately, we settled on using{" "}
-          <a href="http://squarespace.com/">Squarespace</a>, and this is our
-          journey.
+          <a href="http://squarespace.com/" target="_blank">
+            Squarespace
+          </a>
+          , and this is our journey.
         </p>
         <h3>Having a website is half the battle</h3>
         <p>
@@ -87,7 +95,6 @@ const bohemiaData: ProjectType = {
           width={1000}
           height={800}
           alt="Bohemia's new contact page"
-          about="Hello"
         />
         <h2 className="h1">Outcomes</h2>
         <h3>The obvious outcome: a new website!</h3>

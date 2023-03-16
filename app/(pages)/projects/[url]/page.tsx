@@ -1,12 +1,12 @@
-import { redirect } from "next/navigation"
-import Link from "next/link"
-import Image from "next/image"
-import styles from "./page.module.css"
-
 import Content from "@/app/components/Content"
-import data from "@/app/data"
-import ProjectWorld from "./World"
 import ProjectPagination from "@/app/components/ProjectPagination"
+import data from "@/app/data"
+import Image from "next/image"
+import Link from "next/link"
+import { redirect } from "next/navigation"
+
+import styles from "./page.module.css"
+import ProjectWorld from "./World"
 
 type ProjectParams = {
   params: {
@@ -95,8 +95,8 @@ export default function Project({ params }: ProjectParams) {
           <Image
             src={project.image.src}
             alt={project.image.alt}
-            width="300"
-            height="300"
+            width="1000"
+            height="800"
           />
           {project?.content()}
         </section>

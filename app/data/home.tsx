@@ -8,7 +8,7 @@ const homeData: ProjectType = {
     "Specializing in React and NextJS, with extensive experience using WordPress",
   hideSubtitleOnMobile: true,
   sidebarWidget: () => <HomepageSidebar />,
-  href: "/projects//",
+  href: "/",
   image: {
     src: "/images/bohemia-barrie.jpg",
     alt: "Man making coffee",
