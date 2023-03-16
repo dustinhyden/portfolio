@@ -23,7 +23,8 @@
   margin-top: 25px;
   margin-bottom: 25px;
 }
-.content img {
+.content img,
+.content video {
   width: 100%;
   height: 300px;
   margin-top: 20px;
@@ -94,13 +95,19 @@
     max-width: 1000px;
     margin: 70px auto;
   }
-  .content img {
+  .content img,
+  .content video {
     height: 450px;
+    margin-top: 40px;
   }
-  .content div img {
+  .content div img,
+  .content div video {
     height: auto;
   }
   .content h2 {
+    margin-top: 40px;
+  }
+  .content h3 {
     margin-top: 40px;
   }
 }
