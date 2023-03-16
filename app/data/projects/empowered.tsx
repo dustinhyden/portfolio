@@ -8,7 +8,7 @@ import Example from "../../3d/projects/Example"
 const empoweredData: ProjectType = {
   title: "Empowered",
   subtitle:
-    "See how I custom developed an e-commerce enabled website for a small town cosmetics shop in Midland, Ontario.",
+    "See how I custom developed an ecommerce enabled website for a small town cosmetics shop in Midland, Ontario.",
   displayFile: (index = 0) => {
     return <Example index={index} key={index} />
   },
@@ -78,7 +78,7 @@ const empoweredData: ProjectType = {
         </p>
         <Video src="/videos/empowered-split.mp4" />
         <h2 className="h1">More features</h2>
-        <h3>E-commerce solution</h3>
+        <h3>Ecommerce solution</h3>
         <p>
           Empowered wanted the ability to sell products online, and to be able
           to use their store as a one-stop-shop for her business. To accomplish
