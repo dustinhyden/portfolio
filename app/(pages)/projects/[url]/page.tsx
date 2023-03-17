@@ -60,7 +60,9 @@ export default function Project({ params }: ProjectParams) {
             />
             Or Go home
           </Link>
-          <ProjectWorld>{project.displayFile()}</ProjectWorld>
+          {project.displayFile() != null && (
+            <ProjectWorld>{project.displayFile()}</ProjectWorld>
+          )}
           <h1>{project.title}</h1>
           <section className={styles.details}>
             <h3>Project Details</h3>

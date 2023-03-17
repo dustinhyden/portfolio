@@ -1,9 +1,12 @@
 import contact from "./contact"
 import home from "./home"
+import altaData from "./projects/alta-lake-electric"
+import beeData from "./projects/bee-by-the-sea"
 import bohemiaData from "./projects/bohemia"
 import dmsData from "./projects/digital-main-street"
 import empoweredData from "./projects/empowered"
 import manorData from "./projects/manor12"
+import onTheMendData from "./projects/on-the-mend-therapy"
 import sunielaData from "./projects/suniela-beach"
 import swirleezData from "./projects/swirleez"
 
@@ -27,6 +30,9 @@ export type ProjectType = {
 }
 const data: ProjectType[] = [
   home,
+  beeData,
+  altaData,
+  onTheMendData,
   sunielaData,
   empoweredData,
   manorData,
