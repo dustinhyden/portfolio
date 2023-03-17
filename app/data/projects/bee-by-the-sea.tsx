@@ -5,8 +5,8 @@ import Image from "next/image"
 import { ProjectType } from ".."
 
 const beeData: ProjectType = {
-  title: "Alta Lake Electric",
-  featured: false,
+  title: "Bee By The Sea",
+  featured: true,
   subtitle:
     "Check out how I turned Bee By The Sea's website into one of the easiest to navigate ecommerce stores (they have 200+ products).",
   displayFile: (index = 0) => {
