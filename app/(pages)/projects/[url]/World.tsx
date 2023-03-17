@@ -8,7 +8,7 @@ import styles from "./World.module.css"
 export default function ProjectWorld({ children }) {
   return (
     <div className={styles.wrapper}>
-      <Canvas>
+      <Canvas className={styles.canvas}>
         <PerspectiveCamera position={[0, 0, 0]} far={50} fov={75} />
         <ambientLight intensity={0.7} />
         <spotLight

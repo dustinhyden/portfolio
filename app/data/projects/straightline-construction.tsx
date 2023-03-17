@@ -6,7 +6,7 @@ import Link from "next/link"
 import { ProjectType } from ".."
 
 const straightlineData: ProjectType = {
-  title: "Midland Food Tours",
+  title: "Straightline Construction",
   featured: true,
   subtitle:
     "Not all websites need to scroll vertically, sometimes it's fun to have the site scroll horizontally.",
@@ -39,7 +39,7 @@ const straightlineData: ProjectType = {
         </p>
         <h3>Project</h3>
         <p>
-          Straightline came to us after having seen our work with{" "}
+          Straightline came to me after having seen mine work with{" "}
           <Link href="/projects/manor12">MANOR12</Link> (who could blame them,
           am I right?). They wanted a very simple website to display their work,
           and to clearly illustrate what it is that they do. This is that story.
@@ -47,15 +47,15 @@ const straightlineData: ProjectType = {
         <Video src="/videos/straightline-homepage.mp4" />
         <h3>Horizontal scrolling</h3>
         <p>
-          Most websites scroll vertically, but we wanted to play on their name,
-          more specifically the horizontal line in their logo. Thus, we custom
+          Most websites scroll vertically, but I wanted to play on their name,
+          more specifically the horizontal line in their logo. Thus, I custom
           coded a solution that would allow for the page to scroll horizontally
           instead of vertically.
         </p>
         <h3>Big, bold, and in your face</h3>
         <p>
           Straightline is all about having a very direct and in your face
-          attitude. To help portray this we used oversized text, with a lot of
+          attitude. To help portray this I used oversized text, with a lot of
           white space, to really emphasize what it is about Straightline that
           their clients can expect from them.
         </p>
@@ -68,19 +68,19 @@ const straightlineData: ProjectType = {
         <h3>Did someone say a gallery?</h3>
         <p>
           To make Straightline’s photography stand out they wanted a clear and
-          concise gallery. We took this one step further. We took their photos
-          and showed them at very unusual dimensions. By turning their photos
-          into drastically horizontal photos, viewer’s eyes can’t help but start
-          from left and scan to the right, as they scroll, creating a very
-          harmonious pairing, and an oddly satisfying experience.
+          concise gallery. I took this one step further. I took their photos and
+          showed them at very unusual dimensions. By turning their photos into
+          drastically horizontal photos, viewer’s eyes can’t help but start from
+          left and scan to the right, as they scroll, creating a very harmonious
+          pairing, and an oddly satisfying experience.
         </p>
         <Video src="/videos/straightline-gallery.mp4" />
 
         <h2 className="h1">Final comments</h2>
         <h3>Results</h3>
         <p>
-          As always, there are so many more features we could talk about. Give
-          us a call one day if you want to hear more about the project, or if
+          As always, there are so many more features I could talk about. Give me
+          a call one day if you want to hear more about the project, or if
           you’re looking for a website of the same calibre.
         </p>
         <h3>Could you be next?</h3>

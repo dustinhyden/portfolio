@@ -29,9 +29,11 @@ const altaData: ProjectType = {
         <p>
           Alta provides services for the residential, commercial, and industrial
           industries. All three industries result in vastly different Google
-          searches. Therefore, we knew in order to help with SEO that we should
-          break each service into its own dedicated page. That way, each page
-          has a higher chance of ranking for its specific keywords.
+          searches. Therefore, in order to help with Alta's SEO I create a
+          separate page for each service. This allows Google to find their
+          specific content easier, and allows our pages to be more specific in
+          which keywords to focus on. Ultimately allowing each page to have a
+          higher probability of ranking for its specific keywords.
         </p>
         <Image
           src="/images/alta-services.jpg"
@@ -40,9 +42,9 @@ const altaData: ProjectType = {
           alt="Showcasing the three primary services of alta lake."
         />
         <p>
-          On every page, we wanted to draw attention to the different industries
-          that Alta services. Therefore, we created a repeating design element
-          to tie the pages together.
+          On every page, I wanted to draw attention to the different industries
+          that Alta services. Therefore, I created a repeating design element to
+          tie the pages together.
         </p>
         <Image
           src="/images/alta-outside.jpg"
@@ -55,7 +57,7 @@ const altaData: ProjectType = {
           Alta has a leadership role within their community. Thus, the website
           needed to be presented in a more educational manner to reflect this
           leadership role. The various service pages are great examples of this.
-          We laid out the design to appear as if it’s a resource, or a wiki
+          I laid out the design to appear as if it’s a resource, or a wiki
           article. This helps connect the legitimacy of Alta’s work with the
           quality they provide.
         </p>
@@ -63,18 +65,9 @@ const altaData: ProjectType = {
         <h2 className="h1">Final comments</h2>
         <h3>Positioning</h3>
         <p>
-          We take the time to learn your company’s unique position within the
-          market and create designs that reflect it. We would have not done Alta
-          justice if we designed their website in any other manner.
-        </p>
-        <h3>Industries</h3>
-        <p>
-          You might have noticed our site showcases a whole variety of websites,
-          across a very wide spectrum of industries. This is because we’re
-          designers. We love what we do, and we can design for anything. We
-          enjoy having to use our brains to figure out unique ways to present
-          information. If you want an out of the box approach to your website,
-          let us know.
+          As part of my design process, I take the time to learn about each
+          client's unique position within the market and create designs that
+          reflect it.
         </p>
       </div>
     )

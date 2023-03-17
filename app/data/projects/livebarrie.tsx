@@ -34,19 +34,18 @@ const liveBarrieData: ProjectType = {
           <a href="https://www.jeriroberts.com/" target="_blank">
             LiveBarrie
           </a>{" "}
-          is a new live entertainment company located in Barrie, Ontario. We
-          were tasked with helping determine the brand strategy and creating the
+          is a new live entertainment company located in Barrie, Ontario. I was
+          tasked with helping determine the brand strategy and creating the
           visual identity of the brand.
         </p>
         <h3>Project</h3>
         <p>
-          Following our process, we started with a discovery session, determined
-          their competitors, and found a niche for LiveBarrie to focus on: big,
-          bold, and trustworthy.{" "}
+          Following my standard process, I started with a discovery session,
+          determined their competitors, and found a niche for LiveBarrie to
+          focus on: big, bold, and trustworthy.{" "}
           <a href="/docs/LiveBarrie-Brand-Identity.pdf" target="_blank">
-            View the full style guide here
-          </a>{" "}
-          .
+            View the full style guide here.
+          </a>
         </p>
         <Image
           src="/images/LiveBarrie-logo-black.jpg"
@@ -54,12 +53,11 @@ const liveBarrieData: ProjectType = {
           height={800}
           alt="LiveBarrie logo"
         />
-
         <h3>Logo variations</h3>
         <p>
-          We knew right away that LiveBarrie’s logo will need a few variations.
+          I knew right away that LiveBarrie’s logo will need a few variations.
           Many of LiveBarrie’s promotional materials are very tall and narrow
-          (such as a poster). Thus we designed a logo specifically for this use
+          (such as a poster). Thus, I designed a logo specifically for this use
           case.
         </p>
         <Image
@@ -70,7 +68,7 @@ const liveBarrieData: ProjectType = {
         />
         <h3>Brand colours</h3>
         <p>
-          Since LiveBarrie’s branding will appear alongside various acts, we
+          Since LiveBarrie’s branding will appear alongside various acts, I
           needed to choose colours that can can compliment a wide variety of
           colour palettes.
         </p>
@@ -81,6 +79,7 @@ const liveBarrieData: ProjectType = {
           alt="LiveBarrie brand colours"
         />
         <h2 className="h1">Stationary</h2>
+        <p>Take a look at some of the stationary items below.</p>
         <Image
           src="/images/LiveBarrie-business-card.jpg"
           width={1000}
@@ -116,9 +115,9 @@ const liveBarrieData: ProjectType = {
         </p>
         <h3>The future</h3>
         <p>
-          Our relationship with LiveBarrie continues to progress. Our next
-          project is working on a website that allows them to showcase their
-          upcoming events.
+          Our relationship with LiveBarrie continues to progress. We have since
+          worked together to develop their website and I now design all of their
+          posters/promotional material for their events.
         </p>
       </div>
     )

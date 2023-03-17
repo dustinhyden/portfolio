@@ -31,7 +31,7 @@ const sunielaData: ProjectType = {
         <p>
           Suniela’s portable cabanas all have one thing in common, they are half
           circles. Their shape is very distinguishable and helps them stand out.
-          To create a visual identity that matched this, we made the majority of
+          To create a visual identity that matched this, I made the majority of
           the site incorporate these arches. In fact, all the angles used come
           straight from their logo, this helped to make the site match the rest
           of Suniela’s incredible branding.
@@ -41,8 +41,8 @@ const sunielaData: ProjectType = {
           Suniela stressed the importance of creating a colorful and vibrant
           website that stayed away from palm tree clip art. Most competitors
           immediately use palm trees as a part of branding, as it’s “easy” to
-          do. Instead, we focused on more abstract shapes, that match the arch
-          of the product.
+          do. Instead, I focused on more abstract shapes, that match the arch of
+          the product.
         </p>
         <h3>Quick view</h3>
         <p>
@@ -55,8 +55,8 @@ const sunielaData: ProjectType = {
         <h3>Simple dropdowns.</h3>
         <p>
           Suniela products require a lot of information to explain the benefits
-          and differentiating factors. To help make this easier, we implemented
-          a very minimal dropdown system to sort the more generic information.
+          and differentiating factors. To help make this easier, I implemented a
+          very minimal dropdown system to sort the more generic information.
         </p>
         <Video src="/videos/suniela-dropdowns.mp4" />
         <Image
@@ -70,9 +70,9 @@ const sunielaData: ProjectType = {
         <p>
           Suniela can now customize each product page to be entirely unique,
           with an endless amount of customization options, but that doesn’t even
-          begin to cover all the unique features we packed in this project. If
-          you like what you see and you want us to help with your next website
-          let us know and we can discuss even more of the features we built into
+          begin to cover all the unique features I packed in this project. If
+          you like what you see and you want me to help with your next website
+          let me know and I can discuss even more of the features I built into
           this project.
         </p>
       </div>

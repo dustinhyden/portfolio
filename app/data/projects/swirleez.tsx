@@ -40,13 +40,13 @@ const swirleezData: ProjectType = {
         </p>
         <h3>Project</h3>
         <p>
-          The chance to work with Swirleez was an opportunity that we could not
-          give up. We loved the idea of working with them so much so that we
+          The chance to work with Swirleez was an opportunity that I could not
+          give up. I loved the idea of working with them so much so that I
           actually approached them. Our strategy was a simple one. Create a
           fully custom WordPress website for Swirleez so that they have a
-          website unique to them. We wanted the site to be fun and exciting,
-          something special and unlike any other site we’ve seen. This is that
-          process.
+          website unique to them. I wanted the site to be fun and exciting,
+          something special and unlike any other site a user has seen before.
+          This is that process.
         </p>
         <Video src="/videos/swirleez-homepage.mp4" />
         <h3>A physics engine</h3>
@@ -54,8 +54,8 @@ const swirleezData: ProjectType = {
           When a user scrolls through the Swirleez website, they will quickly
           notice that the foam-like circles on the page are interacting with the
           user. Based on the velocity the user scrolls through the page, the
-          circles will move accordingly. To take this even further, we coded the
-          circles to be aware of each other! This meant we could track
+          circles will move accordingly. To take this even further, I coded the
+          circles to be aware of each other! This meant I could track
           collisions. This effect creates a buttery-smooth animation, and makes
           it quite addicting to just scroll up and down and watch the circles
           interact.
@@ -64,16 +64,16 @@ const swirleezData: ProjectType = {
         <p>
           Each menu item has a lot of ingredients and price points, but what
           sells a product is how it looks. Customers need to see the food to get
-          that itch, that craving, that desire to go and get one. We decided to
+          that itch, that craving, that desire to go and get one. I decided to
           make a separate page for each menu category. Below is an example of
           the Waffles category. From here, you are greeted with a gorgeous
           oversized photo of the product to really wet your appetite.
         </p>
         <p>
-          At the end of the page we give the user the ability to view the next
-          product category for easy navigation. Finally, we continued to make
-          the website unique by utilizing the physics engine to render the
-          circles just before the footer.
+          At the end of the page I give the user the ability to view the next
+          product category for easy navigation. Finally, I continued to make the
+          website unique by utilizing the physics engine to render the circles
+          just before the footer.
         </p>
         <Image
           src="/images/strawberry-swaffle.jpg"
@@ -83,7 +83,7 @@ const swirleezData: ProjectType = {
         />
         <p>
           To unify the design further and to continue with the usage of spheres,
-          we made the menu flyout as a sphere.
+          I made the menu flyout as a sphere.
         </p>
         <Image
           src="/images/swirleez-menu-animated-small.gif"
@@ -95,12 +95,12 @@ const swirleezData: ProjectType = {
         <h3>Fun, visual experience</h3>
         <p>
           When a user goes to the site, they quickly see the visual effects in
-          action. We optimized the code in such a way that the animations will
-          be buttery smooth, even on mobile devices. If you’re curious, we did
-          this by making it so there are actually only ever two rows of bubbles,
-          and then, based on where a user is on the page, those bubbles will
-          move there. This creates the illusion that there are bubbles after
-          every section, when in reality it’s just the two!
+          action. I optimized the code in such a way that the animations will be
+          buttery smooth, even on mobile devices. If you’re curious, I did this
+          by making it so there are actually only ever two rows of bubbles, and
+          then, based on where a user is on the page, those bubbles will move
+          there. This creates the illusion that there are bubbles after every
+          section, when in reality it’s just the two!
         </p>
         <h3>A modern website</h3>
         <p>

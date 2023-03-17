@@ -28,7 +28,7 @@ const onTheMendData: ProjectType = {
           experience. This meant switching to calmer earth tones, and guiding
           the viewer throughout the website. Originally, the client used orange
           as a call to action colour. However, orange is often associated with
-          junk mail. Therefore, we switched this out for tan and maroon.
+          junk mail. Therefore, I switched this out for tan and maroon.
         </p>
         <p>
           The main menu was designed specifically to focus on the key concerns a
@@ -43,7 +43,7 @@ const onTheMendData: ProjectType = {
           alt="Font example taken from On The Mend Therapy's website."
         />
         <p>
-          Fonts play a huge role when establishing a mood. We utilized two fonts
+          Fonts play a huge role when establishing a mood. I utilized two fonts
           in the call to action to create excitement while also calming the
           viewer with the pastel colours, and transparent background.
         </p>
@@ -66,10 +66,10 @@ const onTheMendData: ProjectType = {
         <p>
           On The Mend needed a way to easily answer their frequently asked
           questions. Rather than follow the trend of making boring plain text
-          pages, we took this as an opportunity to grow On The Mend’s brand
+          pages, I took this as an opportunity to grow On The Mend’s brand
           value. By applying their branding to the FAQ, adding areas of user
           interactions, and turned a boring page into a visually appealing
-          experience we have been able to create an entire experience that feels
+          experience I have been able to create an entire experience that feels
           more complete and professional.
         </p>
         <Video src="/videos/mend-faq.mp4" />

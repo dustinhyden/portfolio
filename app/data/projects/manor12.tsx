@@ -37,31 +37,30 @@ const manorData: ProjectType = {
         </p>
         <h3>Project</h3>
         <p>
-          We were tasked with creating a fully custom WordPress website, one
-          that would focus on the photography to tell a story. It needed to be
-          clean, modern, and showcase all of MANOR12’s talents.
+          I was tasked with creating a fully custom WordPress website, one that
+          would focus on the photography to tell a story. It needed to be clean,
+          modern, and showcase all of MANOR12’s talents.
         </p>
         <Video src="/videos/mind-your-manor-homepage.mp4" />
         <h3>It’s all about the photography</h3>
         <p>
-          We knew from the very beginning that we wanted the website to focus
-          solely on product photography. Being too busy or cluttered would
-          detract from what makes MANOR12 so special – their ability to design
-          and stage rooms.
+          I knew from the very beginning that the website needed to focus solely
+          on product photography. Being too busy or cluttered would detract from
+          what makes MANOR12 so special – their ability to design and stage
+          rooms.
         </p>
-
         <p>
           However, you can’t just throw a few pictures on a page and hope it
           looks good. It takes planning, and a lot of creativity. By adding a
-          really neat effect, we call it the looking glass effect, we were able
-          to make each and every photo feel like it was alive, and as if you
-          were peering into a world of wonder and intrigue. Whenever the user
-          scrolls through the page, the images will actually reveal more of
-          themselves, almost like a looking glass peering into the photo.
+          really neat effect, I call it the looking glass effect, I was able to
+          make each and every photo feel like it was alive, and as if you were
+          peering into a world of wonder and intrigue. Whenever the user scrolls
+          through the page, the images will actually reveal more of themselves,
+          almost like a looking glass peering into the photo.
         </p>
         <p>
-          We didn’t make it so more of the image just… appears. That would be
-          too easy! Not to mention, not as visually stunning. Instead, the photo
+          I didn’t make it so more of the image just… appears. That would be too
+          easy! Not to mention, not as visually stunning. Instead, the photo
           slides through a mask, giving the user a sort of spotlight on the
           image, and based on how much they scroll, the spotlight moves.
         </p>
@@ -81,7 +80,7 @@ const manorData: ProjectType = {
         />
         <h3>Pop-up gallery, to really focus on the photography</h3>
         <p>
-          We implemented the ability for the viewers to click on images and see
+          I implemented the ability for the viewers to click on images and see
           them in a focused mode. This really drives home the idea that the
           photos are what the viewer is meant to spend their time and attention
           on.
@@ -89,24 +88,25 @@ const manorData: ProjectType = {
         <Video src="/videos/manor12-gallery.mp4" />
         <h3>Page transitions</h3>
         <p>
-          When a viewer traverses the website, we wanted the pages to transition
-          beyond just going to white like a traditional website. Instead, we
+          When a viewer traverses the website, I wanted the pages to transition
+          beyond just going to white like a traditional website. Instead, I
           wanted to unify the page transition design with the same functionality
-          as MANOR12’s navigation menu dropdown. This required us to make the
-          entire website just one page (and a whole bunch of neat server and
-          client side code) but the end result was worth it. Check it out below.
+          as MANOR12’s navigation menu dropdown. This required me to code the
+          entire website as just one page (and implement a whole bunch of neat
+          server and client side effects) but the end result was worth it. Check
+          it out below.
         </p>
         <Video src="/videos/manor12-page-transitions.mp4" />
         <h3>Speaking of the navigation…</h3>
         <p>
-          A good user experience is everything. Before we even begin coding or
-          designing the page, we sit down and determine how we want the user to
-          traverse the site. Do we want them to see the most important links or
-          click a hamburger menu, or both? Do we want to entice the user to
+          A good user experience is everything. Before I even begin coding or
+          designing the page, I sit down and determine how i want the user to
+          traverse the site. Do I want them to see the most important links or
+          click a hamburger menu, or both? Do I want to entice the user to
           scroll down, or focus on a specific piece of content? For MANOR12, we
           wanted to make sure that a user could always find their way around the
-          site. To do this, we created a sticky hamburger menu, along with a
-          search icon. Check out how we utilized these in the video below.
+          site. To do this, I created a sticky hamburger menu, along with a
+          search icon. Check out how I utilized these in the video below.
         </p>
 
         <Video src="/videos/manor12-navigation.mp4" />
@@ -114,13 +114,13 @@ const manorData: ProjectType = {
         <h3>Results</h3>
         <p>
           MANOR12 now has a website that is truly unique. From the subtle
-          animations to the sliding photo effect, we love this project so much,
+          animations to the sliding photo effect, I love this project so much,
           and MANOR12’s viewers do as well. This project was an amazing project
-          to be working on. We appreciate{" "}
+          to be working on. I appreciate{" "}
           <a href="https://mindyourmanor.ca/" target="_blank">
             MANOR12
           </a>{" "}
-          giving us the opportunity to work on this project and help create a
+          giving me the opportunity to work on this project and help create a
           standout product.
         </p>
       </div>

@@ -34,8 +34,8 @@ const dmsData: ProjectType = {
           would be assembled to help local businesses with their online
           presence. This program was originally intended to only last 12 months,
           however due to the success of the program, it was extended until March
-          2021! Hyden was chosen to help with this task after showcasing a video
-          of a platform Hyden was working on to educate other programmers. Our
+          2021! I was chosen to help with this task after showcasing a video of
+          a platform I was working on to educate other programmers. Our
           dedication to education was our key to success with the hundreds of
           businesses we consulted.
         </p>
@@ -84,6 +84,11 @@ const dmsData: ProjectType = {
           utilize all of the door-to-door knowledge that we gathered, the pain
           points businesses had, and we were able to condense it into three 1
           hour presentations.
+        </p>
+        <p>
+          The seminar was an interesting note in my life, as nearly all of the
+          businesses who had attended were plagued with the same issues as the
+          ones I had met 1-on-1.
         </p>
         <h3>Taking the story online</h3>
         <p>

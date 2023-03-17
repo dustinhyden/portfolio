@@ -9,7 +9,7 @@ const bohemiaData: ProjectType = {
   title: "Bohemia",
   featured: true,
   subtitle:
-    "Bohemia was plagued with a website with several broken links, pages that did not load, and a platform to edit content that was not user-friendly.",
+    "Bohemia was plagued with a website with several broken links, pages that did not load, and a platform to edit content that was not user-friendly. See how I helped set them up with, and designed an easy to use ecommerce solution.",
   displayFile: (index = 0) => {
     return <Example index={index} key={index} />
   },
@@ -42,7 +42,7 @@ const bohemiaData: ProjectType = {
         <p>
           When the{" "}
           <Link href="/projects/digital-main-street">Digital Main Street</Link>{" "}
-          program began, one of our initial clients that we worked with was{" "}
+          program began, one of my initial clients that I worked with was{" "}
           <a href="https://www.bohemiabarrie.com/" target="_blank">
             Bohemia Barrie
           </a>
@@ -53,16 +53,16 @@ const bohemiaData: ProjectType = {
         <p>
           Bohemia was also looking for an option to sell their product offering
           online and allow customers to come in and pick up their orders
-          directly. This forward-thinking mentality immediately sold us on
+          directly. This forward-thinking mentality immediately sold me on
           helping out.
         </p>
         <Video src="/videos/bohemia-homepage.mp4" />
         <h3>Choosing the right platform for the client</h3>
         <p>
-          We decided to build our strategy around finding a user friendly
+          I decided to build our strategy around finding a user friendly
           platform that Bohemia would enjoy using. One that they would look
           forward to going in and updating content on. If this was meant to
-          become an integral part of their business, this needed to be our top
+          become an integral part of their business, this needed to be my top
           priority.
         </p>
         <p>
@@ -80,15 +80,15 @@ const bohemiaData: ProjectType = {
         </p>
         <h3>Having a website is half the battle</h3>
         <p>
-          Whenever we make a website for a client, we make sure that they
+          Whenever I make a website for a client, I make sure that they
           understand exactly how the features work and how the platform works.
           Whether this is through personalized video tutorials, phone calls, or
-          in-person meetings, we want to make sure the client can take the
-          wheel. Otherwise, the website quickly goes stagnant. Content doesn’t
-          get updated frequently, and it spells disaster.
+          in-person meetings, I want to make sure the client can take the wheel.
+          Otherwise, the website quickly goes stagnant. Content doesn’t get
+          updated frequently, and it spells disaster.
         </p>
         <p>
-          We sat down with Bohemia and went through how to upload product photos
+          I sat down with Bohemia and went through how to upload product photos
           to the gallery, where to get the Squarespace app, and how to use it.
         </p>
         <Image
@@ -109,8 +109,7 @@ const bohemiaData: ProjectType = {
           Being able to add photos as easily as they can add photos to Instagram
           is a huge success. Moreover, Bohemia has since modified the site to
           add more content! They’ve continually added to their product offering,
-          and maintain the site all on their own. We like to call this a big
-          win.
+          and maintain the site all on their own. I like to call this a big win.
         </p>
       </div>
     )

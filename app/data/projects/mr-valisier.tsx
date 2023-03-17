@@ -35,7 +35,7 @@ const valisierData: ProjectType = {
         </p>
         <h3>Project</h3>
         <p>
-          Mr. Valisier reached out to us after seeing another project of ours:{" "}
+          Mr. Valisier reached out to me after seeing another project of mine:{" "}
           <Link href="/projects/suniela">Suniela</Link>. They wanted a website
           that had a similar attention to detail, while creating a very
           professional brand in the process. Ecommerce projects are always chalk
@@ -47,7 +47,7 @@ const valisierData: ProjectType = {
         <Video src="/videos/valisier-homepage.mp4" />
         <h3>A unique side tab</h3>
         <p>
-          On the left-hand side of the site, we added a button called “new” that
+          On the left-hand side of the site, I added a button called “new” that
           would allow for users to immediately see what products have recently
           been added to the site. It’s a unique bit of functionality that we
           haven’t seen often but really love the value it brings.
@@ -56,7 +56,7 @@ const valisierData: ProjectType = {
         <h3>Simple, yet elegant collections pages</h3>
         <p>
           Mr. Valisier has a lot of different collections, from backpacks to
-          bags, accessories and more. Thus, we needed to make sure that the
+          bags, accessories and more. Thus, I needed to make sure that the
           collections page template was visually familiar and easy to navigate.
         </p>
         <Video src="/videos/valisier-collections.mp4" />
@@ -64,7 +64,7 @@ const valisierData: ProjectType = {
         <h2 className="h1">Final comments</h2>
         <h3>Results</h3>
         <p>
-          Mr. Valisier was great to work with, and we want to say thank you!
+          Mr. Valisier was great to work with, and I want to say thank you!
           Especially during the debugging process. The end result paid off
           immensely. Mr. Valisier now has a website that rivals the biggest
           players in the industry. It has a language translator baked in,

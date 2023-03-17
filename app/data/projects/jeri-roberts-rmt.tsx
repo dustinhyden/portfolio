@@ -41,10 +41,10 @@ const jeriData: ProjectType = {
         <h3>Project</h3>
         <p>
           Jeri was looking for a new website that went beyond what she currently
-          had. She felt her current website was “good, but boring”. We knew
-          right away that creating a monochromatic website based on her brand
-          colours, with fun/funky headers would create the perfect dichotomy
-          that she was looking for.
+          had. She felt her current website was “good, but boring”. I knew right
+          away that creating a monochromatic website based on her brand colours,
+          with fun/funky headers would create the perfect dichotomy that she was
+          looking for.
         </p>
         <Video src="/videos/jeri-homepage.mp4" />
         <h3>Dictionary level authority</h3>
@@ -63,21 +63,16 @@ const jeriData: ProjectType = {
           perfect amount of space so as to not be covered by the “back to top”
           button in the bottom right.
         </p>
-        <Image
-          src="/images/jeri-footer-example.png"
-          width={1000}
-          height={800}
-          alt="A screenshot of Jeri's website's footer."
-        />
+
         <h2 className="h1">Final comments</h2>
         <h3>Results</h3>
         <p>
-          We absolutely love this website. Our favourite sneaky feature is how
-          we added a sidebar on all the pages (aside from the homepage) that is
-          the same width as the sidebar in the footer. So, as the user scrolls
-          everything appears to just “fit”. We could talk about this website for
-          days, but don’t let us do all the talking, take a look for yourself
-          and then reach out when you’re ready!
+          The end result is absolutely lovely. My favourite sneaky feature is
+          how I added a sidebar on all the pages (aside from the homepage) that
+          is the same width as the sidebar in the footer. So, as the user
+          scrolls everything appears to just “fit”. I could talk about this
+          website for days, but don’t let me do all the talking, take a look for
+          yourself and then reach out when you’re ready!
         </p>
       </div>
     )

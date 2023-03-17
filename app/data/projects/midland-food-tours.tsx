@@ -42,16 +42,16 @@ const mftData: ProjectType = {
         <p>
           MFT needed a website that matched their excellent tours. One that was
           engaging, yet minimal. One that screams date night, while also being
-          informative. To do this we created a fully custom design from the
+          informative. To do this I created a fully custom design from the
           ground up.
         </p>
         <Video src="/videos/mft-homepage.mp4" />
         <h3>It’s all about the photography</h3>
         <p>
-          With a food tour you can expect to eat, that’s a given. We wanted the
+          With a food tour you can expect to eat, that’s a given. I wanted the
           photos and videos to go beyond that. MFT is about making a connection
           with Midland, Ontario and the charm that this small town has to offer.
-          From the waterfront to the many murals. We put these murals front and
+          From the waterfront to the many murals. I put these murals front and
           centre, to help potential customers feel a sense of place.
         </p>
         <Image
@@ -64,7 +64,7 @@ const mftData: ProjectType = {
         <p>
           What really makes minimalistic designs stand out is how well the
           different elements blend together. To blend the navigation with the
-          rest of the site we decided to add an image to the top right of every
+          rest of the site I decided to add an image to the top right of every
           page, with the exact same width as the “Buy Gift Card” button. That
           way, when the user scrolls the button will perfectly overlap the
           picture, thus creating a seamless connection between the content on
@@ -75,13 +75,12 @@ const mftData: ProjectType = {
         <h2 className="h1">Final comments</h2>
         <h3>Results</h3>
         <p>
-          There’s countless other aspects to the design that we could talk
-          about: such as finding the perfect shade of blue to help MFT create a
-          sense of fun and excitement, while also appearing like the
-          authoritative figure on food tours. Just like the rest of the
-          redesign, each aspect was worth it. MFT’s new website really does
-          stand out. Take a look at their website and then reach out once you’re
-          ready.
+          There’s countless other aspects to the design that I could talk about:
+          such as finding the perfect shade of blue to help MFT create a sense
+          of fun and excitement, while also appearing like the authoritative
+          figure on food tours. Just like the rest of the redesign, each aspect
+          was worth it. MFT’s new website really does stand out. Take a look at
+          their website and then reach out once you’re ready.
         </p>
         <h3>Could you be next?</h3>
         <p>

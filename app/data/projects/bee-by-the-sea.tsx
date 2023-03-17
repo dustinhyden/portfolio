@@ -50,7 +50,7 @@ const beeData: ProjectType = {
           to have a different experience from end consumers.
         </p>
         <p>
-          This meant we needed to build two websites disguised as one! The goal
+          This meant I needed to build two websites disguised as one! The goal
           was to give Bee the flexibility of using one platform to better serve
           their customers and also make their own lives a tad easier.
         </p>
@@ -61,16 +61,16 @@ const beeData: ProjectType = {
           for a viewer to get to where they want to go. To do this, we focused
           on the navigation. When on a computer, the viewer can mouse over any
           of the dropdowns along the top to be greeted with a very unique drop
-          down effect. On mobile, we implemented the ability to view the
-          dropdown information with the use of tabs. See the video and picture
-          below to see this in action.
+          down effect. On mobile, I implemented the ability to view the dropdown
+          information with the use of tabs. See the video and picture below to
+          see this in action.
         </p>
         <Video src="/videos/bee-nav.mp4" />
         <p>
-          Before the new website, users did not have the ability to filter
-          through products within the navigation. This filter greatly reduces
-          the number of pages they need to go through to find the product they
-          want.
+          Before the new website, users were required to click first into the
+          shop, then into a collection, and then finally they could scroll and
+          try to find the product they had in mind. This new navigation puts all
+          of their best sellers upfront and easily accessible.
         </p>
         <Image
           src="/images/bee-top-down.jpg"
@@ -80,9 +80,9 @@ const beeData: ProjectType = {
         />
         <h3>Grid-style promotional blocks</h3>
         <p>
-          Promoting your products on your own website is a huge key to success
-          for any ecommerce business. We decided to create two types of
-          promotional blocks that Bee can place anywhere on their site. The
+          The ability to promote specific products on a website is a huge key to
+          the success for any ecommerce business. I decided to create two types
+          of promotional blocks that Bee can place anywhere on their site. The
           first is a single, full page promotion, the second is a 3 card block
           promoting 3 different options. Check this out in action below.
         </p>
@@ -98,8 +98,8 @@ const beeData: ProjectType = {
         <h3>Rewards</h3>
         <p>
           Bee wanted to include the rewards program information in a manner that
-          was easier to digest. To do so, we fixed a button to the bottom left
-          of every page which opens up a rewards panel with customizable
+          was easier to digest. To do so, I fixed a button to the bottom left of
+          every page which opens up a rewards panel with customizable
           information. Viewers can now easily see how many reward points they
           have, along with how to earn more.
         </p>
@@ -107,12 +107,14 @@ const beeData: ProjectType = {
         <h3>Contact options</h3>
         <p>
           Bee recently opened a physical store, and as such, needed a way for
-          viewers to easily get directions to this new location. We implemented
+          viewers to easily get directions to this new location. I implemented
           an option for viewers to click the map that will automatically open
-          Google Maps.
+          Google Maps. This map is actually just a picture for quicker load
+          times, but the user cannot tell as hovering over the picture initiates
+          a fancy hover effect and indicates to click to go to Google Maps.
         </p>
         <p>
-          We also made the contact information stick on the left side of the
+          I also made the contact information stick on the left side of the
           screen to always remain in view. This small effect adds to the overall
           polish of the design and greatly improves user experience.
         </p>
@@ -128,7 +130,7 @@ const beeData: ProjectType = {
         <p>
           When viewing a single product page, the viewer is greeted with a very
           unique design. Typically, the product images are along the left or the
-          right, however, we decided to go a different route. We put the photo
+          right, however, I decided to go a different route. I put the photo
           front and center, and then pinned the ability to add the product to
           cart to the top right corner of the screen.
         </p>
@@ -137,18 +139,27 @@ const beeData: ProjectType = {
         <h2 className="h1">Final comments</h2>
         <h3>More features</h3>
         <p>
-          This project is packed full of features and we barely even touched the
+          This project is packed full of features and I barely even touched the
           surface. If you like what you see and you want us to help with your
           next website let us know and we can discuss even more of the features
           we built into this project
         </p>
+        <h3>Increased revenue</h3>
+        <p>
+          This site was launched back in 2019-2020, yet the design still feels
+          relevant and some might say timeless. The site helped boost sales by
+          nearly 25% annually. As the business grew the original owner has since
+          sold the business, and the new owner has made the decision that the
+          business is ready for another refresh. We wish them the best and we
+          hope their new website lasts as long as this one did!
+        </p>
         <h3>Could you be next?</h3>
         <p>
-          We are always looking for more forward thinking clients. Bee allowed
-          us the creative freedom necessary to make all of the features that
-          they wanted possible. We had a blast working with them and developing
-          this website. If you want your business to have a website that stands
-          out, let us know! We would love to see how we can help.
+          I'm always looking for more forward thinking clients. Bee allowed me
+          the creative freedom necessary to make all of the features that they
+          wanted possible. I had a blast working with them and developing this
+          website. If you want your business to have a website that stands out,
+          let me know! I would love to see how I can help.
         </p>
       </div>
     )
