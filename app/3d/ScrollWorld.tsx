@@ -30,7 +30,6 @@ export default function ScrollWorld(props: JSX.IntrinsicElements["group"]) {
         if (project.featured) {
           return project.displayFile(i)
         }
-        // if (i < config.maxNumberOfSlides) return project.displayFile(i)
       })}
     </group>
   )

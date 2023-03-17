@@ -18,7 +18,8 @@ export default function Example(props: any) {
   const offset = props.index * scrollConfig.spacing
 
   const handleClick = (e) => {
-    router.push(data[props.index].href)
+    const featuredItems = data.filter((item) => item.featured)
+    router.push(featuredItems[props.index].href)
   }
 
   return (
