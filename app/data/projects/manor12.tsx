@@ -7,6 +7,7 @@ import Example from "../../3d/projects/Example"
 
 const manorData: ProjectType = {
   title: "MANOR12",
+  featured: true,
   subtitle: "Helping an award winning interior decorator showcase her work.",
   displayFile: (index = 0) => {
     return <Example index={index} key={index} />

@@ -3,6 +3,7 @@ import HomepageSidebar from "../components/HomepageSidebar"
 
 const homeData: ProjectType = {
   title: "Your next Front end developer",
+  featured: true,
   displayFile: () => null,
   subtitle:
     "Specializing in React and NextJS, with extensive experience using WordPress",

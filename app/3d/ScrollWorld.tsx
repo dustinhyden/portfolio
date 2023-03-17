@@ -12,6 +12,8 @@ export default function ScrollWorld(props: JSX.IntrinsicElements["group"]) {
   const group = useRef<THREE.Group>(null)
   const scrollPosition = useScrollPosition()
 
+  const featuredItems = data.filter((item) => item.featured)
+
   useFrame((state, delta) => {
     if (group.current) {
       return group.current.position.set(
@@ -24,8 +26,11 @@ export default function ScrollWorld(props: JSX.IntrinsicElements["group"]) {
 
   return (
     <group name="ScrollWorld" ref={group} {...props} dispose={null}>
-      {data.map((project, i) => {
-        if (i < config.maxNumberOfSlides) return project.displayFile(i)
+      {featuredItems.map((project, i) => {
+        if (project.featured) {
+          return project.displayFile(i)
+        }
+        // if (i < config.maxNumberOfSlides) return project.displayFile(i)
       })}
     </group>
   )

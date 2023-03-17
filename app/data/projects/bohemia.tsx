@@ -7,6 +7,7 @@ import Example from "../../3d/projects/Example"
 
 const bohemiaData: ProjectType = {
   title: "Bohemia",
+  featured: true,
   subtitle:
     "Bohemia was plagued with a website with several broken links, pages that did not load, and a platform to edit content that was not user-friendly.",
   displayFile: (index = 0) => {

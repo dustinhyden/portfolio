@@ -7,6 +7,7 @@ import Example from "../../3d/projects/Example"
 
 const swirleezData: ProjectType = {
   title: "Swirleez",
+  featured: true,
   subtitle:
     "A fun task for a fun company. Check out how I implemented a physics engine to bring Swirleez website to life.",
   displayFile: (index = 0) => {

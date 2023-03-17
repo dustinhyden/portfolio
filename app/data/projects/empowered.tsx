@@ -7,6 +7,7 @@ import Example from "../../3d/projects/Example"
 
 const empoweredData: ProjectType = {
   title: "Empowered",
+  featured: true,
   subtitle:
     "See how I custom developed an ecommerce enabled website for a small town cosmetics shop in Midland, Ontario.",
   displayFile: (index = 0) => {

@@ -13,7 +13,8 @@ export default function WorldOverlay() {
   const scrollPosition = useScrollPosition()
   const [isHidden, setIsHidden] = useState(true)
 
-  const item = data[lastShown]
+  const featuredItems = data.filter((item) => item.featured)
+  const item = featuredItems[lastShown]
 
   useEffect(() => {
     const pixelsPerProject = config.pixelsPerProject()
@@ -27,7 +28,7 @@ export default function WorldOverlay() {
     if (scrollPosition >= hideAt) {
       setIsHidden((current) => (!current ? true : current))
       setCurrentProject((current) =>
-        current + 1 < data.length ? current + 1 : current
+        current + 1 < featuredItems.length ? current + 1 : current
       )
     }
     if (scrollPosition >= showAt && scrollPosition < hideAt) {
