@@ -1,5 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
+
 import data, { ProjectType } from "../data"
 import styles from "./ProjectGrid.module.css"
 
@@ -37,8 +38,8 @@ export default function ProjectGrid({
               className={styles.image}
               alt={project.image.alt}
               src={`${project.image.src}`}
-              width="400"
-              height="400"
+              width="1000"
+              height="600"
             />
             <div className={styles.overlay}>
               <p className={styles["project-title"]}>{project.title}</p>
