@@ -1,3 +1,4 @@
+import { BohemiaBuilding } from "@/app/3d/projects/Bohemia"
 import Video from "@/app/components/Video"
 import Image from "next/image"
 import Link from "next/link"
@@ -11,7 +12,7 @@ const bohemiaData: ProjectType = {
   subtitle:
     "Bohemia was plagued with a website with several broken links, pages that did not load, and a platform to edit content that was not user-friendly. See how I helped set them up with, and designed an easy to use ecommerce solution.",
   displayFile: (index = 0) => {
-    return <Example index={index} key={index} />
+    return <BohemiaBuilding index={index} key={index} />
   },
   href: "/projects/bohemia",
   image: {

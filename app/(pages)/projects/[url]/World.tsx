@@ -1,4 +1,5 @@
 "use client"
+import Spin from "@/app/3d/Spin"
 import { PerspectiveCamera, Stage } from "@react-three/drei"
 import { Canvas } from "@react-three/fiber"
 import Character from "../../../3d/assets/Character"
@@ -24,7 +25,8 @@ export default function ProjectWorld({ children }) {
           preset="rembrandt"
           environment="city"
         ></Stage>
-        <Swivel position={[0, -8.5, -15]}>{children}</Swivel>
+        <Spin position={[0, -8.5, -15]}>{children}</Spin>
+        {/* <Swivel position={[0, -8.5, -15]}>{children}</Swivel> */}
       </Canvas>
     </div>
   )

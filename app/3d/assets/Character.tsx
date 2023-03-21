@@ -64,7 +64,6 @@ export default function Character(
 
   // Switch animations based on scroll
   useEffect(() => {
-    console.log("we here")
     if (!actions[activeAnim]) return
     if (props.dontAnimateOnScroll) return
     let minAnimationDuration = setTimeout(() => {}, 1000)

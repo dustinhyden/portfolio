@@ -177,3 +177,7 @@
     transform: translateX(0px);
   }
 }
+
+.home {
+  background-color: transparent;
+}

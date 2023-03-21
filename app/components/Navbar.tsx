@@ -24,7 +24,9 @@ export default function Navbar() {
 
   return (
     <>
-      <section className={styles.navbar}>
+      <section
+        className={`${styles.navbar} ${pathname === "/" ? styles.home : ""}`}
+      >
         <div className={styles.logo}>
           <Link href="/">
             <Image
