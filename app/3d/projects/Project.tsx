@@ -21,7 +21,7 @@ export default function Project(props: ProjectProps) {
   }
   return (
     <ProjectOffsetWrapper {...props}>
-      <Hover index={props.index}>
+      <Hover index={props.centered ? 0 : props.index}>
         <group
           onPointerOver={(event) => hover(true)}
           onPointerOut={(event) => hover(false)}

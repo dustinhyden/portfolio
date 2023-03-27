@@ -19,7 +19,6 @@ export type ProjectType = {
   title: string
   featured: boolean
   featuredVideo: string
-  // displayFile: (index?: number) => React.ReactNode
   subtitle: string
   hideSubtitleOnMobile?: boolean
   sidebarWidget?: () => React.ReactNode
@@ -55,6 +54,7 @@ const data: ProjectType[] = [
 
 type BasicProps = {
   index: number
+  centered?: boolean
 }
 
 export type ProjectProps = JSX.IntrinsicElements["group"] & BasicProps

@@ -36,6 +36,10 @@ export default function ProjectPage({ params }: ProjectParams) {
   if (!project) {
     redirect("/projects")
   }
+  const featuredItems = data.filter((item) => item.featured)
+  const projectIndex = featuredItems.findIndex(
+    (item) => item.href == project.href
+  )
   return (
     <Content>
       <div className={styles.columns}>
@@ -61,7 +65,7 @@ export default function ProjectPage({ params }: ProjectParams) {
           </Link>
           {project.featuredVideo != "" && (
             <ProjectWorld>
-              <Project index={0} />
+              <Project index={projectIndex} centered={true} />
             </ProjectWorld>
           )}
           <h1>{project.title}</h1>
