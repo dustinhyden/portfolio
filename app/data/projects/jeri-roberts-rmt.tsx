@@ -1,4 +1,3 @@
-import Example from "@/app/3d/projects/Example"
 import Video from "@/app/components/Video"
 import Image from "next/image"
 import Link from "next/link"
@@ -8,11 +7,9 @@ import { ProjectType } from ".."
 const jeriData: ProjectType = {
   title: "Jeri Roberts, RMT",
   featured: false,
+  featuredVideo: "/videos/jeri-homepage.mp4",
   subtitle:
     "View how I helped Jeri Roberts turn her website into not only a source of information, but also into a driver of conversions (users booking appointments).",
-  displayFile: (index = 0) => {
-    return <Example index={index} key={index} />
-  },
   href: "/projects/jeri-roberts-rmt",
   image: {
     src: "/images/jeri-roberts-water.jpg",

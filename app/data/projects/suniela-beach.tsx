@@ -3,16 +3,13 @@ import Image from "next/image"
 import Link from "next/link"
 
 import { ProjectType } from ".."
-import Example from "../../3d/projects/Example"
 
 const sunielaData: ProjectType = {
   title: "Suniela Beach",
   featured: true,
+  featuredVideo: "/videos/suniela-homepage.mp4",
   subtitle:
     "Escape to this very unique Shopify store. See how I turned Suniela's website into an experience on it's own.",
-  displayFile: (index = 0) => {
-    return <Example index={index} key={index} />
-  },
   href: "/projects/suniela-beach",
   image: {
     src: "/images/suniela-beach-featured-image.jpg",

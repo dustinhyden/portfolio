@@ -6,9 +6,9 @@ import { ProjectType } from ".."
 const altaData: ProjectType = {
   title: "Alta Lake Electric",
   featured: false,
+  featuredVideo: "/videos/alta-homepage.mp4",
   subtitle:
     "Leading electrical ⚡ service provider in the Sea to Sky Corridor.",
-  displayFile: () => null,
   href: "/projects/alta-lake-electric",
   image: {
     src: "/images/alta-lake-cover.jpg",

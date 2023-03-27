@@ -3,15 +3,12 @@ import Image from "next/image"
 import Link from "next/link"
 
 import { ProjectType } from ".."
-import Example from "../../3d/projects/Example"
 
 const manorData: ProjectType = {
   title: "MANOR12",
   featured: true,
+  featuredVideo: "/videos/mind-your-manor-homepage.mp4",
   subtitle: "Helping an award winning interior decorator showcase her work.",
-  displayFile: (index = 0) => {
-    return <Example index={index} key={index} />
-  },
   href: "/projects/manor12",
   image: {
     src: "/images/manor12-homepage.jpg",

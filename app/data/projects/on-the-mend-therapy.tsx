@@ -6,8 +6,8 @@ import { ProjectType } from ".."
 const onTheMendData: ProjectType = {
   title: "On The Mend Therapy",
   featured: false,
+  featuredVideo: "/videos/mend-homepage.mp4",
   subtitle: "A clinic that feels like a spa.",
-  displayFile: () => null,
   href: "/projects/on-the-mend-therapy",
   image: {
     src: "/images/on-the-mend-therapy.jpg",

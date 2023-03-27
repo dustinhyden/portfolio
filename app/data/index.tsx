@@ -18,7 +18,8 @@ import swirleezData from "./projects/swirleez"
 export type ProjectType = {
   title: string
   featured: boolean
-  displayFile: (index?: number) => React.ReactNode
+  featuredVideo: string
+  // displayFile: (index?: number) => React.ReactNode
   subtitle: string
   hideSubtitleOnMobile?: boolean
   sidebarWidget?: () => React.ReactNode

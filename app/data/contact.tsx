@@ -1,13 +1,10 @@
 import { ProjectType } from "."
-import Example from "../3d/projects/Example"
 
 const contactData: ProjectType = {
   title: "Contact me",
   featured: true,
-  subtitle: "Another example here.",
-  displayFile: (index = 0) => {
-    return <Example index={index} key={index} />
-  },
+  featuredVideo: "/images/contact-me-banner.jpg",
+  subtitle: "Want to get in touch with me? Click the picture!",
   href: "/contact",
   image: {
     src: "/images/bohemia-barrie.jpg",

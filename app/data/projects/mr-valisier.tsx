@@ -1,4 +1,3 @@
-import Example from "@/app/3d/projects/Example"
 import Video from "@/app/components/Video"
 import Image from "next/image"
 import Link from "next/link"
@@ -8,9 +7,9 @@ import { ProjectType } from ".."
 const valisierData: ProjectType = {
   title: "Mr. Valisier",
   featured: false,
+  featuredVideo: "/videos/valisier-homepage.mp4",
   subtitle:
     "Taking a simple Shopify template, supercharging it with custom coded Liquid/Css/JavaScript to create a gorgeous luxury brand reseller ecommerce experience.",
-  displayFile: () => null,
   href: "/projects/mr-valisier",
   image: {
     src: "/images/mr-valisier-featured-image.jpg",

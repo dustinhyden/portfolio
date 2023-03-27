@@ -1,4 +1,3 @@
-import Example from "@/app/3d/projects/Example"
 import Video from "@/app/components/Video"
 import Image from "next/image"
 
@@ -7,11 +6,9 @@ import { ProjectType } from ".."
 const beeData: ProjectType = {
   title: "Bee By The Sea",
   featured: true,
+  featuredVideo: "/videos/bee-homepage.mp4",
   subtitle:
     "Check out how I turned Bee By The Sea's website into one of the easiest to navigate ecommerce stores (they have 200+ products).",
-  displayFile: (index = 0) => {
-    return <Example index={index} key={index} />
-  },
   href: "/projects/bee-by-the-sea",
   image: {
     src: "/images/bee-homepage.jpg",

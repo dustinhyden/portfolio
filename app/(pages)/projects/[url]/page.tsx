@@ -4,7 +4,7 @@ import data from "@/app/data"
 import Image from "next/image"
 import Link from "next/link"
 import { redirect } from "next/navigation"
-
+import Project from "@/app/3d/projects/Project"
 import styles from "./page.module.css"
 import ProjectWorld from "./World"
 
@@ -29,14 +29,13 @@ export async function generateMetadata({ params }: ProjectParams) {
   }
 }
 
-export default function Project({ params }: ProjectParams) {
+export default function ProjectPage({ params }: ProjectParams) {
   const project = data.filter(
     (item) => item.href === "/projects/" + params.url
   )[0]
   if (!project) {
     redirect("/projects")
   }
-
   return (
     <Content>
       <div className={styles.columns}>
@@ -60,8 +59,10 @@ export default function Project({ params }: ProjectParams) {
             />
             Or Go home
           </Link>
-          {project.displayFile() != null && (
-            <ProjectWorld>{project.displayFile()}</ProjectWorld>
+          {project.featuredVideo != "" && (
+            <ProjectWorld>
+              <Project index={0} />
+            </ProjectWorld>
           )}
           <h1>{project.title}</h1>
           <section className={styles.details}>

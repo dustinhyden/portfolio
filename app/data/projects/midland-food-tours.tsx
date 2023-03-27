@@ -1,4 +1,3 @@
-import Example from "@/app/3d/projects/Example"
 import Video from "@/app/components/Video"
 import Image from "next/image"
 import Link from "next/link"
@@ -8,11 +7,9 @@ import { ProjectType } from ".."
 const mftData: ProjectType = {
   title: "Midland Food Tours",
   featured: true,
+  featuredVideo: "/videos/mft-homepage.mp4",
   subtitle:
     "See how I helped Midland Food Tours develop a platform that helps position them as the defacto tour business in Midland, Ontario.",
-  displayFile: (index = 0) => {
-    return <Example index={index} key={index} />
-  },
   href: "/projects/midland-food-tours",
   image: {
     src: "/images/midland-food-tours-mural1.jpg",

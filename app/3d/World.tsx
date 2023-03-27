@@ -21,7 +21,7 @@ export default function HomeWorld() {
           fov: 75,
           far: 100,
         }}
-        shadows
+        shadows={true}
       >
         <fog attach="fog" color="white" near={40} far={80} />
         <HorizontalCamRig>
@@ -34,12 +34,7 @@ export default function HomeWorld() {
           {/* <directionalLight position={[-10, 0, 10]} args={["#FFD8E2", 1]} /> */}
           {/* <directionalLight position={[-10, 0, 10]} args={["white", 2]} /> */}
           <OffsetWrapper>
-            <Stage
-              adjustCamera={false}
-              // preset="rembrandt"
-              // environment="city"
-              shadows={false}
-            >
+            <Stage adjustCamera={false} preset="rembrandt" environment="city">
               <Character />
             </Stage>
           </OffsetWrapper>

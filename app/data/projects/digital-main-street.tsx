@@ -2,16 +2,13 @@ import Image from "next/image"
 import Link from "next/link"
 
 import { ProjectType } from ".."
-import Example from "../../3d/projects/Example"
 
 const dmsData: ProjectType = {
   title: "Digital Main Street",
   featured: false,
+  featuredVideo: "/images/dms-gif-with-text.gif",
   subtitle:
     "Learn about Hyden's role with the City of Barrie and their Digital Main Street initiative.",
-  displayFile: (index = 0) => {
-    return <Example index={index} key={index} />
-  },
   href: "/projects/digital-main-street",
   image: {
     src: "/images/dms-banner.gif",

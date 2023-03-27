@@ -1,19 +1,16 @@
-import { BohemiaBuilding } from "@/app/3d/projects/Bohemia"
 import Video from "@/app/components/Video"
 import Image from "next/image"
 import Link from "next/link"
 
 import { ProjectType } from ".."
-import Example from "../../3d/projects/Example"
 
 const bohemiaData: ProjectType = {
   title: "Bohemia",
   featured: true,
+  featuredVideo: "/videos/bohemia-homepage.mp4",
   subtitle:
     "Bohemia was plagued with a website with several broken links, pages that did not load, and a platform to edit content that was not user-friendly. See how I helped set them up with, and designed an easy to use ecommerce solution.",
-  displayFile: (index = 0) => {
-    return <BohemiaBuilding index={index} key={index} />
-  },
+
   href: "/projects/bohemia",
   image: {
     src: "/images/bohemia-coffee-maker.jpg",

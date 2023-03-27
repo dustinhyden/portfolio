@@ -3,16 +3,13 @@ import Image from "next/image"
 import Link from "next/link"
 
 import { ProjectType } from ".."
-import Example from "../../3d/projects/Example"
 
 const empoweredData: ProjectType = {
   title: "Empowered",
   featured: true,
+  featuredVideo: "/videos/empowered-homepage.mp4",
   subtitle:
     "See how I custom developed an ecommerce enabled website for a small town cosmetics shop in Midland, Ontario.",
-  displayFile: (index = 0) => {
-    return <Example index={index} key={index} />
-  },
   href: "/projects/empowered",
   image: {
     src: "/images/featured-image-portrait-empowered.png",

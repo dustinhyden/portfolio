@@ -1,4 +1,3 @@
-import Example from "@/app/3d/projects/Example"
 import Video from "@/app/components/Video"
 import Image from "next/image"
 import Link from "next/link"
@@ -8,11 +7,9 @@ import { ProjectType } from ".."
 const straightlineData: ProjectType = {
   title: "Straightline Construction",
   featured: true,
+  featuredVideo: "/videos/straightline-homepage.mp4",
   subtitle:
     "Not all websites need to scroll vertically, sometimes it's fun to have the site scroll horizontally.",
-  displayFile: (index = 0) => {
-    return <Example index={index} key={index} />
-  },
   href: "/projects/straightline-construction",
   image: {
     src: "/images/straightline-project-example.jpg",
