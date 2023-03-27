@@ -2,8 +2,6 @@
 import Spin from "@/app/3d/Spin"
 import { PerspectiveCamera, Stage } from "@react-three/drei"
 import { Canvas } from "@react-three/fiber"
-import Character from "../../../3d/assets/Character"
-import Swivel from "../../../3d/Swivel"
 import styles from "./World.module.css"
 
 export default function ProjectWorld({ children }) {
@@ -19,14 +17,12 @@ export default function ProjectWorld({ children }) {
           position={[1, 10, 10]}
           castShadow
         />
-
         <Stage
           adjustCamera={false}
           preset="rembrandt"
           environment="city"
         ></Stage>
         <Spin position={[0, -8.5, -15]}>{children}</Spin>
-        {/* <Swivel position={[0, -8.5, -15]}>{children}</Swivel> */}
       </Canvas>
     </div>
   )

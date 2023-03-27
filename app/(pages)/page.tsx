@@ -1,6 +1,6 @@
 import WorldOverlay from "../components/WorldOverlay"
 import config from "../scrollConfig"
-import HomeWorld from "../World"
+import HomeWorld from "../3d/World"
 import styles from "./page.module.css"
 export const metadata = {
   title: "Dustin Hyden | Front End Engineer & Barrie Web Designer | Home",

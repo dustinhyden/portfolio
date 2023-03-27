@@ -51,4 +51,11 @@ const data: ProjectType[] = [
   dmsData,
   contact,
 ]
+
+type BasicProps = {
+  index: number
+}
+
+export type ProjectProps = JSX.IntrinsicElements["group"] & BasicProps
+
 export default data

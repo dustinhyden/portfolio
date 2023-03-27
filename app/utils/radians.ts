@@ -1,0 +1,3 @@
+const NINETY_DEGREES = -1.5708
+
+export { NINETY_DEGREES }

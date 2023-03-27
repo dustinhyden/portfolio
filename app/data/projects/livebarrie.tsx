@@ -1,4 +1,4 @@
-import Example from "@/app/3d/projects/Example"
+import { LiveBarrie } from "@/app/3d/projects/LiveBarrie"
 import Video from "@/app/components/Video"
 import Image from "next/image"
 import Link from "next/link"
@@ -11,7 +11,7 @@ const liveBarrieData: ProjectType = {
   subtitle:
     "See how I helped a fledgling live entertainment company build their entire brand from strategy to identity and implementation.",
   displayFile: (index = 0) => {
-    return <Example index={index} key={index} />
+    return <LiveBarrie index={index} key={index} />
   },
   href: "/projects/livebarrie",
   image: {
