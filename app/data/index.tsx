@@ -31,21 +31,22 @@ export type ProjectType = {
   toolsUsed?: string[]
   work?: string[]
   externalLink?: string
+  linkText?: string
   content: () => React.ReactNode
 }
 const data: ProjectType[] = [
   home,
+  sunielaData,
+  manorData,
   liveBarrieData,
   jeriData,
-  straightlineData,
-  mftData,
-  valisierData,
   beeData,
+  mftData,
+  straightlineData,
+  valisierData,
   altaData,
   onTheMendData,
-  sunielaData,
   empoweredData,
-  manorData,
   swirleezData,
   bohemiaData,
   dmsData,

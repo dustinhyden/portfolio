@@ -12,7 +12,7 @@ const liveBarrieData: ProjectType = {
     "See how I helped a fledgling live entertainment company build their entire brand from strategy to identity and implementation.",
   href: "/projects/livebarrie",
   image: {
-    src: "/images/livebarrie-business-cards.jpg",
+    src: "/images/LiveBarrie-logo-black.jpg",
     alt: "LiveBarrie business cards",
   },
   industry: "Live Entertainment",
@@ -45,7 +45,7 @@ const liveBarrieData: ProjectType = {
           </a>
         </p>
         <Image
-          src="/images/LiveBarrie-logo-black.jpg"
+          src="/images/livebarrie-business-cards.jpg"
           width={1000}
           height={800}
           alt="LiveBarrie logo"

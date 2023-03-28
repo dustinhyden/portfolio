@@ -66,16 +66,9 @@ export default function WorldOverlay() {
             {item.sidebarWidget && item.sidebarWidget()}
             {item.content && (
               <Link href={item.href} className="mega-link no-padding">
-                Explore the project
+                {item.linkText ? item.linkText : "Explore the project"}
               </Link>
             )}
-            {/* {item.content && (
-              <JumboButton
-                text="Explore the project"
-                href={item.href}
-                margins={false}
-              />
-            )} */}
           </div>
         </section>
       </div>
