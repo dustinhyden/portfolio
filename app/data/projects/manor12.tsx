@@ -21,7 +21,7 @@ const manorData: ProjectType = {
   content: () => {
     return (
       <div>
-        <h2 className="h1">It’s time to mind your manor. 🏠</h2>
+        <h2 className="h1">It&apos;s time to mind your manor. 🏠</h2>
         <h3>Background</h3>
         <p>
           <a href="https://mindyourmanor.ca/" target="_blank">
@@ -36,10 +36,10 @@ const manorData: ProjectType = {
         <p>
           I was tasked with creating a fully custom WordPress website, one that
           would focus on the photography to tell a story. It needed to be clean,
-          modern, and showcase all of MANOR12’s talents.
+          modern, and showcase all of MANOR12&apos;s talents.
         </p>
         <Video src="/videos/mind-your-manor-homepage.mp4" />
-        <h3>It’s all about the photography</h3>
+        <h3>It&apos;s all about the photography</h3>
         <p>
           I knew from the very beginning that the website needed to focus solely
           on product photography. Being too busy or cluttered would detract from
@@ -47,8 +47,8 @@ const manorData: ProjectType = {
           rooms.
         </p>
         <p>
-          However, you can’t just throw a few pictures on a page and hope it
-          looks good. It takes planning, and a lot of creativity. By adding a
+          However, you can&apos;t just throw a few pictures on a page and hope
+          it looks good. It takes planning, and a lot of creativity. By adding a
           really neat effect, I call it the looking glass effect, I was able to
           make each and every photo feel like it was alive, and as if you were
           peering into a world of wonder and intrigue. Whenever the user scrolls
@@ -56,10 +56,10 @@ const manorData: ProjectType = {
           almost like a looking glass peering into the photo.
         </p>
         <p>
-          I didn’t make it so more of the image just… appears. That would be too
-          easy! Not to mention, not as visually stunning. Instead, the photo
-          slides through a mask, giving the user a sort of spotlight on the
-          image, and based on how much they scroll, the spotlight moves.
+          I didn&apos;t make it so more of the image just… appears. That would
+          be too easy! Not to mention, not as visually stunning. Instead, the
+          photo slides through a mask, giving the user a sort of spotlight on
+          the image, and based on how much they scroll, the spotlight moves.
         </p>
         <h3>The looking glass effect</h3>
         <p>
@@ -88,10 +88,10 @@ const manorData: ProjectType = {
           When a viewer traverses the website, I wanted the pages to transition
           beyond just going to white like a traditional website. Instead, I
           wanted to unify the page transition design with the same functionality
-          as MANOR12’s navigation menu dropdown. This required me to code the
-          entire website as just one page (and implement a whole bunch of neat
-          server and client side effects) but the end result was worth it. Check
-          it out below.
+          as MANOR12&apos;s navigation menu dropdown. This required me to code
+          the entire website as just one page (and implement a whole bunch of
+          neat server and client side effects) but the end result was worth it.
+          Check it out below.
         </p>
         <Video src="/videos/manor12-page-transitions.mp4" />
         <h3>Speaking of the navigation…</h3>
@@ -112,8 +112,8 @@ const manorData: ProjectType = {
         <p>
           MANOR12 now has a website that is truly unique. From the subtle
           animations to the sliding photo effect, I love this project so much,
-          and MANOR12’s viewers do as well. This project was an amazing project
-          to be working on. I appreciate{" "}
+          and MANOR12&apos;s viewers do as well. This project was an amazing
+          project to be working on. I appreciate{" "}
           <a href="https://mindyourmanor.ca/" target="_blank">
             MANOR12
           </a>{" "}

@@ -33,7 +33,7 @@ const beeData: ProjectType = {
           the sea buckthorn berry while travelling abroad. After extensive
           research and development, Bee launched a cream unlike anything else on
           the market. Fast forward 12 years and they are still producing that
-          same bestselling body cream. They’ve expanded their offerings to
+          same bestselling body cream. They&apos;ve expanded their offerings to
           include a whole assortment of healthy products. Best of all,
           everything is produced and packaged in Ontario.
         </p>
@@ -152,11 +152,11 @@ const beeData: ProjectType = {
         </p>
         <h3>Could you be next?</h3>
         <p>
-          I'm always looking for more forward thinking clients. Bee allowed me
-          the creative freedom necessary to make all of the features that they
-          wanted possible. I had a blast working with them and developing this
-          website. If you want your business to have a website that stands out,
-          let me know! I would love to see how I can help.
+          I&apos;m always looking for more forward thinking clients. Bee allowed
+          me the creative freedom necessary to make all of the features that
+          they wanted possible. I had a blast working with them and developing
+          this website. If you want your business to have a website that stands
+          out, let me know! I would love to see how I can help.
         </p>
       </div>
     )

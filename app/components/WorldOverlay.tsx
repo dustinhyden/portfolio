@@ -39,7 +39,7 @@ export default function WorldOverlay() {
       setIsHidden((current) => (!current ? true : current))
       setCurrentProject((current) => (current - 1 >= 0 ? current - 1 : current))
     }
-  }, [scrollPosition])
+  }, [scrollPosition, featuredItems.length])
 
   return (
     <section className={styles.overlay}>

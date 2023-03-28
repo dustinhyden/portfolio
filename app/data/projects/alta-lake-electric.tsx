@@ -29,7 +29,7 @@ const altaData: ProjectType = {
         <p>
           Alta provides services for the residential, commercial, and industrial
           industries. All three industries result in vastly different Google
-          searches. Therefore, in order to help with Alta's SEO I create a
+          searches. Therefore, in order to help with Alta&apos;s SEO I create a
           separate page for each service. This allows Google to find their
           specific content easier, and allows our pages to be more specific in
           which keywords to focus on. Ultimately allowing each page to have a
@@ -57,17 +57,17 @@ const altaData: ProjectType = {
           Alta has a leadership role within their community. Thus, the website
           needed to be presented in a more educational manner to reflect this
           leadership role. The various service pages are great examples of this.
-          I laid out the design to appear as if it’s a resource, or a wiki
-          article. This helps connect the legitimacy of Alta’s work with the
-          quality they provide.
+          I laid out the design to appear as if it&apos;s a resource, or a wiki
+          article. This helps connect the legitimacy of Alta&apos;s work with
+          the quality they provide.
         </p>
         <Video src="/videos/alta-service.mp4" />
         <h2 className="h1">Final comments</h2>
         <h3>Positioning</h3>
         <p>
           As part of my design process, I take the time to learn about each
-          client's unique position within the market and create designs that
-          reflect it.
+          client&apos;s unique position within the market and create designs
+          that reflect it.
         </p>
       </div>
     )

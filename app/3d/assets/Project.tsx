@@ -35,7 +35,7 @@ export default function Project(props: ProjectProps) {
           <mesh position={[-2, 10, 0]}>
             <boxGeometry args={[0, 9, 16]} />
             <Suspense fallback={<FallbackMaterial url={project.image.src} />}>
-              <VideoMaterial url={"" + project.featuredVideo} />
+              <VideoMaterial url={project.featuredVideo} />
             </Suspense>
           </mesh>
         </group>
@@ -45,14 +45,14 @@ export default function Project(props: ProjectProps) {
 }
 function VideoMaterial({ url, ...props }) {
   let extension = url.substr(url.lastIndexOf(".") + 1)
+  const texture = useVideoTexture(url, null)
   if (extension != "mp4") {
     return <FallbackMaterial url={url} />
   } else {
-    const texture = useVideoTexture(url, null)
     return <meshBasicMaterial map={texture} toneMapped={false} />
   }
 }
 function FallbackMaterial({ url }) {
-  const texture = useTexture(url)
+  const texture = useTexture(url) as THREE.Texture
   return <meshBasicMaterial map={texture} toneMapped={false} />
 }

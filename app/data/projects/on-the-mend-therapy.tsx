@@ -66,7 +66,7 @@ const onTheMendData: ProjectType = {
         <p>
           On The Mend needed a way to easily answer their frequently asked
           questions. Rather than follow the trend of making boring plain text
-          pages, I took this as an opportunity to grow On The Mend’s brand
+          pages, I took this as an opportunity to grow On The Mend&apos;s brand
           value. By applying their branding to the FAQ, adding areas of user
           interactions, and turned a boring page into a visually appealing
           experience I have been able to create an entire experience that feels
@@ -75,12 +75,12 @@ const onTheMendData: ProjectType = {
         <Video src="/videos/mend-faq.mp4" />
         <h3>Photography</h3>
         <p>
-          Shh, don’t tell anyone but all of the photos used for this project
-          were royalty free photos. Thus ending the debate of whether or not
-          it’s possible to create a beautiful website with just royalty free
-          images. If you don’t have photos to use for the site, don’t worry
-          about it! We’re more than happy to take the time to find the perfect
-          photos to match your brand
+          Shh, don&apos;t tell anyone but all of the photos used for this
+          project were royalty free photos. Thus ending the debate of whether or
+          not it&apos;s possible to create a beautiful website with just royalty
+          free images. If you don&apos;t have photos to use for the site,
+          don&apos;t worry about it! We&apos;re more than happy to take the time
+          to find the perfect photos to match your brand
         </p>
       </div>
     )

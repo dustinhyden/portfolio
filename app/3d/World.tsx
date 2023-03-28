@@ -4,7 +4,7 @@ import { Canvas } from "@react-three/fiber"
 import Character from "./assets/Character"
 import ScrollWorld from "./ScrollWorld"
 import HorizontalCamRig from "./HorizontalCamRig"
-import OffsetWrapper from "./OffsetWrapper"
+import WorldMediaWrapper from "./WorldMediaWrapper"
 
 export default function HomeWorld() {
   return (
@@ -17,7 +17,7 @@ export default function HomeWorld() {
     >
       <Canvas
         camera={{
-          position: [-10.259, 13.583, 19.382],
+          position: [-10.259, 8.583, 19.382],
           fov: 75,
           far: 100,
         }}
@@ -33,11 +33,11 @@ export default function HomeWorld() {
           {/* <directionalLight position={[0, 0, -10]} args={["#E98EC3", 10]} /> */}
           {/* <directionalLight position={[-10, 0, 10]} args={["#FFD8E2", 1]} /> */}
           {/* <directionalLight position={[-10, 0, 10]} args={["white", 2]} /> */}
-          <OffsetWrapper>
+          <WorldMediaWrapper>
             <Stage adjustCamera={false} preset="rembrandt" environment="city">
               <Character />
             </Stage>
-          </OffsetWrapper>
+          </WorldMediaWrapper>
           <ScrollWorld position={[0, -4, 0]} scale={[1, 1, 1]} />
 
           <Grid

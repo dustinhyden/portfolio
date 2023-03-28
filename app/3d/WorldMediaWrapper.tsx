@@ -2,7 +2,7 @@
 import { Center } from "@react-three/drei"
 import useWindowDimensions from "../hooks/useWindowDimensions"
 
-export default function OffsetWrapper({
+export default function WorldMediaWrapper({
   children,
 }: {
   children: React.ReactNode

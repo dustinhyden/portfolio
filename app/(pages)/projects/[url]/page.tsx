@@ -4,7 +4,7 @@ import data from "@/app/data"
 import Image from "next/image"
 import Link from "next/link"
 import { redirect } from "next/navigation"
-import Project from "@/app/3d/projects/Project"
+import Project from "@/app/3d/assets/Project"
 import styles from "./page.module.css"
 import ProjectWorld from "./World"
 

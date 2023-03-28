@@ -3,7 +3,7 @@ import { Grid, Stage } from "@react-three/drei"
 import { Canvas } from "@react-three/fiber"
 import Character from "@/app/3d/assets/Character"
 import HorizontalCamRig from "@/app/3d/HorizontalCamRig"
-import OffsetWrapper from "@/app/3d/OffsetWrapper"
+import OffsetWrapper from "@/app/3d/WorldMediaWrapper"
 
 // Instead of making a reusable component for the world, I may want this to be very unique in the future, so I left all the bones
 export default function ErrorWorld() {

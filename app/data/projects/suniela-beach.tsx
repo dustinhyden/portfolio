@@ -26,20 +26,20 @@ const sunielaData: ProjectType = {
         <Video src="/videos/suniela-homepage.mp4" />
         <h3>Rounded edges everywhere</h3>
         <p>
-          Suniela’s portable cabanas all have one thing in common, they are half
-          circles. Their shape is very distinguishable and helps them stand out.
-          To create a visual identity that matched this, I made the majority of
-          the site incorporate these arches. In fact, all the angles used come
-          straight from their logo, this helped to make the site match the rest
-          of Suniela’s incredible branding.
+          Suniela&apos;s portable cabanas all have one thing in common, they are
+          half circles. Their shape is very distinguishable and helps them stand
+          out. To create a visual identity that matched this, I made the
+          majority of the site incorporate these arches. In fact, all the angles
+          used come straight from their logo, this helped to make the site match
+          the rest of Suniela&apos;s incredible branding.
         </p>
         <h3>Colour without the palm trees</h3>
         <p>
           Suniela stressed the importance of creating a colorful and vibrant
           website that stayed away from palm tree clip art. Most competitors
-          immediately use palm trees as a part of branding, as it’s “easy” to
-          do. Instead, I focused on more abstract shapes, that match the arch of
-          the product.
+          immediately use palm trees as a part of branding, as it&apos;s “easy”
+          to do. Instead, I focused on more abstract shapes, that match the arch
+          of the product.
         </p>
         <h3>Quick view</h3>
         <p>
@@ -66,11 +66,11 @@ const sunielaData: ProjectType = {
         <h3>Even more</h3>
         <p>
           Suniela can now customize each product page to be entirely unique,
-          with an endless amount of customization options, but that doesn’t even
-          begin to cover all the unique features I packed in this project. If
-          you like what you see and you want me to help with your next website
-          let me know and I can discuss even more of the features I built into
-          this project.
+          with an endless amount of customization options, but that doesn&apos;t
+          even begin to cover all the unique features I packed in this project.
+          If you like what you see and you want me to help with your next
+          website let me know and I can discuss even more of the features I
+          built into this project.
         </p>
       </div>
     )

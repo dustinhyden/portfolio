@@ -31,8 +31,9 @@ const empoweredData: ProjectType = {
           also known as Empowered by BAE, is a medical esthetician company
           located in Midland, Ontario. Founded by Katelyn Burden, RN, Empowered
           focuses on putting clients first. Every client who walks into her spa
-          has a different vision. Katelyn listens to each individual’s needs,
-          and provides natural enhancements through medical aesthetic services.
+          has a different vision. Katelyn listens to each individual&apos;s
+          needs, and provides natural enhancements through medical aesthetic
+          services.
         </p>
         <h3>Project</h3>
         <p>
@@ -46,15 +47,15 @@ const empoweredData: ProjectType = {
         <h3>Navigation</h3>
         <p>
           I always make the navigation of any website my first priority. If the
-          user can’t figure out how to traverse the site, it doesn’t matter how
-          beautiful the site is. Additionally, Empowered has a lot of pages,
-          from contact, to shop, to privacy policy, and more.
+          user can&apos;t figure out how to traverse the site, it doesn&apos;t
+          matter how beautiful the site is. Additionally, Empowered has a lot of
+          pages, from contact, to shop, to privacy policy, and more.
         </p>
         <p>
-          I placed the “Menu” button in the top left corner of each page. It’s
-          the first link a user will see when looking for the navigation. This
-          button is the perfect way to get users to see all of the links
-          available to them.
+          I placed the “Menu” button in the top left corner of each page.
+          It&apos;s the first link a user will see when looking for the
+          navigation. This button is the perfect way to get users to see all of
+          the links available to them.
         </p>
         <p>
           I then decided to make a full page flyout navigation to house all of
@@ -66,10 +67,10 @@ const empoweredData: ProjectType = {
         <h3>Reiterating what we want the viewer to do</h3>
         <p>
           Most viewers who want to create an appointment or contact the business
-          will, by default, look for the Contact page. However, Empowered’s goal
-          is to get businesses to book appointments. For the site, I added an
-          option to book an appointment along the top navigation bar, and also
-          added a sticky button to the side prompting the viewer towards
+          will, by default, look for the Contact page. However, Empowered&apos;s
+          goal is to get businesses to book appointments. For the site, I added
+          an option to book an appointment along the top navigation bar, and
+          also added a sticky button to the side prompting the viewer towards
           appointments. If the user stumbles onto the Contact page, I split this
           page to once again tell the user what we want them to do. See this in
           action in the video below.
@@ -105,8 +106,9 @@ const empoweredData: ProjectType = {
           outliers. However, our experience has been less than ideal. I
           immediately transferred Empowered to a new platform, as their site on
           GoDaddy was taking an extra 6-14 seconds of load time just waiting for
-          a response from the server. That’s not the download time. That’s just
-          the initial response, which is far too long for any website.
+          a response from the server. That&apos;s not the download time.
+          That&apos;s just the initial response, which is far too long for any
+          website.
         </p>
         <p>
           If you are considering hosting your site on GoDaddy I would recommend

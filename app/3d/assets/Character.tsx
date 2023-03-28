@@ -60,7 +60,7 @@ export default function Character(
         clearTimeout(switchOnFinish)
       }
     }
-  }, [actions, activeAnim])
+  }, [actions, activeAnim, props.forcedState])
 
   // Switch animations based on scroll
   useEffect(() => {
@@ -89,7 +89,7 @@ export default function Character(
   // attempt to force an animation
   useEffect(() => {
     if (props.forcedState) setActiveAnim(props.forcedState)
-  }, [])
+  }, [props.forcedState])
 
   const handleClick = () => {
     setActiveAnim("Clicked")

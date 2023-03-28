@@ -6,7 +6,7 @@ import config from "../scrollConfig"
 import useScrollPosition from "../hooks/useScrollPosition"
 import useWindowDimensions from "../hooks/useWindowDimensions"
 import data from "../data"
-import Project from "./projects/Project"
+import Project from "./assets/Project"
 
 export default function ScrollWorld(props: JSX.IntrinsicElements["group"]) {
   const { width } = useWindowDimensions()
