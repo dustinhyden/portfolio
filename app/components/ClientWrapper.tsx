@@ -1,6 +1,7 @@
 "use client"
 import { Analytics } from "@vercel/analytics/react"
 import Footer from "./Footer"
+import Loader from "./Loader"
 import Mouse from "./Mouse"
 import Navbar from "./Navbar"
 
@@ -13,6 +14,7 @@ export default function ClientWrapper({
     <main className="main-layout">
       <Navbar />
       <Mouse />
+      <Loader />
       {children}
       <Analytics />
       <Footer />

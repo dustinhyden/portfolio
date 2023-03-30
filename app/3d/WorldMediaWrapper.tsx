@@ -8,5 +8,5 @@ export default function WorldMediaWrapper({
   children: React.ReactNode
 }) {
   const { width } = useWindowDimensions()
-  return <Center position={[width < 768 ? -5 : 0, 0, 0]}>{children}</Center>
+  return <Center position={[width < 768 ? -3.5 : 0, 0, 0]}>{children}</Center>
 }

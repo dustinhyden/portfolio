@@ -17,7 +17,7 @@ export default function HomeWorld() {
     >
       <Canvas
         camera={{
-          position: [-10.259, 8.583, 19.382],
+          position: [-17.259, 8.583, 14.382],
           fov: 75,
           far: 100,
         }}
@@ -26,13 +26,6 @@ export default function HomeWorld() {
         <fog attach="fog" color="white" near={40} far={80} />
         <HorizontalCamRig>
           <hemisphereLight intensity={1} args={["white", 1]} />
-
-          {/* back right edge light */}
-          {/* <directionalLight position={[10, 0, -10]} args={["red", 10]} /> */}
-          {/* back left edge light */}
-          {/* <directionalLight position={[0, 0, -10]} args={["#E98EC3", 10]} /> */}
-          {/* <directionalLight position={[-10, 0, 10]} args={["#FFD8E2", 1]} /> */}
-          {/* <directionalLight position={[-10, 0, 10]} args={["white", 2]} /> */}
           <WorldMediaWrapper>
             <Stage adjustCamera={false} preset="rembrandt" environment="city">
               <Character />

@@ -3,7 +3,7 @@
   display: none;
   position: fixed;
   pointer-events: none;
-  z-index: 10;
+  z-index: 9001;
   height: var(--size);
   width: var(--size);
   backdrop-filter: drop-shadow(4px 4px 10px blue);
