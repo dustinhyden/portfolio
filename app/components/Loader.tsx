@@ -21,13 +21,12 @@ export default function Loader() {
   return (
     <div className={`${styles.loader} ${loaded ? styles.done : ""}`}>
       <div className={styles["container"]}>
-        <Video src="/loading-anim.webm" />
-        {/* <Image
-          src="/loader.png"
-          alt="Cartoon head loading image"
-          width={150}
-          height={150}
-        /> */}
+        <Image
+          src="/hyden-logo-alt.svg"
+          alt="Hyden logo in white"
+          width={250}
+          height={250}
+        />
         <p className={styles["loading-text"]}>
           {loaded ? "Done!" : "Loading..."}
         </p>
