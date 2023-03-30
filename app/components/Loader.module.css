@@ -15,18 +15,25 @@
 }
 .loader.done {
   animation: FadeIn 0.625s ease-out forwards reverse;
+  pointer-events: none;
 }
 .container {
   animation: FadeIn 0.625s var(--smoothing) forwards;
   opacity: 0;
 }
-.loading-container {
-  position: relative;
+.container > video {
+  height: 250px;
+  width: 250px;
 }
 .loading-bar {
   height: auto !important;
 }
-.loading-container::before {
+.effect {
+  position: relative;
+  max-width: 150px;
+  margin: 0 auto;
+}
+.effect::before {
   content: "";
   display: block;
   position: absolute;
@@ -38,7 +45,10 @@
   animation: Fill 3s linear forwards;
   animation-delay: 0.625s;
 }
-.loader.done > div > img {
+.loader.done > div > video {
+  animation: SlideUp 0.625s var(--smoothing) forwards;
+}
+.loader.done > div > image {
   animation: SlideUp 0.625s var(--smoothing) forwards;
 }
 .loader.done > div > p {
