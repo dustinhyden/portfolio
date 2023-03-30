@@ -6,7 +6,7 @@ import { ProjectType } from ".."
 
 const empoweredData: ProjectType = {
   title: "Empowered",
-  featured: true,
+  featured: false,
   featuredVideo: "/videos/empowered-homepage.mp4",
   subtitle:
     "See how I custom developed an ecommerce enabled website for a small town cosmetics shop in Midland, Ontario.",

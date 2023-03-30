@@ -29,7 +29,7 @@ export default function ScrollWorld(props: JSX.IntrinsicElements["group"]) {
     <group name="ScrollWorld" ref={group} {...props} dispose={null}>
       {featuredItems.map((project, i) => {
         if (project.featured) {
-          return <Project key={i} index={i} />
+          return <Project key={i} index={i} featuredOnly={true} />
         }
       })}
     </group>

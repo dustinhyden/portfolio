@@ -7,16 +7,15 @@ import { useTexture, useVideoTexture } from "@react-three/drei"
 
 // import { }
 export default function Project(props: ProjectProps) {
-  // This reference gives us direct access to the THREE.Mesh object
-  const ref = useRef<THREE.Mesh>(null!)
-
   // Hold state for hovered and clicked events
   const [hovered, hover] = useState(false)
 
-  const featuredItems = data.filter((item) => item.featured)
-  const project = featuredItems[props.index]
+  // const featuredItems = data.filter((item) => item.featured)
+  const project = props.featuredOnly
+    ? data.filter((item) => item.featured)[props.index]
+    : data[props.index]
 
-  if (project.featuredVideo == "" || project.featuredVideo == null) {
+  if (project?.featuredVideo == "" || project?.featuredVideo == null) {
     return null
   }
   return (

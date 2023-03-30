@@ -6,7 +6,7 @@ import { ProjectType } from ".."
 
 const bohemiaData: ProjectType = {
   title: "Bohemia",
-  featured: true,
+  featured: false,
   featuredVideo: "/videos/bohemia-homepage.mp4",
   subtitle:
     "Bohemia was plagued with a website with several broken links, pages that did not load, and a platform to edit content that was not user-friendly. See how I helped set them up with, and designed an easy to use ecommerce solution.",

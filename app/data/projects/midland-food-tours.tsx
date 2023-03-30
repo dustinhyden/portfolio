@@ -6,7 +6,7 @@ import { ProjectType } from ".."
 
 const mftData: ProjectType = {
   title: "Midland Food Tours",
-  featured: true,
+  featured: false,
   featuredVideo: "/videos/mft-homepage.mp4",
   subtitle:
     "See how I helped Midland Food Tours develop a platform that helps position them as the defacto tour business in Midland, Ontario.",

@@ -56,6 +56,7 @@ const data: ProjectType[] = [
 type BasicProps = {
   index: number
   centered?: boolean
+  featuredOnly?: boolean
 }
 
 export type ProjectProps = JSX.IntrinsicElements["group"] & BasicProps

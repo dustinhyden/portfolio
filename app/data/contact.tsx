@@ -6,7 +6,7 @@ const contactData: ProjectType = {
   featuredVideo: null,
   subtitle: "Want to get in touch with me?",
   href: "/contact",
-  linkText: "Get in touch",
+  linkText: "Say hello",
   image: {
     src: "/images/contact-me-banner.jpg",
     alt: "Polar bear holding camera",

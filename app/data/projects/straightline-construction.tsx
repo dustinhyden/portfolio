@@ -6,7 +6,7 @@ import { ProjectType } from ".."
 
 const straightlineData: ProjectType = {
   title: "Straightline Construction",
-  featured: true,
+  featured: false,
   featuredVideo: "/videos/straightline-homepage.mp4",
   subtitle:
     "Not all websites need to scroll vertically, sometimes it's fun to have the site scroll horizontally.",

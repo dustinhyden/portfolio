@@ -36,10 +36,7 @@ export default function ProjectPage({ params }: ProjectParams) {
   if (!project) {
     redirect("/projects")
   }
-  const featuredItems = data.filter((item) => item.featured)
-  const projectIndex = featuredItems.findIndex(
-    (item) => item.href == project.href
-  )
+  const projectIndex = data.findIndex((item) => item.href == project.href)
   return (
     <Content>
       <div className={styles.columns}>
