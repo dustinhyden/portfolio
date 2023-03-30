@@ -2,10 +2,10 @@
   display: flex;
   flex-wrap: wrap;
   padding-top: 40px;
-  max-width: 700px;
+  max-width: 800px;
 }
 .image-container {
-  --size: 100px;
+  --size: 150px;
   margin-right: 10px;
   margin-bottom: 10px;
   width: var(--size);
@@ -25,6 +25,6 @@
 }
 @media only screen and (min-width: 768px) {
   .image-container {
-    --size: 120px;
+    --size: 200px;
   }
 }

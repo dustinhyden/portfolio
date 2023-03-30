@@ -48,6 +48,10 @@ export default function About() {
                 alt: "Bee by the sea logo",
               },
               {
+                src: "/images/logo-2crows.png",
+                alt: "2 Crows Brewing Co. logo",
+              },
+              {
                 src: "/images/logo-mft@2x.png",
                 alt: "Midland Food Tours logo",
               },
