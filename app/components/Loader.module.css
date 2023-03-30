@@ -48,7 +48,7 @@
 .loader.done > div > video {
   animation: SlideUp 0.625s var(--smoothing) forwards;
 }
-.loader.done > div > image {
+.loader.done > div > img {
   animation: SlideUp 0.625s var(--smoothing) forwards;
 }
 .loader.done > div > p {
