@@ -76,7 +76,7 @@ const swirleezData: ProjectType = {
           alt="One of Swirleez signature treats, a Swaffle."
         />
         <p>
-          All facets of this site were custom built for a smooth user experience, and cohesive design. You'll see 
+          All facets of this site were custom built for a smooth user experience, and cohesive design. You&apos;ll see 
           below the navigation maintains the design language created, and animates open with a circle.
         </p>
         <Image
