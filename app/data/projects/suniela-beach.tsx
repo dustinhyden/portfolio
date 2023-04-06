@@ -24,36 +24,37 @@ const sunielaData: ProjectType = {
       <div>
         <h2 className="h1">Portable shade cabanas 🏖</h2>
         <Video src="/videos/suniela-homepage.mp4" />
-        <h3>Rounded edges everywhere</h3>
+        <h3>Rounded Edges Everywhere</h3>
         <p>
-          Suniela&apos;s portable cabanas all have one thing in common, they are
+          Suniela&apos;s portable cabanas all have one thing in common: they are
           half circles. Their shape is very distinguishable and helps them stand
-          out. To create a visual identity that matched this, I made the
-          majority of the site incorporate these arches. In fact, all the angles
-          used come straight from their logo, this helped to make the site match
+          out. To create a visual identity that matched this, the
+          majority of the site incorporates these arches. In fact, all the angles
+          used come straight from their logo, helping to make the site match
           the rest of Suniela&apos;s incredible branding.
         </p>
-        <h3>Colour without the palm trees</h3>
+        <h3>Tropical, Without the Palm Trees</h3>
         <p>
-          Suniela stressed the importance of creating a colorful and vibrant
+          Suniela stressed the importance of creating a colourful and vibrant
           website that stayed away from palm tree clip art. Most competitors
           immediately use palm trees as a part of branding, as it&apos;s “easy”
-          to do. Instead, I focused on more abstract shapes, that match the arch
-          of the product.
+          way to give those vacation vibes. Instead, I focused on more abstract shapes and vibrant colours, 
+          that match the shape of the product.
         </p>
-        <h3>Quick view</h3>
+        <h3>User Experience</h3>
         <p>
           Suniela products come in a wide assortment of colour variations. We
           wanted to illustrate this by allowing the user to hover over the
-          different colours before viewing the full product, so that they can
-          see ahead of time what colours Suniela has to offer.
+          different colours before viewing the full product, to
+          see ahead of time what colours Suniela has to offer. This creates a smoother user interface,
+          and a better shopping experience
         </p>
         <Video src="/videos/suniela-quickview.mp4" />
-        <h3>Simple dropdowns.</h3>
+        <h3>Simple Dropdowns</h3>
         <p>
           Suniela products require a lot of information to explain the benefits
-          and differentiating factors. To help make this easier, I implemented a
-          very minimal dropdown system to sort the more generic information.
+          and differentiating factors. To help make this information easier to access and digets, I implemented a
+          simple accordion system to categorize information, and limit what the amount of information the user is inundated with.
         </p>
         <Video src="/videos/suniela-dropdowns.mp4" />
         <Image
@@ -63,14 +64,11 @@ const sunielaData: ProjectType = {
           alt="Picture of a woman and her child on the beach with a Suniela Cabana."
         />
         <h2 className="h1">Final comments</h2>
-        <h3>Even more</h3>
+        <h3>Even More</h3>
         <p>
           Suniela can now customize each product page to be entirely unique,
-          with an endless amount of customization options, but that doesn&apos;t
-          even begin to cover all the unique features I packed in this project.
-          If you like what you see and you want me to help with your next
-          website let me know and I can discuss even more of the features I
-          built into this project.
+          this endless amount of customization options, and smotth user experience, is just the tip of 
+          the functionality packed into the Suniela site.
         </p>
       </div>
     )
