@@ -1,0 +1,15 @@
+.highlight {
+	font-size: 1rem;
+	border-radius: 9px;
+}
+
+@media only screen and (min-width: 1080px) {
+  .highlight {
+    font-size: 1.2rem;
+  }
+}
+@media only screen and (min-width: 1380px) {
+  .highlight {
+    font-size: 1.4rem;
+  }
+}

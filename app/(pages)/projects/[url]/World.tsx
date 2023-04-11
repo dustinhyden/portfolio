@@ -1,5 +1,6 @@
 "use client"
 import Spin from "@/app/3d/Spin"
+import Swivel from "@/app/3d/Swivel"
 import { PerspectiveCamera, Stage } from "@react-three/drei"
 import { Canvas } from "@react-three/fiber"
 import styles from "./World.module.css"
