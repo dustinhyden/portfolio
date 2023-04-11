@@ -1,7 +1,6 @@
 import data from "./data"
 
 export const scrollConfig = {
-  // maxNumberOfSlides: 5,
   offsetFromPlayer: 8, // how far off the screen should the projects be from the player track.
   spacing: 40, // distance between objects
   floorPos: -4.5, // how much do we need to adjust the height to shrink the objects
@@ -12,12 +11,6 @@ export const scrollConfig = {
       data.reduce((acc, current) => acc + (current.featured ? 1 : 0), 0) -
       40) /
     scrollConfig.scrollSpeed,
-  // totalScrollHeight: () =>
-  //   (scrollConfig.spacing *
-  //     (data.length >= scrollConfig.maxNumberOfSlides
-  //       ? scrollConfig.maxNumberOfSlides - 1
-  //       : data.length - 1)) /
-  //   scrollConfig.scrollSpeed,
   pixelsPerProject: () => scrollConfig.spacing / scrollConfig.scrollSpeed,
 }
 
