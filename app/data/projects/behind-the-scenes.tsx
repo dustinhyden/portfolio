@@ -41,12 +41,12 @@ const behindTheScenesData: ProjectType = {
           objects themselves.
         </p>
         <p>
-          I've been itching to try out the new NextJS 13 beta, and I figured
-          this would be a great place to do so. It did however mean a lot of
-          bugs to deal with! At the time of writing, the create-next-app doesn't
-          play nicely with React and causes hydration errors out of the gate.
-          But with all these bugs aside, Next13 is a huge leap forward in my
-          opinion.
+          I&apos;ve been itching to try out the new NextJS 13 beta, and I
+          figured this would be a great place to do so. It did however mean a
+          lot of bugs to deal with! At the time of writing, the create-next-app
+          doesn&apos;t play nicely with React and causes hydration errors out of
+          the gate. But with all these bugs aside, Next13 is a huge leap forward
+          in my opinion.
         </p>
         <p>
           Whenever possible, I develop as lean as I can. Below you can see my{" "}
@@ -56,9 +56,9 @@ const behindTheScenesData: ProjectType = {
           >
             package.json
           </a>{" "}
-          file. There really isn't much here aside from some type declarations,
-          default NextJS packages, threeJS packages for the 3D effects, and a
-          few utility packages.
+          file. There really isn&apos;t much here aside from some type
+          declarations, default NextJS packages, threeJS packages for the 3D
+          effects, and a few utility packages.
         </p>
         <Highlight
           language="json"
@@ -85,11 +85,11 @@ const behindTheScenesData: ProjectType = {
         />
         <h2>Subtle Animations</h2>
         <p>
-          I'm all about the subtle experience. I believe that's what builds to a
-          great experience. One neat subtlety was the simple hover menu on
-          desktop. Hovering anywhere near the menu, will expand it, reducing the
-          clicks a user has to do by 1, while also hiding that information when
-          it's not necessary (a win-win)!
+          I&apos;m all about the subtle experience. I believe that&apos;s what
+          builds to a great experience. One neat subtlety was the simple hover
+          menu on desktop. Hovering anywhere near the menu, will expand it,
+          reducing the clicks a user has to do by 1, while also hiding that
+          information when it&apos;s not necessary (a win-win)!
         </p>
         <p>This effect is mostly CSS magic, and it works like this:</p>
         <Highlight
@@ -123,12 +123,12 @@ const behindTheScenesData: ProjectType = {
   }
 }`}
         />
-        <h2>Let's Get More Technical</h2>
+        <h2>Let&apos;s Get More Technical</h2>
         <p>
           I love discussing the inner workings of the packages used and the CSS
           that was written, but when it comes down to most people are just
           looking for the fancy JavaScript that was written to make a specific
-          effect. So, let's talk JavaScript
+          effect. So, let&apos;s talk JavaScript
         </p>
         <h2>How Did I Make The Homepage?</h2>
         <p>
@@ -193,7 +193,7 @@ const behindTheScenesData: ProjectType = {
           on the spacing of each element, the number of items that are featured,
           and a modified based on how quickly the items scroll in the 3d world.
           Then, with this information I directly modified the homepage div to
-          set it's height to the config.totalScrollHeight():
+          set it&apos;s height to the config.totalScrollHeight():
         </p>
         <p>
           Creating this config file really helps to simplify development as all
@@ -264,9 +264,9 @@ useFrame((state, delta) => {
           I could move the world relative to the screen width (woo for
           responsiveness 🎉). Then I needed a ref to the object so I called this
           "group" since Three JS refers to groups of objects as "group".
-          Finally, ThreeJS' "useFrame" hook allowed me to modify the 3D. So, I
-          calculated the X, Y, and Z positions based on my config settings and
-          saved scroll position, and injected them into the useFrame hook.
+          Finally, ThreeJS&apos; "useFrame" hook allowed me to modify the 3D.
+          So, I calculated the X, Y, and Z positions based on my config settings
+          and saved scroll position, and injected them into the useFrame hook.
         </p>
         <h2>So What About The Word Effect?</h2>
         <p>
@@ -307,26 +307,26 @@ useFrame((state, delta) => {
         />
         <p>
           The snippet above shows all the logic necessary to have the mouse
-          effect work. I look at where my mouse is, determine if I'm hovering
-          over anything clickable, and then apply a class based on that logic.
-          The rest is CSS.
+          effect work. I look at where my mouse is, determine if I&apos;m
+          hovering over anything clickable, and then apply a class based on that
+          logic. The rest is CSS.
         </p>
         <h2 className="h1">Final Comments</h2>
         <p>
           There was a lot of small details that went into this project that I
-          haven't even begun to cover. My favourite detail is simply that you
-          can click the 3d character on the homepage and he will react to being
-          clicked! I even implemented a cross-fade animation effect so that the
-          animations fade into each other, rather than appearing like an old
-          Gameboy Colour game.
+          haven&apos;t even begun to cover. My favourite detail is simply that
+          you can click the 3d character on the homepage and he will react to
+          being clicked! I even implemented a cross-fade animation effect so
+          that the animations fade into each other, rather than appearing like
+          an old Gameboy Colour game.
         </p>
         <p>
-          Here's the{" "}
+          Here&apos;s the{" "}
           <a href="https://github.com/dustinHyden/portfolio" target="_blank">
             full repo on GitHub
           </a>{" "}
-          once again, take a look through it. Once you're ready, reach out and
-          let's discuss how I can help you.
+          once again, take a look through it. Once you&apos;re ready, reach out
+          and let&apos;s discuss how I can help you.
         </p>
       </div>
     )
