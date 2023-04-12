@@ -147,8 +147,13 @@
     transition: clip-path 0.35s var(--smoothing),
       -webkit-clip-path 0.35s var(--smoothing);
   }
-
-  /* add hover effect */
+  .nav-container:hover .menu-items {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    /* open speed */
+    transition: clip-path 0.6s var(--smoothing),
+      -webkit-clip-path 0.6s var(--smoothing);
+  }
+  /* hamburger */
   .nav-container:hover .menu-icon__bar:nth-of-type(2) {
     transform: translateX(-494px);
   }
@@ -157,12 +162,6 @@
   }
   .nav-container:hover .menu-icon__bar:nth-of-type(3) {
     transform: rotateZ(-45deg);
-  }
-  .nav-container:hover .menu-items {
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-    /* open speed */
-    transition: clip-path 0.6s var(--smoothing),
-      -webkit-clip-path 0.6s var(--smoothing);
   }
 }
 @keyframes FadeIn {
