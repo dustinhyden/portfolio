@@ -14,7 +14,7 @@ export default function NotFound() {
           <Line />
           <h1>404</h1>
           <p className="center">
-            The page you&apos;re looking for has been moved or doesn&apos;t exist.
+            The page you're looking for has been moved or doesn't exist.
           </p>
           <Link href="/" className="mega-link">
             Go Home

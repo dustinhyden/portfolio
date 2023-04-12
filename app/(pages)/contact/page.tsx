@@ -19,8 +19,8 @@ export default function Contact() {
           <h1>Contact</h1>
           <Orb />
           <p className="center">
-            Want to get in touch? There&apos;s two ways to do so. I&apos;m very quick to
-            respond to emails so if you&apos;re not email shy, let&apos;s do that method.
+            Want to get in touch? There's two ways to do so. I'm very quick to
+            respond to emails so if you're not email shy, let's do that method.
           </p>
           <Link href="mailto:dustin@hyden.ca" className="mega-link">
             dustin@hyden.ca

@@ -28,7 +28,7 @@ const valisierData: ProjectType = {
           <a href="https://mrvalisier.com/" target="_blank">
             Mr. Valisier
           </a>{" "}
-          is located in Montreal, Canada. They&apos;re known for providing high
+          is located in Montreal, Canada. They're known for providing high
           quality suitcases and other luggage accessories. After several years
           with their website they wanted a refresh.
         </p>
@@ -40,7 +40,7 @@ const valisierData: ProjectType = {
           professional brand in the process. Ecommerce projects are always chalk
           full of features. From the custom vertical picture gallery on the
           product page, to the animated luggage icons on the bottom of the
-          homepage. Here&apos;s a few below.
+          homepage. Here's a few below.
         </p>
 
         <Video src="/videos/valisier-homepage.mp4" />
@@ -48,8 +48,8 @@ const valisierData: ProjectType = {
         <p>
           On the left-hand side of the site, I added a button called “new” that
           would allow for users to immediately see what products have recently
-          been added to the site. It&apos;s a unique bit of functionality that
-          we haven&apos;t seen often but really love the value it brings.
+          been added to the site. It's a unique bit of functionality that we
+          haven't seen often but really love the value it brings.
         </p>
         <Video src="/videos/valisier-sidebar.mp4" />
         <h3>Simple, yet elegant collections pages</h3>
@@ -73,8 +73,8 @@ const valisierData: ProjectType = {
         <h3>Could you be next?</h3>
         <p>
           Are you a business operating in a small town looking for a world class
-          website? Or perhaps you&apos;re located in Montreal just like Mr.
-          Valisier? Reach out, and let&apos;s see how I can help you.
+          website? Or perhaps you're located in Montreal just like Mr. Valisier?
+          Reach out, and let's see how I can help you.
         </p>
       </div>
     )

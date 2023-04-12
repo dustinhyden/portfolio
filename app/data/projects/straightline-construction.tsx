@@ -64,12 +64,12 @@ const straightlineData: ProjectType = {
         />
         <h3>Did someone say a gallery?</h3>
         <p>
-          To make Straightline&apos;s photography stand out they wanted a clear
-          and concise gallery. I took this one step further. I took their photos
-          and showed them at very unusual dimensions. By turning their photos
-          into drastically horizontal photos, viewer&apos;s eyes can&apos;t help
-          but start from left and scan to the right, as they scroll, creating a
-          very harmonious pairing, and an oddly satisfying experience.
+          To make Straightline's photography stand out they wanted a clear and
+          concise gallery. I took this one step further. I took their photos and
+          showed them at very unusual dimensions. By turning their photos into
+          drastically horizontal photos, viewer's eyes can't help but start from
+          left and scan to the right, as they scroll, creating a very harmonious
+          pairing, and an oddly satisfying experience.
         </p>
         <Video src="/videos/straightline-gallery.mp4" />
 
@@ -78,12 +78,12 @@ const straightlineData: ProjectType = {
         <p>
           As always, there are so many more features I could talk about. Give me
           a call one day if you want to hear more about the project, or if
-          you&apos;re looking for a website of the same calibre.
+          you're looking for a website of the same calibre.
         </p>
         <h3>Could you be next?</h3>
         <p>
           Are you a business operating in a small town looking for a world-class
-          website? Reach out, and let&apos;s see how I can help you.
+          website? Reach out, and let's see how I can help you.
         </p>
       </div>
     )

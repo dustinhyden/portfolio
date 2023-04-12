@@ -71,7 +71,7 @@ const dmsData: ProjectType = {
           <a href="https://xceleratesummit.co/" target="_blank">
             Xcelerate Summit
           </a>
-          , Central Ontario&apos;s Premier Business Event. In between scheduled
+          , Central Ontario's Premier Business Event. In between scheduled
           events, Xcelerate hosts their “Learning Series.” We were tasked with
           hosting the seminar, along with marketing it!
         </p>
@@ -122,10 +122,10 @@ const dmsData: ProjectType = {
         </p>
         <h3>Appreciation</h3>
         <p>
-          This program is what launched Hyden, and we wouldn&apos;t be here
-          today if this program did not exist. We want to thank all of the
-          partners involved, and we look forward to the day where we collaborate
-          once again.
+          This program is what launched Hyden, and we wouldn't be here today if
+          this program did not exist. We want to thank all of the partners
+          involved, and we look forward to the day where we collaborate once
+          again.
         </p>
       </div>
     )

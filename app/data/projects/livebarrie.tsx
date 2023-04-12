@@ -52,10 +52,10 @@ const liveBarrieData: ProjectType = {
         />
         <h3>Logo variations</h3>
         <p>
-          I knew right away that LiveBarrie&apos;s logo will need a few
-          variations. Many of LiveBarrie&apos;s promotional materials are very
-          tall and narrow (such as a poster). Thus, I designed a logo
-          specifically for this use case.
+          I knew right away that LiveBarrie's logo will need a few variations.
+          Many of LiveBarrie's promotional materials are very tall and narrow
+          (such as a poster). Thus, I designed a logo specifically for this use
+          case.
         </p>
         <Image
           src="/images/LiveBarrie-logo-variations.jpg"
@@ -65,7 +65,7 @@ const liveBarrieData: ProjectType = {
         />
         <h3>Brand colours</h3>
         <p>
-          Since LiveBarrie&apos;s branding will appear alongside various acts, I
+          Since LiveBarrie's branding will appear alongside various acts, I
           needed to choose colours that can can compliment a wide variety of
           colour palettes.
         </p>
@@ -106,10 +106,9 @@ const liveBarrieData: ProjectType = {
         <p>
           Now that LiveBarrie has a complete brand kit, any designer will be
           able to look at this kit and design promotional materials that match
-          LiveBarrie&apos;s look and feel. This reduces reduces the time it
-          takes to teach new designers about the brand, resulting in cost
-          savings for LiveBarrie, while also developing a visually consistent
-          identity.
+          LiveBarrie's look and feel. This reduces reduces the time it takes to
+          teach new designers about the brand, resulting in cost savings for
+          LiveBarrie, while also developing a visually consistent identity.
         </p>
         <h3>The future</h3>
         <p>

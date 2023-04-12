@@ -29,12 +29,11 @@ const swirleezData: ProjectType = {
             Swirleez
           </a>{" "}
           is a family owned and operated frozen yogurt shop, located in the
-          centre of downtown Barrie, Ontario. They&apos;ve built a strong
-          reputation for their vast array of treats, ranging from frozen yogurt,
-          to crepes, to their signature S&apos;wafflez, and everything in
-          between. Creating unique experiences is at the core of the Swirleez
-          brand. Every year they have come out with one stellar new treat after
-          another.
+          centre of downtown Barrie, Ontario. They've built a strong reputation
+          for their vast array of treats, ranging from frozen yogurt, to crepes,
+          to their signature S'wafflez, and everything in between. Creating
+          unique experiences is at the core of the Swirleez brand. Every year
+          they have come out with one stellar new treat after another.
         </p>
         <h3>Project</h3>
         <p>
@@ -79,7 +78,7 @@ const swirleezData: ProjectType = {
         />
         <p>
           All facets of this site were custom built for a smooth user
-          experience, and cohesive design. You&apos;ll see below the navigation
+          experience, and cohesive design. You'll see below the navigation
           maintains the design language created, and animates open with a
           circle.
         </p>
@@ -95,10 +94,10 @@ const swirleezData: ProjectType = {
           When a user goes to the site, they quickly see the visual effects in
           action, and most importantly with no performance downfalls. All code
           has been optimized for buttery smooth animations, even on mobile
-          devices. If you&apos;re curious, I did this by making it so there are
+          devices. If you're curious, I did this by making it so there are
           actually only ever two rows of bubbles, which move throughout the page
           to follow the user. This creates the illusion that there are bubbles
-          after every section, when in reality it&apos;s just the two!
+          after every section, when in reality it's just the two!
         </p>
         <h3>A Modern Website</h3>
         <p>

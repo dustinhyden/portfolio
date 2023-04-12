@@ -56,7 +56,7 @@ const jeriData: ProjectType = {
         <p>
           Making a good website is easy. Making a great website requires
           attention to detail. No aspect of the design is overlooked. When the
-          user scrolls to the bottom you&apos;ll see that the footer leaves the
+          user scrolls to the bottom you'll see that the footer leaves the
           perfect amount of space so as to not be covered by the “back to top”
           button in the bottom right.
         </p>
@@ -68,8 +68,8 @@ const jeriData: ProjectType = {
           how I added a sidebar on all the pages (aside from the homepage) that
           is the same width as the sidebar in the footer. So, as the user
           scrolls everything appears to just “fit”. I could talk about this
-          website for days, but don&apos;t let me do all the talking, take a
-          look for yourself and then reach out when you&apos;re ready!
+          website for days, but don't let me do all the talking, take a look for
+          yourself and then reach out when you're ready!
         </p>
       </div>
     )

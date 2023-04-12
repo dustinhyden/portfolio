@@ -22,8 +22,8 @@ export default function About() {
         <Space />
         <div className="block">
           <h3>
-            Hey! I&apos;m Dustin, a front end developer based in Barrie, Ontario
-            with 5+ years of experience.
+            Hey! I'm Dustin, a front end developer based in Barrie, Ontario with
+            5+ years of experience.
           </h3>
           <p>
             With a keen eye for design and details, I am very passionate about
@@ -35,10 +35,10 @@ export default function About() {
         <div className="block">
           <h3>Clients & Projects</h3>
           <p>
-            Over the past several year, I&apos;ve had the pleasure of developing
+            Over the past several year, I've had the pleasure of developing
             custom solutions with numerous businesses to improve SEO, site
-            performance, and overall UX/UI. Here&apos;s a few clients I&apos;ve
-            worked with:
+            performance, and overall UX/UI. Here's a few clients I've worked
+            with:
           </p>
           <ImageGrid
             images={[
@@ -62,7 +62,7 @@ export default function About() {
         </div>
         <div className="block">
           <h3>Contact</h3>
-          <p>Let&apos;s talk about how my skill set can work for you.</p>
+          <p>Let's talk about how my skill set can work for you.</p>
           <JumboButton text="Get in touch" href="/contact" />
         </div>
       </Content>

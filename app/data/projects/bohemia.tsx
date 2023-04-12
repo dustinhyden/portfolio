@@ -29,12 +29,12 @@ const bohemiaData: ProjectType = {
           <a href="https://www.bohemiabarrie.com/" target="_blank">
             Bohemia Barrie
           </a>{" "}
-          is a very well known coffee shop situated at the heart of
-          Barrie&apos;s downtown. Their interior is as unique as it gets, and
-          without a doubt one of the nicest gems in the city. From the gorgeous
-          tree branch railing, to the black and white checkerboard tiles,
-          Bohemia has created a very unique aesthetic that just makes you want
-          to stay longer and longer.
+          is a very well known coffee shop situated at the heart of Barrie's
+          downtown. Their interior is as unique as it gets, and without a doubt
+          one of the nicest gems in the city. From the gorgeous tree branch
+          railing, to the black and white checkerboard tiles, Bohemia has
+          created a very unique aesthetic that just makes you want to stay
+          longer and longer.
         </p>
         <h3>Project</h3>
         <p>
@@ -82,7 +82,7 @@ const bohemiaData: ProjectType = {
           understand exactly how the features work and how the platform works.
           Whether this is through personalized video tutorials, phone calls, or
           in-person meetings, I want to make sure the client can take the wheel.
-          Otherwise, the website quickly goes stagnant. Content doesn&apos;t get
+          Otherwise, the website quickly goes stagnant. Content doesn't get
           updated frequently, and it spells disaster.
         </p>
         <p>
@@ -106,9 +106,8 @@ const bohemiaData: ProjectType = {
         <p>
           Being able to add photos as easily as they can add photos to Instagram
           is a huge success. Moreover, Bohemia has since modified the site to
-          add more content! They&apos;ve continually added to their product
-          offering, and maintain the site all on their own. I like to call this
-          a big win.
+          add more content! They've continually added to their product offering,
+          and maintain the site all on their own. I like to call this a big win.
         </p>
       </div>
     )
