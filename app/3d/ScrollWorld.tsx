@@ -1,6 +1,6 @@
 "use client"
 import { useFrame } from "@react-three/fiber"
-import React, { useEffect, useRef, useState } from "react"
+import React, { useRef } from "react"
 
 import config from "../scrollConfig"
 import useScrollPosition from "../hooks/useScrollPosition"

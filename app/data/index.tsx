@@ -14,6 +14,7 @@ import onTheMendData from "./projects/on-the-mend-therapy"
 import straightlineData from "./projects/straightline-construction"
 import sunielaData from "./projects/suniela-beach"
 import swirleezData from "./projects/swirleez"
+import behindTheScenesData from "./projects/behind-the-scenes"
 
 export type ProjectType = {
   title: string
@@ -50,6 +51,7 @@ const data: ProjectType[] = [
   swirleezData,
   bohemiaData,
   dmsData,
+  behindTheScenesData,
   contact,
 ]
 

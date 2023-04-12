@@ -23,8 +23,6 @@ export default function ProjectGrid({
 }) {
   const projects = links
 
-  // const projects = data.slice(1, data.length - 1)
-
   return (
     <section className={`${styles.projects} ${thin ? styles.thin : ""}`}>
       {projects.length > 0 &&

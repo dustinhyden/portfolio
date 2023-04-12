@@ -8,6 +8,7 @@ import Project from "@/app/3d/assets/Project"
 import styles from "./page.module.css"
 import ProjectWorld from "./World"
 
+
 type ProjectParams = {
   params: {
     url: string
