@@ -6,7 +6,7 @@ import { ProjectType } from ".."
 
 const liveBarrieData: ProjectType = {
   title: "LiveBarrie",
-  featured: true,
+  featured: false,
   featuredVideo: "images/LiveBarrie-logo-black.jpg",
   subtitle:
     "See how I helped a fledgling live entertainment company build their entire brand from strategy to identity and implementation.",
