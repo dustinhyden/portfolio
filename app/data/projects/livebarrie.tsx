@@ -75,8 +75,8 @@ const liveBarrieData: ProjectType = {
           height={800}
           alt="LiveBarrie brand colours"
         />
-        <h2 className="h1">Stationary</h2>
-        <p>Take a look at some of the stationary items below.</p>
+        <h2 className="h1">Stationery</h2>
+        <p>Take a look at some of the stationery items below.</p>
         <Image
           src="/images/LiveBarrie-business-card.jpg"
           width={1000}
@@ -99,7 +99,7 @@ const liveBarrieData: ProjectType = {
           src="/images/LiveBarrie-stationary.jpg"
           width={1000}
           height={800}
-          alt="LiveBarrie stationary"
+          alt="LiveBarrie stationery"
         />
         <h2 className="h1">Final comments</h2>
         <h3>A guide created</h3>
