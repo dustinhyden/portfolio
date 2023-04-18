@@ -116,7 +116,7 @@ const beeData: ProjectType = {
           polish of the design and greatly improves user experience.
         </p>
         <Video src="/videos/bee-contact.mp4" />
-        <h2 className="h1">Ecommerce Solution</h2>
+        <h2 className="h1">Ecommerce solution</h2>
         <h3>Creating a minimal store, packed full of features</h3>
         <p>
           When browsing products, a viewer is greeted with a traditional grid of
@@ -149,14 +149,6 @@ const beeData: ProjectType = {
           sold the business, and the new owner has made the decision that the
           business is ready for another refresh. We wish them the best and we
           hope their new website lasts as long as this one did!
-        </p>
-        <h3>Could you be next?</h3>
-        <p>
-          I'm always looking for more forward thinking clients. Bee allowed me
-          the creative freedom necessary to make all of the features that they
-          wanted possible. I had a blast working with them and developing this
-          website. If you want your business to have a website that stands out,
-          let me know! I would love to see how I can help.
         </p>
       </div>
     )

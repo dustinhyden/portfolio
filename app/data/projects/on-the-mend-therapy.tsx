@@ -24,7 +24,7 @@ const onTheMendData: ProjectType = {
         <Video src="/videos/mend-homepage.mp4" />
         <h3>Create an inviting and warm atmosphere</h3>
         <p>
-          Our goal with On The Mend Therapy was to create a more relaxing
+          My goal with On The Mend Therapy was to create a more relaxing
           experience. This meant switching to calmer earth tones, and guiding
           the viewer throughout the website. Originally, the client used orange
           as a call to action colour. However, orange is often associated with
@@ -57,9 +57,9 @@ const onTheMendData: ProjectType = {
         <p>
           On The Mend uses a booking system separate from their own website.
           However, including their services on the website meant a potential SEO
-          boost. Therefore, our solution was to create a very minimal grid
-          layout of the services they provide where each item leads to their
-          booking platform.
+          boost. Therefore, my solution was to create a very minimal grid layout
+          of the services they provide where each item leads to their booking
+          platform.
         </p>
         <Video src="/videos/mend-menu.mp4" />
         <h3>Knowledgebase</h3>

@@ -22,9 +22,7 @@ const mftData: ProjectType = {
   content: () => {
     return (
       <div>
-        <h2 className="h1">
-          One of the best culinary tours in the heart of Georgian Bay 🍰
-        </h2>
+        <h2 className="h1">Culinary tours in the heart of Georgian Bay 🍰</h2>
         <h3>Background</h3>
         <p>
           <a href="https://midlandfoodtours.ca/" target="_blank">
@@ -76,13 +74,7 @@ const mftData: ProjectType = {
           such as finding the perfect shade of blue to help MFT create a sense
           of fun and excitement, while also appearing like the authoritative
           figure on food tours. Just like the rest of the redesign, each aspect
-          was worth it. MFT's new website really does stand out. Take a look at
-          their website and then reach out once you're ready.
-        </p>
-        <h3>Could you be next?</h3>
-        <p>
-          Are you a business operating in a small town looking for a world-class
-          website? Reach out, and let's see how I can help you.
+          was worth it. MFT's new website really does stand out.
         </p>
       </div>
     )

@@ -66,11 +66,11 @@ const bohemiaData: ProjectType = {
         <p>
           As with most coffee shops, taking photos of the coffees, posting them
           on social media, and commenting on social media is extremely
-          important. This also meant we wanted to find a platform that had a
+          important. This also meant I wanted to find a platform that had a
           really good admin interface for mobile devices.
         </p>
         <p>
-          Ultimately, we settled on using{" "}
+          Ultimately, I settled on using{" "}
           <a href="http://squarespace.com/" target="_blank">
             Squarespace
           </a>
@@ -96,10 +96,10 @@ const bohemiaData: ProjectType = {
           alt="Bohemia's new contact page"
         />
         <h2 className="h1">Outcomes</h2>
-        <h3>The obvious outcome: a new website!</h3>
+        <h3>Outcomes: a beautiful new website!</h3>
         <p>
           The result of all of our meeting and strategy sessions led to the
-          successful implementation of their new website. We helped with the
+          successful implementation of their new website. I helped with the
           domain transfer, and ensured everything was running smoothly.
         </p>
         <h3>Bohemia now has tools they enjoy using.</h3>

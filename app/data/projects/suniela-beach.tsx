@@ -37,13 +37,13 @@ const sunielaData: ProjectType = {
         <p>
           Suniela stressed the importance of creating a colourful and vibrant
           website that stayed away from palm tree clip art. Most competitors
-          immediately use palm trees as a part of branding, as it's “easy” way
+          immediately use palm trees as a part of branding, as its an “easy” way
           to give those vacation vibes. Instead, I focused on more abstract
           shapes and vibrant colours, that match the shape of the product.
         </p>
         <h3>User Experience</h3>
         <p>
-          Suniela products come in a wide assortment of colour variations. We
+          Suniela products come in a wide assortment of colour variations. I
           wanted to illustrate this by allowing the user to hover over the
           different colours before viewing the full product, to see ahead of
           time what colours Suniela has to offer. This creates a smoother user
@@ -54,7 +54,7 @@ const sunielaData: ProjectType = {
         <p>
           Suniela products require a lot of information to explain the benefits
           and differentiating factors. To help make this information easier to
-          access and digets, I implemented a simple accordion system to
+          access and digits, I implemented a simple accordion system to
           categorize information, and limit what the amount of information the
           user is inundated with.
         </p>
@@ -68,9 +68,9 @@ const sunielaData: ProjectType = {
         <h2 className="h1">Final comments</h2>
         <h3>Even More</h3>
         <p>
-          Suniela can now customize each product page to be entirely unique,
-          this endless amount of customization options, and smotth user
-          experience, is just the tip of the functionality packed into the
+          Suniela can now customize each product page to be entirely unique.
+          This endless amount of customization options and smooth user
+          experience is just the tip of the functionality packed into the
           Suniela site.
         </p>
       </div>

@@ -36,7 +36,7 @@ const straightlineData: ProjectType = {
         </p>
         <h3>Project</h3>
         <p>
-          Straightline came to me after having seen mine work with{" "}
+          Straightline came to me after having seen my work with{" "}
           <Link href="/projects/manor12">MANOR12</Link> (who could blame them,
           am I right?). They wanted a very simple website to display their work,
           and to clearly illustrate what it is that they do. This is that story.
@@ -72,19 +72,6 @@ const straightlineData: ProjectType = {
           pairing, and an oddly satisfying experience.
         </p>
         <Video src="/videos/straightline-gallery.mp4" />
-
-        <h2 className="h1">Final comments</h2>
-        <h3>Results</h3>
-        <p>
-          As always, there are so many more features I could talk about. Give me
-          a call one day if you want to hear more about the project, or if
-          you're looking for a website of the same calibre.
-        </p>
-        <h3>Could you be next?</h3>
-        <p>
-          Are you a business operating in a small town looking for a world-class
-          website? Reach out, and let's see how I can help you.
-        </p>
       </div>
     )
   },

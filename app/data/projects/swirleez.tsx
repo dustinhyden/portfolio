@@ -52,9 +52,9 @@ const swirleezData: ProjectType = {
           user. Based on the velocity the user scrolls through the page, the
           circles will move accordingly. To take this even further, each circle
           is aware of all the other circles, which allows for tracking of
-          collisions collisions. This effect creates a buttery-smooth animation,
-          and makes it quite addicting to just scroll up and down and watch the
-          circles interact.
+          collisions. This effect creates a buttery-smooth animation, and makes
+          it quite addicting to just scroll up and down and watch the circles
+          interact.
         </p>
         <h3>The Products Front and Centre</h3>
         <p>

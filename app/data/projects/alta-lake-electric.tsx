@@ -31,7 +31,7 @@ const altaData: ProjectType = {
           industries. All three industries result in vastly different Google
           searches. Therefore, in order to help with Alta's SEO I create a
           separate page for each service. This allows Google to find their
-          specific content easier, and allows our pages to be more specific in
+          specific content easier, and allows their pages to be more specific in
           which keywords to focus on. Ultimately allowing each page to have a
           higher probability of ranking for its specific keywords.
         </p>

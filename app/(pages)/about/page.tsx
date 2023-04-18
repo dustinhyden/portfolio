@@ -3,9 +3,8 @@ import ImageGrid from "../../components/ImageGrid"
 import JumboButton from "../../components/JumboButton"
 import Orb from "../../components/Orb"
 import Space from "../../components/Space"
-import AboutWorld from "./World"
-
 import styles from "./page.module.css"
+import AboutWorld from "./World"
 
 export const metadata = {
   title: "About Dustin Hyden | Front End Engineer & Barrie Web Designer",
@@ -35,7 +34,7 @@ export default function About() {
         <div className="block">
           <h3>Clients & Projects</h3>
           <p>
-            Over the past several year, I've had the pleasure of developing
+            Over the past several years, I've had the pleasure of developing
             custom solutions with numerous businesses to improve SEO, site
             performance, and overall UX/UI. Here's a few clients I've worked
             with:

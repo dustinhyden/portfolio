@@ -70,12 +70,6 @@ const valisierData: ProjectType = {
           several unique fly out menus, is vibrant and lively, while also
           professional.
         </p>
-        <h3>Could you be next?</h3>
-        <p>
-          Are you a business operating in a small town looking for a world class
-          website? Or perhaps you're located in Montreal just like Mr. Valisier?
-          Reach out, and let's see how I can help you.
-        </p>
       </div>
     )
   },

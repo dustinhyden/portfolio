@@ -53,7 +53,7 @@ const dmsData: ProjectType = {
           alt="Bohemia Barrie logo"
         />
         <p>
-          For each business, we would sit down to determine what goal to focus
+          For each business, I would sit down to determine what goal to focus
           on. One such business was{" "}
           <a href="https://www.bohemiabarrie.com/" target="_blank">
             Bohemia Barrie
@@ -62,7 +62,7 @@ const dmsData: ProjectType = {
           Squarespace website, with ecommerce functionality, and were
           comfortable using the platform. That last one is huge. It meant that
           they would keep the site fresh! If you want to learn more about the
-          process we took with Bohemia,{" "}
+          process I took with Bohemia,{" "}
           <Link href="/projects/bohemia">check it out</Link>.
         </p>
         <h3>Educating on a larger scale</h3>

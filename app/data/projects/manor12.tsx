@@ -57,7 +57,7 @@ const manorData: ProjectType = {
           like a looking glass peering into the photo.
         </p>
         <p>
-          This effect was achieved by the photo slides through a mask, giving
+          This effect was achieved by the photo sliding through a mask, giving
           the user a spotlight on the image, and as the user scrolls, the
           spotlight moves with them. See the video below to see this custom
           generated effect in action.
@@ -103,10 +103,8 @@ const manorData: ProjectType = {
         <h2 className="h1">Final comments</h2>
         <h3>Results</h3>
         <p>
-          MANOR12 now has a website that is truly unique. From the subtle
-          animations to the sliding photo effect, I love this project so much,
-          and MANOR12's viewers do as well. This website was an amazing project
-          to be working on. I appreciate{" "}
+          MANOR12 now has a website that is truly unique, from the subtle
+          animations to the sliding photo effect. I appreciate{" "}
           <a href="https://mindyourmanor.ca/" target="_blank">
             MANOR12
           </a>{" "}

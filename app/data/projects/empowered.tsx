@@ -31,8 +31,9 @@ const empoweredData: ProjectType = {
           also known as Empowered by BAE, is a medical esthetician company
           located in Midland, Ontario. Founded by Katelyn Burden, RN, Empowered
           focuses on putting clients first. Every client who walks into her spa
-          has a different vision. Katelyn listens to each individual's needs,
-          and provides natural enhancements through medical aesthetic services.
+          has a different goal in mind. Katelyn listens to each individual's
+          needs, and provides natural enhancements through medical aesthetic
+          services.
         </p>
         <h3>Project</h3>
         <p>
@@ -58,21 +59,21 @@ const empoweredData: ProjectType = {
         </p>
         <p>
           I then decided to make a full page flyout navigation to house all of
-          the pages for the site, as we wanted the menu to be fun and unique. By
+          the pages for the site, as I wanted the menu to be fun and unique. By
           adding a whole slew of animations and hover effects, I achieved just
           that. Check out the video below showcasing this menu.
         </p>
         <Video src="/videos/empowered-nav.mp4" />
-        <h3>Reiterating what we want the viewer to do</h3>
+        <h3>Reiterating what I want the viewer to do</h3>
         <p>
-          Most viewers who want to create an appointment or contact the business
+          Most viewers who want to book an appointment or contact the business
           will, by default, look for the Contact page. However, Empowered's goal
           is to get businesses to book appointments. For the site, I added an
           option to book an appointment along the top navigation bar, and also
           added a sticky button to the side prompting the viewer towards
-          appointments. If the user stumbles onto the Contact page, I split this
-          page to once again tell the user what we want them to do. See this in
-          action in the video below.
+          appointments. If the user visits the Contact page, I split this page
+          to once again tell the user what I want them to do. See this in action
+          in the video below.
         </p>
         <Video src="/videos/empowered-split.mp4" />
         <h2 className="h1">More features</h2>
@@ -80,29 +81,29 @@ const empoweredData: ProjectType = {
         <p>
           Empowered wanted the ability to sell products online, and to be able
           to use their store as a one-stop-shop for her business. To accomplish
-          this we integrated Woocommerce with the custom website, this gave them
+          this I integrated Woocommerce with the custom website, this gave them
           the flexibility to add all of her products, and any additional plugins
           or features they may need
         </p>
         <h3>Scheduling platform</h3>
         <p>
           Empowered was using a scheduling platform that they knew needed to be
-          on the new website. We integrated the scheduling platform for them so
+          on the new website. I integrated the scheduling platform for them so
           their business could continue to function as normal, without having to
           change their order of operations.
         </p>
         <h2 className="h1">Final comments</h2>
         <h3>GoDaddy</h3>
         <p>
-          We are constantly trying to provide a better experience for our
-          clients. As such, we regularly test new hosting providers in our
-          attempt to find the best one. We decided to try GoDaddy for a few of
-          our clients, as many of our clients have their domains registered with
-          GoDaddy as a platform.
+          I am constantly trying to provide a better experience for my clients.
+          As such, I regularly test new hosting providers in my attempt to find
+          the best one. I decided to try GoDaddy for a few of my clients, as
+          many of my clients have their domains registered with GoDaddy as a
+          platform.
         </p>
         <p>
           The reviews for GoDaddy hosting are overall very positive, with some
-          outliers. However, our experience has been less than ideal. I
+          outliers. However, my experience has been less than ideal. I
           immediately transferred Empowered to a new platform, as their site on
           GoDaddy was taking an extra 6-14 seconds of load time just waiting for
           a response from the server. That's not the download time. That's just
@@ -117,10 +118,7 @@ const empoweredData: ProjectType = {
           This project allowed me to really test my client-side programming
           skills. From making custom galleries, to a before-and-after slideshow,
           I got to play around with all sorts of elements. And the results show.
-          The site has a very unique look and feel. We want to thank Empowered
-          for giving us this opportunity to make this website, and we look
-          forward to finding a new platform to host their website on in the
-          future.
+          The site has a very unique look and feel.
         </p>
       </div>
     )
