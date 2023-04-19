@@ -117,15 +117,15 @@ const dmsData: ProjectType = {
         <h3>Webinars for anyone to access</h3>
         <p>
           All of the webinars that we hosted have been recorded and archived for
-          viewing for any business owner on the Barrie website. If you would
-          like to watch any of the recordings, feel free to check them out.
+          viewing for any business owner on the Barrie website for anyone to
+          view.
         </p>
         <h3>Appreciation</h3>
         <p>
-          This program is what launched Hyden, and we wouldn't be here today if
-          this program did not exist. We want to thank all of the partners
-          involved, and we look forward to the day where we collaborate once
-          again.
+          This program is what transformed web design from a hobby into a career
+          for me, and I wouldn't be here today if this program did not exist. I
+          want to thank all of the partners involved, and I look forward to the
+          day where we collaborate once again.
         </p>
       </div>
     )
