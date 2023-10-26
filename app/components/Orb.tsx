@@ -1,5 +1,7 @@
 import Link from "next/link"
+
 import styles from "./Orb.module.css"
+
 export default function Orb({ link }: { link?: string }) {
   return (
     <div className={styles.orb}>
@@ -17,3 +19,4 @@ export default function Orb({ link }: { link?: string }) {
     </div>
   )
 }
+
